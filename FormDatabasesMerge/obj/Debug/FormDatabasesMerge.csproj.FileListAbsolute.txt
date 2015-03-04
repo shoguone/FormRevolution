@@ -1,0 +1,33 @@
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe.config
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.pdb
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\ResolveAssemblyReference.cache
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\App.g.cs
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge_MarkupCompile.cache
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.g.resources
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.Properties.Resources.resources
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.csproj.GenerateResource.Cache
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.exe
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.pdb
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\SelectDBWindow.baml
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\SelectDBWindow.g.cs
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge_Content.g.cs
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects\FormDatabasesMerge\FormDatabasesMerge\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe.config
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.exe
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.pdb
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.pdb
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\SelectDBWindow.baml
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\SelectDBWindow.g.cs
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\App.g.cs
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge_Content.g.cs
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge_MarkupCompile.cache
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.g.resources
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.Properties.Resources.resources
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.csproj.GenerateResource.Cache
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.csprojResolveAssemblyReference.cache
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge v2\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe.config
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge v2\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.exe
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge v2\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.pdb

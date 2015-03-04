@@ -1,0 +1,9 @@
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge v2\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe.config
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge v2\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.exe
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormDatabasesMerge v2\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.pdb
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\Form revolution\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe.config
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\Form revolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.exe
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\Form revolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.pdb
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormRevolution\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe.config
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.exe
+Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.pdb

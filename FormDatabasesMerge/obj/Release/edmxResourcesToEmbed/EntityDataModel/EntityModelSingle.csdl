@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SingleDatabaseModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+  <EntityContainer Name="EntityContextSingle">
+    <EntitySet Name="PRIZ" EntityType="SingleDatabaseModel.PRIZ" />
+    <EntitySet Name="kom" EntityType="SingleDatabaseModel.kom" />
+  </EntityContainer>
+  <EntityType Name="PRIZ">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FAM" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="IM" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="OTCH" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="D_ROD" Type="DateTime" />
+    <Property Name="RVK" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="N_KOM" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="FL_UB" Type="Int32" />
+    <Property Name="SPEC" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="BRAK" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="SUD" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="OBRAZOV" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="PROF_P" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="NPU" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="REZH_KOM" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="GODN" Type="String" MaxLength="1" Unicode="true" FixedLength="true" />
+    <Property Name="P_PREDN" Type="Int32" />
+    <Property Name="TDT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="F_DOP" Type="Int32" />
+    <Property Name="N_DOP" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="D_DOP" Type="DateTime" />
+    <Property Name="D_PRIB" Type="DateTime" />
+    <Property Name="FL_UV" Type="Int32" />
+    <Property Name="D_U_UVOL" Type="DateTime" />
+    <Property Name="D_P_UVOL" Type="DateTime" />
+    <Property Name="FL_SOCH" Type="Int32" />
+    <Property Name="D_U_SOCH" Type="DateTime" />
+    <Property Name="HIST" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="ROST" Type="Int32" />
+    <Property Name="MASSA" Type="Int32" />
+    <Property Name="STAT" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="S_V_BIL" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="N_V_BIL" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="PRIM" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PR_UBIT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="PRIM_UBIT" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="ZREN" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="R_G_U" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="R_O_G" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="R_OB" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="H" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="POSTO" Type="Int32" />
+    <Property Name="LN_SER" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="LN_NUM" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="S_PASPORT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="N_PASPORT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="D_PASPORT" Type="DateTime" />
+    <Property Name="IMEET_RAZR" Type="Int32" />
+    <Property Name="IMEET_REB" Type="Int32" />
+    <Property Name="ODIN_ROD" Type="Int32" />
+    <Property Name="BEZ_ROD" Type="Int32" />
+    <Property Name="DO_PRIZ" Type="String" MaxLength="63" Unicode="true" FixedLength="false" />
+    <Property Name="NA_UCHETE" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="NAVY" Type="Int16" />
+    <Property Name="S_VA" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="N_VA" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="M_ROD" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="KEM_VIDAN" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="TSP" Type="Int32" />
+  </EntityType>
+  <EntityType Name="kom">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="N_KOM" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="V_VS" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="N_E" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="ST" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="V_CH" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="REZH_KOM" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="D_OTPR" Type="DateTime" />
+    <Property Name="V_SHET" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="VSEGO" Type="Int32" />
+    <Property Name="VA" Type="Int32" />
+    <Property Name="MTLB" Type="Int32" />
+    <Property Name="SUD" Type="Int32" />
+    <Property Name="Z_PREDS" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="PREDS" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="S_UD" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="N_UD" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="VIDAN" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="D_VID" Type="DateTime" />
+    <Property Name="PRIM" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SPEC" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="VUS1" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="VUS2" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="VUS3" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+    <Property Name="PR" Type="Int32" />
+    <Property Name="D_PR" Type="DateTime" />
+    <Property Name="RAILROAD" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="V_OKRUG" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="FL_UB" Type="Int32" />
+    <Property Name="FL_PEREOD" Type="Int32" />
+    <Property Name="NARAD" Type="Int32" />
+    <Property Name="GOROD" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="STREET" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="PHONE" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="ZIP" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ISSIBVO" Type="Int32" />
+    <Property Name="DOLJNOST" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="FOLLOW_OFICER" Type="Int16" />
+    <Property Name="FOLLOW_PRAPOR" Type="Int16" />
+    <Property Name="FOLLOW_SOLDERS" Type="Int16" />
+    <Property Name="NVESHAT" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="DVESHAT" Type="DateTime" />
+    <Property Name="KOLSUHPAY" Type="Int16" />
+    <Property Name="SYST" Type="Int16" Nullable="false" />
+    <Property Name="POEZD" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="VID_TR" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="T_OTPR" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="N_DOV" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="D_DOV" Type="DateTime" />
+    <Property Name="FL_DISPLAY" Type="Int32" Nullable="false" />
+    <Property Name="DOPUSK" Type="Int32" />
+  </EntityType>
+</Schema>
