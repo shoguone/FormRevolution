@@ -9,47 +9,47 @@
 //------------------------------------------------------------------------------
 
 [assembly: global::System.Data.Objects.DataClasses.EdmSchemaAttribute()]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "MilitaryDistrictStation", "MilitaryDistrict", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryDistrict), "Station", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Station))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "RailroadStation", "Railroad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Railroad), "Station", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Station))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "PhoneMilitaryUnit", "Phone", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Phone), "MilitaryUnit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryUnit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "MilitaryForcesMilitaryUnit", "MilitaryForces", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryForces), "MilitaryUnit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryUnit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "MilitaryTitleMilitaryCertificate", "MilitaryTitle", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryTitle), "MilitaryCertificate", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryCertificate))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "DeputyMilitaryCertificate", "Deputy", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Deputy), "MilitaryCertificate", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryCertificate))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "MarriagePassport", "Marriage", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Marriage), "Passport", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Passport))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "SquadRecruit", "Squad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Squad), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "SportCategoryEvolution", "SportCategory", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.SportCategory), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "SportTypeEvolution", "SportType", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.SportType), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "ActivityEvolution", "Activity", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Activity), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "EducationEvolution", "Education", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Education), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "DutyFormEvolution", "DutyForm", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.DutyForm), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "BadRegistryEvolution", "BadRegistry", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.BadRegistry), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "ParentsEvolution", "Parents", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.FamilyStatus), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "SpecialityEvolution", "Speciality", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Speciality), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "MedicineRecruit", "Medicine", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Medicine), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "DriverLicenseRecruit", "DriverLicense", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.DriverLicense), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "MilitaryCardRecruit", "MilitaryCard", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryCard), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "TokenRecruit", "Token", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Token), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "PermissionRecruit", "Permission", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Permission), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "OrderSoldierSquad", "OrderSoldier", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.OrderSoldier), "Squad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squad))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "DeputySquad", "Deputy", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Deputy), "Squad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squad))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "DutyFormSquadDuty", "DutyForm", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.DutyForm), "SquadDuty", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.SquadDuty))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_ActivityEvolution", "Activity", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Activity), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_BadRegistryEvolution", "BadRegistry", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.BadRegistry), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_DepartmentRecruit", "Department", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Department), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_DeputyMilitaryCertificate", "Deputy", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Deputy), "MilitaryCertificate", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryCertificate))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_DeputySquad", "Deputy", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Deputy), "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Troop))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_RecruitDismissal", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "Dismissal", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Dismissal))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_DriverLicenseRecruit", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "DriverLicense", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.DriverLicense))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_DutyFormEvolution", "DutyForm", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.DutyForm), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_DutyFormSquadDuty", "DutyForm", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.DutyForm), "SquadDuty", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.SquadDuty))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_EchelonSquad", "Echelon", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Echelon), "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Troop))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_EducationEvolution", "Education", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Education), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_EvolutionRecruit", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_ParentsEvolution", "Parents", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Parents), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_SpecialityEvolution", "Speciality", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Speciality), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_SportCategoryEvolution", "SportCategory", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.SportCategory), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_SportTypeEvolution", "SportType", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.SportType), "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Evolution))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_MarriagePassport", "Marriage", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Marriage), "Passport", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Passport))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_MedicineRecruit", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "Medicine", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Medicine))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_MilitaryCardRecruit", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "MilitaryCard", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryCard))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_MilitaryTitleMilitaryCertificate", "MilitaryTitle", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryTitle), "MilitaryCertificate", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryCertificate))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_MilitaryDistrictStation", "MilitaryDistrict", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryDistrict), "Station", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Station))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_MilitaryForcesMilitaryUnit", "MilitaryForces", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryForces), "MilitaryUnit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryUnit))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_MilitaryUnitSquadron", "MilitaryUnit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryUnit), "Squadron", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squadron))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_PhoneMilitaryUnit", "MilitaryUnit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryUnit), "Phone", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Phone))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_StationMilitaryUnit", "Station", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Station), "MilitaryUnit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryUnit))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_OrderSoldierSquad", "OrderSoldier", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.OrderSoldier), "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Troop))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_OrderWareSquad", "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Troop), "OrderWare", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.OrderWare))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_RecruitPassport", "Passport", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Passport), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_PermissionRecruit", "Permission", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Permission), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_ProxySquad", "Proxy", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Proxy), "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Troop))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_RailroadStation", "Railroad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Railroad), "Station", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Station))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_RecruitSelfDesiredAbsence", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "SelfDesiredAbsence", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.SelfDesiredAbsence))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_SquadRecruit", "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Troop), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_TokenRecruit", "Token", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Token), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_SeasonSquadron", "Season", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Season), "Squadron", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squadron))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_SquadDutySquad", "SquadDuty", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.SquadDuty), "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Troop))]
+[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "FK_SquadronSquad", "Squadron", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Squadron), "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Troop))]
 [assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "SpecialitySquadDuty", "Speciality", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Speciality), "SquadDuty", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.SquadDuty))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "EvolutionRecruit", "Evolution", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Evolution), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "SquadDutySquad", "TroopDuty", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.SquadDuty), "Squad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squad))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "RecruitDismissal", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "Dismissal", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Dismissal))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "RecruitSelfDesiredAbsence", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "SelfDesiredAbsence", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.SelfDesiredAbsence))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "DepartmentRecruit", "Department", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Department), "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Recruit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "ProxySquad", "Proxy", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Proxy), "Squad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squad))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "OrderWareSquad", "OrderWare", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.OrderWare), "Troop", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Squad))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "RecruitPassport", "Recruit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Recruit), "Passport", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Passport))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "MilitaryUnitSquadron", "MilitaryUnit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.MilitaryUnit), "Squadron", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squadron))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "StationMilitaryUnit", "Station", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Station), "MilitaryUnit", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.MilitaryUnit))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "SquadronSquad", "Squadron", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Squadron), "Squad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squad))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "SeasonSquadron", "Season", global::System.Data.Metadata.Edm.RelationshipMultiplicity.One, typeof(FormRevolution.EntityDataModel.Season), "Squadron", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squadron))]
-[assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "EchelonSquad", "Echelon", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Echelon), "Squad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squad))]
 
 // Исходное имя файла:
-// Дата создания: 04.03.2015 15:01:30
+// Дата создания: 04.03.2015 17:46:02
 namespace FormRevolution.EntityDataModel
 {
     
@@ -118,6 +118,23 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         private global::System.Data.Objects.ObjectQuery<BadRegistry> _BadRegistry;
         /// <summary>
+        /// В схеме отсутствуют комментарии для Department.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<Department> Department
+        {
+            get
+            {
+                if ((this._Department == null))
+                {
+                    this._Department = base.CreateQuery<Department>("[Department]");
+                }
+                return this._Department;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<Department> _Department;
+        /// <summary>
         /// В схеме отсутствуют комментарии для Deputy.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
@@ -134,6 +151,23 @@ namespace FormRevolution.EntityDataModel
         }
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         private global::System.Data.Objects.ObjectQuery<Deputy> _Deputy;
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Dismissal.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<Dismissal> Dismissal
+        {
+            get
+            {
+                if ((this._Dismissal == null))
+                {
+                    this._Dismissal = base.CreateQuery<Dismissal>("[Dismissal]");
+                }
+                return this._Dismissal;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<Dismissal> _Dismissal;
         /// <summary>
         /// В схеме отсутствуют комментарии для DriverLicense.
         /// </summary>
@@ -168,6 +202,23 @@ namespace FormRevolution.EntityDataModel
         }
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         private global::System.Data.Objects.ObjectQuery<DutyForm> _DutyForm;
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Echelon.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<Echelon> Echelon
+        {
+            get
+            {
+                if ((this._Echelon == null))
+                {
+                    this._Echelon = base.CreateQuery<Echelon>("[Echelon]");
+                }
+                return this._Echelon;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<Echelon> _Echelon;
         /// <summary>
         /// В схеме отсутствуют комментарии для Education.
         /// </summary>
@@ -288,6 +339,23 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         private global::System.Data.Objects.ObjectQuery<MilitaryDistrict> _MilitaryDistrict;
         /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryForces.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<MilitaryForces> MilitaryForces
+        {
+            get
+            {
+                if ((this._MilitaryForces == null))
+                {
+                    this._MilitaryForces = base.CreateQuery<MilitaryForces>("[MilitaryForces]");
+                }
+                return this._MilitaryForces;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<MilitaryForces> _MilitaryForces;
+        /// <summary>
         /// В схеме отсутствуют комментарии для MilitaryTitle.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
@@ -339,22 +407,39 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         private global::System.Data.Objects.ObjectQuery<OrderSoldier> _OrderSoldier;
         /// <summary>
+        /// В схеме отсутствуют комментарии для OrderWare.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<OrderWare> OrderWare
+        {
+            get
+            {
+                if ((this._OrderWare == null))
+                {
+                    this._OrderWare = base.CreateQuery<OrderWare>("[OrderWare]");
+                }
+                return this._OrderWare;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<OrderWare> _OrderWare;
+        /// <summary>
         /// В схеме отсутствуют комментарии для Parents.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<FamilyStatus> Parents
+        public global::System.Data.Objects.ObjectQuery<Parents> Parents
         {
             get
             {
                 if ((this._Parents == null))
                 {
-                    this._Parents = base.CreateQuery<FamilyStatus>("[Parents]");
+                    this._Parents = base.CreateQuery<Parents>("[Parents]");
                 }
                 return this._Parents;
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<FamilyStatus> _Parents;
+        private global::System.Data.Objects.ObjectQuery<Parents> _Parents;
         /// <summary>
         /// В схеме отсутствуют комментарии для Passport.
         /// </summary>
@@ -407,6 +492,23 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         private global::System.Data.Objects.ObjectQuery<Phone> _Phone;
         /// <summary>
+        /// В схеме отсутствуют комментарии для Proxy.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<Proxy> Proxy
+        {
+            get
+            {
+                if ((this._Proxy == null))
+                {
+                    this._Proxy = base.CreateQuery<Proxy>("[Proxy]");
+                }
+                return this._Proxy;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<Proxy> _Proxy;
+        /// <summary>
         /// В схеме отсутствуют комментарии для Railroad.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
@@ -441,6 +543,40 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         private global::System.Data.Objects.ObjectQuery<Recruit> _Recruit;
         /// <summary>
+        /// В схеме отсутствуют комментарии для Season.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<Season> Season
+        {
+            get
+            {
+                if ((this._Season == null))
+                {
+                    this._Season = base.CreateQuery<Season>("[Season]");
+                }
+                return this._Season;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<Season> _Season;
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SelfDesiredAbsence.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<SelfDesiredAbsence> SelfDesiredAbsence
+        {
+            get
+            {
+                if ((this._SelfDesiredAbsence == null))
+                {
+                    this._SelfDesiredAbsence = base.CreateQuery<SelfDesiredAbsence>("[SelfDesiredAbsence]");
+                }
+                return this._SelfDesiredAbsence;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<SelfDesiredAbsence> _SelfDesiredAbsence;
+        /// <summary>
         /// В схеме отсутствуют комментарии для Speciality.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
@@ -457,6 +593,74 @@ namespace FormRevolution.EntityDataModel
         }
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         private global::System.Data.Objects.ObjectQuery<Speciality> _Speciality;
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SportCategory.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<SportCategory> SportCategory
+        {
+            get
+            {
+                if ((this._SportCategory == null))
+                {
+                    this._SportCategory = base.CreateQuery<SportCategory>("[SportCategory]");
+                }
+                return this._SportCategory;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<SportCategory> _SportCategory;
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SportType.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<SportType> SportType
+        {
+            get
+            {
+                if ((this._SportType == null))
+                {
+                    this._SportType = base.CreateQuery<SportType>("[SportType]");
+                }
+                return this._SportType;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<SportType> _SportType;
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SquadDuty.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<SquadDuty> SquadDuty
+        {
+            get
+            {
+                if ((this._SquadDuty == null))
+                {
+                    this._SquadDuty = base.CreateQuery<SquadDuty>("[SquadDuty]");
+                }
+                return this._SquadDuty;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<SquadDuty> _SquadDuty;
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Squadron.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Data.Objects.ObjectQuery<Squadron> Squadron
+        {
+            get
+            {
+                if ((this._Squadron == null))
+                {
+                    this._Squadron = base.CreateQuery<Squadron>("[Squadron]");
+                }
+                return this._Squadron;
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Data.Objects.ObjectQuery<Squadron> _Squadron;
         /// <summary>
         /// В схеме отсутствуют комментарии для Station.
         /// </summary>
@@ -495,223 +699,19 @@ namespace FormRevolution.EntityDataModel
         /// В схеме отсутствуют комментарии для Troop.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<Squad> Troop
+        public global::System.Data.Objects.ObjectQuery<Troop> Troop
         {
             get
             {
                 if ((this._Troop == null))
                 {
-                    this._Troop = base.CreateQuery<Squad>("[Troop]");
+                    this._Troop = base.CreateQuery<Troop>("[Troop]");
                 }
                 return this._Troop;
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<Squad> _Troop;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SquadDuty.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<SquadDuty> SquadDuty
-        {
-            get
-            {
-                if ((this._SquadDuty == null))
-                {
-                    this._SquadDuty = base.CreateQuery<SquadDuty>("[SquadDuty]");
-                }
-                return this._SquadDuty;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<SquadDuty> _SquadDuty;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryForces.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<MilitaryForces> MilitaryForces
-        {
-            get
-            {
-                if ((this._MilitaryForces == null))
-                {
-                    this._MilitaryForces = base.CreateQuery<MilitaryForces>("[MilitaryForces]");
-                }
-                return this._MilitaryForces;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<MilitaryForces> _MilitaryForces;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SportCategory.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<SportCategory> SportCategory
-        {
-            get
-            {
-                if ((this._SportCategory == null))
-                {
-                    this._SportCategory = base.CreateQuery<SportCategory>("[SportCategory]");
-                }
-                return this._SportCategory;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<SportCategory> _SportCategory;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SportType.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<SportType> SportType
-        {
-            get
-            {
-                if ((this._SportType == null))
-                {
-                    this._SportType = base.CreateQuery<SportType>("[SportType]");
-                }
-                return this._SportType;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<SportType> _SportType;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Dismissal.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<Dismissal> Dismissal
-        {
-            get
-            {
-                if ((this._Dismissal == null))
-                {
-                    this._Dismissal = base.CreateQuery<Dismissal>("[Dismissal]");
-                }
-                return this._Dismissal;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<Dismissal> _Dismissal;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SelfDesiredAbsence.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<SelfDesiredAbsence> SelfDesiredAbsence
-        {
-            get
-            {
-                if ((this._SelfDesiredAbsence == null))
-                {
-                    this._SelfDesiredAbsence = base.CreateQuery<SelfDesiredAbsence>("[SelfDesiredAbsence]");
-                }
-                return this._SelfDesiredAbsence;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<SelfDesiredAbsence> _SelfDesiredAbsence;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Department.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<Department> Department
-        {
-            get
-            {
-                if ((this._Department == null))
-                {
-                    this._Department = base.CreateQuery<Department>("[Department]");
-                }
-                return this._Department;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<Department> _Department;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Proxy.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<Proxy> Proxy
-        {
-            get
-            {
-                if ((this._Proxy == null))
-                {
-                    this._Proxy = base.CreateQuery<Proxy>("[Proxy]");
-                }
-                return this._Proxy;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<Proxy> _Proxy;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для OrderWare.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<OrderWare> OrderWare
-        {
-            get
-            {
-                if ((this._OrderWare == null))
-                {
-                    this._OrderWare = base.CreateQuery<OrderWare>("[OrderWare]");
-                }
-                return this._OrderWare;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<OrderWare> _OrderWare;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squadron.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<Squadron> Squadron
-        {
-            get
-            {
-                if ((this._Squadron == null))
-                {
-                    this._Squadron = base.CreateQuery<Squadron>("[Squadron]");
-                }
-                return this._Squadron;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<Squadron> _Squadron;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Season.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<Season> Season
-        {
-            get
-            {
-                if ((this._Season == null))
-                {
-                    this._Season = base.CreateQuery<Season>("[Season]");
-                }
-                return this._Season;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<Season> _Season;
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Echelon.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Data.Objects.ObjectQuery<Echelon> Echelon
-        {
-            get
-            {
-                if ((this._Echelon == null))
-                {
-                    this._Echelon = base.CreateQuery<Echelon>("[Echelon]");
-                }
-                return this._Echelon;
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Data.Objects.ObjectQuery<Echelon> _Echelon;
+        private global::System.Data.Objects.ObjectQuery<Troop> _Troop;
         /// <summary>
         /// В схеме отсутствуют комментарии для Activity.
         /// </summary>
@@ -729,12 +729,28 @@ namespace FormRevolution.EntityDataModel
             base.AddObject("BadRegistry", badRegistry);
         }
         /// <summary>
+        /// В схеме отсутствуют комментарии для Department.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToDepartment(Department department)
+        {
+            base.AddObject("Department", department);
+        }
+        /// <summary>
         /// В схеме отсутствуют комментарии для Deputy.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         public void AddToDeputy(Deputy deputy)
         {
             base.AddObject("Deputy", deputy);
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Dismissal.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToDismissal(Dismissal dismissal)
+        {
+            base.AddObject("Dismissal", dismissal);
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для DriverLicense.
@@ -751,6 +767,14 @@ namespace FormRevolution.EntityDataModel
         public void AddToDutyForm(DutyForm dutyForm)
         {
             base.AddObject("DutyForm", dutyForm);
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Echelon.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToEchelon(Echelon echelon)
+        {
+            base.AddObject("Echelon", echelon);
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Education.
@@ -809,6 +833,14 @@ namespace FormRevolution.EntityDataModel
             base.AddObject("MilitaryDistrict", militaryDistrict);
         }
         /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryForces.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToMilitaryForces(MilitaryForces militaryForces)
+        {
+            base.AddObject("MilitaryForces", militaryForces);
+        }
+        /// <summary>
         /// В схеме отсутствуют комментарии для MilitaryTitle.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
@@ -833,12 +865,20 @@ namespace FormRevolution.EntityDataModel
             base.AddObject("OrderSoldier", orderSoldier);
         }
         /// <summary>
+        /// В схеме отсутствуют комментарии для OrderWare.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToOrderWare(OrderWare orderWare)
+        {
+            base.AddObject("OrderWare", orderWare);
+        }
+        /// <summary>
         /// В схеме отсутствуют комментарии для Parents.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToParents(FamilyStatus familyStatus)
+        public void AddToParents(Parents parents)
         {
-            base.AddObject("Parents", familyStatus);
+            base.AddObject("Parents", parents);
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Passport.
@@ -865,6 +905,14 @@ namespace FormRevolution.EntityDataModel
             base.AddObject("Phone", phone);
         }
         /// <summary>
+        /// В схеме отсутствуют комментарии для Proxy.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToProxy(Proxy proxy)
+        {
+            base.AddObject("Proxy", proxy);
+        }
+        /// <summary>
         /// В схеме отсутствуют комментарии для Railroad.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
@@ -881,12 +929,60 @@ namespace FormRevolution.EntityDataModel
             base.AddObject("Recruit", recruit);
         }
         /// <summary>
+        /// В схеме отсутствуют комментарии для Season.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToSeason(Season season)
+        {
+            base.AddObject("Season", season);
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SelfDesiredAbsence.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToSelfDesiredAbsence(SelfDesiredAbsence selfDesiredAbsence)
+        {
+            base.AddObject("SelfDesiredAbsence", selfDesiredAbsence);
+        }
+        /// <summary>
         /// В схеме отсутствуют комментарии для Speciality.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         public void AddToSpeciality(Speciality speciality)
         {
             base.AddObject("Speciality", speciality);
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SportCategory.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToSportCategory(SportCategory sportCategory)
+        {
+            base.AddObject("SportCategory", sportCategory);
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SportType.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToSportType(SportType sportType)
+        {
+            base.AddObject("SportType", sportType);
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SquadDuty.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToSquadDuty(SquadDuty squadDuty)
+        {
+            base.AddObject("SquadDuty", squadDuty);
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Squadron.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public void AddToSquadron(Squadron squadron)
+        {
+            base.AddObject("Squadron", squadron);
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Station.
@@ -908,105 +1004,9 @@ namespace FormRevolution.EntityDataModel
         /// В схеме отсутствуют комментарии для Troop.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToTroop(Squad squad)
+        public void AddToTroop(Troop troop)
         {
-            base.AddObject("Troop", squad);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SquadDuty.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToSquadDuty(SquadDuty squadDuty)
-        {
-            base.AddObject("SquadDuty", squadDuty);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryForces.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToMilitaryForces(MilitaryForces militaryForces)
-        {
-            base.AddObject("MilitaryForces", militaryForces);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SportCategory.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToSportCategory(SportCategory sportCategory)
-        {
-            base.AddObject("SportCategory", sportCategory);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SportType.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToSportType(SportType sportType)
-        {
-            base.AddObject("SportType", sportType);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Dismissal.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToDismissal(Dismissal dismissal)
-        {
-            base.AddObject("Dismissal", dismissal);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SelfDesiredAbsence.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToSelfDesiredAbsence(SelfDesiredAbsence selfDesiredAbsence)
-        {
-            base.AddObject("SelfDesiredAbsence", selfDesiredAbsence);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Department.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToDepartment(Department department)
-        {
-            base.AddObject("Department", department);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Proxy.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToProxy(Proxy proxy)
-        {
-            base.AddObject("Proxy", proxy);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для OrderWare.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToOrderWare(OrderWare orderWare)
-        {
-            base.AddObject("OrderWare", orderWare);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squadron.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToSquadron(Squadron squadron)
-        {
-            base.AddObject("Squadron", squadron);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Season.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToSeason(Season season)
-        {
-            base.AddObject("Season", season);
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Echelon.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public void AddToEchelon(Echelon echelon)
-        {
-            base.AddObject("Echelon", echelon);
+            base.AddObject("Troop", troop);
         }
     }
     /// <summary>
@@ -1088,24 +1088,24 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Evolutions.
+        /// В схеме отсутствуют комментарии для Evolution.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "ActivityEvolution", "Evolution")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_ActivityEvolution", "Evolution")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolutions
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.ActivityEvolution", "Evolution");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_ActivityEvolution", "Evolution");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.ActivityEvolution", "Evolution", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_ActivityEvolution", "Evolution", value);
                 }
             }
         }
@@ -1189,24 +1189,183 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Evolutions.
+        /// В схеме отсутствуют комментарии для Evolution.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "BadRegistryEvolution", "Evolution")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_BadRegistryEvolution", "Evolution")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolutions
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.BadRegistryEvolution", "Evolution");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_BadRegistryEvolution", "Evolution");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.BadRegistryEvolution", "Evolution", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_BadRegistryEvolution", "Evolution", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.Department.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Department")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class Department : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект Department.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="nameShort">Начальное значение NameShort.</param>
+        /// <param name="nameFull">Начальное значение NameFull.</param>
+        /// <param name="shortcut">Начальное значение Shortcut.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static Department CreateDepartment(int id, string nameShort, string nameFull, string shortcut)
+        {
+            Department department = new Department();
+            department.ID = id;
+            department.NameShort = nameShort;
+            department.NameFull = nameFull;
+            department.Shortcut = shortcut;
+            return department;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства NameShort.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string NameShort
+        {
+            get
+            {
+                return this._NameShort;
+            }
+            set
+            {
+                this.OnNameShortChanging(value);
+                this.ReportPropertyChanging("NameShort");
+                this._NameShort = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("NameShort");
+                this.OnNameShortChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _NameShort;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameShortChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameShortChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства NameFull.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string NameFull
+        {
+            get
+            {
+                return this._NameFull;
+            }
+            set
+            {
+                this.OnNameFullChanging(value);
+                this.ReportPropertyChanging("NameFull");
+                this._NameFull = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("NameFull");
+                this.OnNameFullChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _NameFull;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameFullChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameFullChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Shortcut.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Shortcut
+        {
+            get
+            {
+                return this._Shortcut;
+            }
+            set
+            {
+                this.OnShortcutChanging(value);
+                this.ReportPropertyChanging("Shortcut");
+                this._Shortcut = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Shortcut");
+                this.OnShortcutChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Shortcut;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnShortcutChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnShortcutChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Recruit.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DepartmentRecruit", "Recruit")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Recruit> Recruit
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.FK_DepartmentRecruit", "Recruit");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.FK_DepartmentRecruit", "Recruit", value);
                 }
             }
         }
@@ -1290,46 +1449,222 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryCertificates.
+        /// В схеме отсутствуют комментарии для MilitaryCertificate.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DeputyMilitaryCertificate", "MilitaryCertificate")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DeputyMilitaryCertificate", "MilitaryCertificate")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryCertificate> MilitaryCertificates
+        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryCertificate> MilitaryCertificate
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryCertificate>("FormGeneralModel.DeputyMilitaryCertificate", "MilitaryCertificate");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryCertificate>("FormGeneralModel.FK_DeputyMilitaryCertificate", "MilitaryCertificate");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryCertificate>("FormGeneralModel.DeputyMilitaryCertificate", "MilitaryCertificate", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryCertificate>("FormGeneralModel.FK_DeputyMilitaryCertificate", "MilitaryCertificate", value);
                 }
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Squads.
+        /// В схеме отсутствуют комментарии для Troop.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DeputySquad", "Squad")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DeputySquad", "Troop")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Squad> Squads
+        public global::System.Data.Objects.DataClasses.EntityCollection<Troop> Troop
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squad>("FormGeneralModel.DeputySquad", "Squad");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Troop>("FormGeneralModel.FK_DeputySquad", "Troop");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squad>("FormGeneralModel.DeputySquad", "Squad", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Troop>("FormGeneralModel.FK_DeputySquad", "Troop", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.Dismissal.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Dismissal")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class Dismissal : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект Dismissal.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="from">Начальное значение From.</param>
+        /// <param name="to">Начальное значение To.</param>
+        /// <param name="troopNumber">Начальное значение TroopNumber.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static Dismissal CreateDismissal(int id, global::System.DateTime from, global::System.DateTime to, string troopNumber)
+        {
+            Dismissal dismissal = new Dismissal();
+            dismissal.ID = id;
+            dismissal.From = from;
+            dismissal.To = to;
+            dismissal.TroopNumber = troopNumber;
+            return dismissal;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства From.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.DateTime From
+        {
+            get
+            {
+                return this._From;
+            }
+            set
+            {
+                this.OnFromChanging(value);
+                this.ReportPropertyChanging("From");
+                this._From = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("From");
+                this.OnFromChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.DateTime _From;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnFromChanging(global::System.DateTime value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnFromChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства To.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.DateTime To
+        {
+            get
+            {
+                return this._To;
+            }
+            set
+            {
+                this.OnToChanging(value);
+                this.ReportPropertyChanging("To");
+                this._To = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("To");
+                this.OnToChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.DateTime _To;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnToChanging(global::System.DateTime value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnToChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства TroopNumber.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string TroopNumber
+        {
+            get
+            {
+                return this._TroopNumber;
+            }
+            set
+            {
+                this.OnTroopNumberChanging(value);
+                this.ReportPropertyChanging("TroopNumber");
+                this._TroopNumber = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("TroopNumber");
+                this.OnTroopNumberChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _TroopNumber;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnTroopNumberChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnTroopNumberChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Recruit.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_RecruitDismissal", "Recruit")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Recruit Recruit
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_RecruitDismissal", "Recruit").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_RecruitDismissal", "Recruit").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Recruit.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Recruit> RecruitReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_RecruitDismissal", "Recruit");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.FK_RecruitDismissal", "Recruit", value);
                 }
             }
         }
@@ -1500,7 +1835,7 @@ namespace FormRevolution.EntityDataModel
         /// <summary>
         /// В схеме отсутствуют комментарии для Recruit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DriverLicenseRecruit", "Recruit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DriverLicenseRecruit", "Recruit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -1509,11 +1844,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.DriverLicenseRecruit", "Recruit").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_DriverLicenseRecruit", "Recruit").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.DriverLicenseRecruit", "Recruit").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_DriverLicenseRecruit", "Recruit").Value = value;
             }
         }
         /// <summary>
@@ -1526,13 +1861,13 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.DriverLicenseRecruit", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_DriverLicenseRecruit", "Recruit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.DriverLicenseRecruit", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.FK_DriverLicenseRecruit", "Recruit", value);
                 }
             }
         }
@@ -1674,46 +2009,147 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnTDTChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Evolutions.
+        /// В схеме отсутствуют комментарии для Evolution.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DutyFormEvolution", "Evolution")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DutyFormEvolution", "Evolution")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolutions
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.DutyFormEvolution", "Evolution");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_DutyFormEvolution", "Evolution");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.DutyFormEvolution", "Evolution", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_DutyFormEvolution", "Evolution", value);
                 }
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для SquadDuties.
+        /// В схеме отсутствуют комментарии для SquadDuty.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DutyFormSquadDuty", "SquadDuty")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DutyFormSquadDuty", "SquadDuty")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<SquadDuty> SquadDuties
+        public global::System.Data.Objects.DataClasses.EntityCollection<SquadDuty> SquadDuty
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<SquadDuty>("FormGeneralModel.DutyFormSquadDuty", "SquadDuty");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<SquadDuty>("FormGeneralModel.FK_DutyFormSquadDuty", "SquadDuty");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<SquadDuty>("FormGeneralModel.DutyFormSquadDuty", "SquadDuty", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<SquadDuty>("FormGeneralModel.FK_DutyFormSquadDuty", "SquadDuty", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.Echelon.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Echelon")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class Echelon : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект Echelon.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="number">Начальное значение Number.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static Echelon CreateEchelon(int id, string number)
+        {
+            Echelon echelon = new Echelon();
+            echelon.ID = id;
+            echelon.Number = number;
+            return echelon;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Number.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Number
+        {
+            get
+            {
+                return this._Number;
+            }
+            set
+            {
+                this.OnNumberChanging(value);
+                this.ReportPropertyChanging("Number");
+                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Number");
+                this.OnNumberChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Number;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Troop.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_EchelonSquad", "Troop")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Troop> Troop
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Troop>("FormGeneralModel.FK_EchelonSquad", "Troop");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Troop>("FormGeneralModel.FK_EchelonSquad", "Troop", value);
                 }
             }
         }
@@ -1797,24 +2233,24 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Evolutions.
+        /// В схеме отсутствуют комментарии для Evolution.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "EducationEvolution", "Evolution")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_EducationEvolution", "Evolution")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolutions
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.EducationEvolution", "Evolution");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_EducationEvolution", "Evolution");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.EducationEvolution", "Evolution", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_EducationEvolution", "Evolution", value);
                 }
             }
         }
@@ -2014,87 +2450,9 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnSpecialityTextualChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для SportCategory.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SportCategoryEvolution", "SportCategory")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public SportCategory SportCategory
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportCategory>("FormGeneralModel.SportCategoryEvolution", "SportCategory").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportCategory>("FormGeneralModel.SportCategoryEvolution", "SportCategory").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SportCategory.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<SportCategory> SportCategoryReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportCategory>("FormGeneralModel.SportCategoryEvolution", "SportCategory");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<SportCategory>("FormGeneralModel.SportCategoryEvolution", "SportCategory", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SportType.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SportTypeEvolution", "SportType")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public SportType SportType
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportType>("FormGeneralModel.SportTypeEvolution", "SportType").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportType>("FormGeneralModel.SportTypeEvolution", "SportType").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SportType.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<SportType> SportTypeReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportType>("FormGeneralModel.SportTypeEvolution", "SportType");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<SportType>("FormGeneralModel.SportTypeEvolution", "SportType", value);
-                }
-            }
-        }
-        /// <summary>
         /// В схеме отсутствуют комментарии для Activity.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "ActivityEvolution", "Activity")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_ActivityEvolution", "Activity")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -2103,11 +2461,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Activity>("FormGeneralModel.ActivityEvolution", "Activity").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Activity>("FormGeneralModel.FK_ActivityEvolution", "Activity").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Activity>("FormGeneralModel.ActivityEvolution", "Activity").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Activity>("FormGeneralModel.FK_ActivityEvolution", "Activity").Value = value;
             }
         }
         /// <summary>
@@ -2120,98 +2478,20 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Activity>("FormGeneralModel.ActivityEvolution", "Activity");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Activity>("FormGeneralModel.FK_ActivityEvolution", "Activity");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Activity>("FormGeneralModel.ActivityEvolution", "Activity", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Education.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "EducationEvolution", "Education")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Education Education
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Education>("FormGeneralModel.EducationEvolution", "Education").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Education>("FormGeneralModel.EducationEvolution", "Education").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Education.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Education> EducationReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Education>("FormGeneralModel.EducationEvolution", "Education");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Education>("FormGeneralModel.EducationEvolution", "Education", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для DutyForm.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DutyFormEvolution", "DutyForm")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public DutyForm DutyForm
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.DutyFormEvolution", "DutyForm").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.DutyFormEvolution", "DutyForm").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для DutyForm.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<DutyForm> DutyFormReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.DutyFormEvolution", "DutyForm");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<DutyForm>("FormGeneralModel.DutyFormEvolution", "DutyForm", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Activity>("FormGeneralModel.FK_ActivityEvolution", "Activity", value);
                 }
             }
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для BadRegistry.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "BadRegistryEvolution", "BadRegistry")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_BadRegistryEvolution", "BadRegistry")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -2220,11 +2500,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<BadRegistry>("FormGeneralModel.BadRegistryEvolution", "BadRegistry").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<BadRegistry>("FormGeneralModel.FK_BadRegistryEvolution", "BadRegistry").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<BadRegistry>("FormGeneralModel.BadRegistryEvolution", "BadRegistry").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<BadRegistry>("FormGeneralModel.FK_BadRegistryEvolution", "BadRegistry").Value = value;
             }
         }
         /// <summary>
@@ -2237,98 +2517,98 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<BadRegistry>("FormGeneralModel.BadRegistryEvolution", "BadRegistry");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<BadRegistry>("FormGeneralModel.FK_BadRegistryEvolution", "BadRegistry");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<BadRegistry>("FormGeneralModel.BadRegistryEvolution", "BadRegistry", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<BadRegistry>("FormGeneralModel.FK_BadRegistryEvolution", "BadRegistry", value);
                 }
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Parents.
+        /// В схеме отсутствуют комментарии для DutyForm.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "ParentsEvolution", "Parents")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DutyFormEvolution", "DutyForm")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public FamilyStatus Parents
+        public DutyForm DutyForm
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<FamilyStatus>("FormGeneralModel.ParentsEvolution", "Parents").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.FK_DutyFormEvolution", "DutyForm").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<FamilyStatus>("FormGeneralModel.ParentsEvolution", "Parents").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.FK_DutyFormEvolution", "DutyForm").Value = value;
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Parents.
+        /// В схеме отсутствуют комментарии для DutyForm.
         /// </summary>
         [global::System.ComponentModel.BrowsableAttribute(false)]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<FamilyStatus> ParentsReference
+        public global::System.Data.Objects.DataClasses.EntityReference<DutyForm> DutyFormReference
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<FamilyStatus>("FormGeneralModel.ParentsEvolution", "Parents");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.FK_DutyFormEvolution", "DutyForm");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<FamilyStatus>("FormGeneralModel.ParentsEvolution", "Parents", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<DutyForm>("FormGeneralModel.FK_DutyFormEvolution", "DutyForm", value);
                 }
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Speciality.
+        /// В схеме отсутствуют комментарии для Education.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SpecialityEvolution", "Speciality")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_EducationEvolution", "Education")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Speciality Speciality
+        public Education Education
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Speciality>("FormGeneralModel.SpecialityEvolution", "Speciality").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Education>("FormGeneralModel.FK_EducationEvolution", "Education").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Speciality>("FormGeneralModel.SpecialityEvolution", "Speciality").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Education>("FormGeneralModel.FK_EducationEvolution", "Education").Value = value;
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Speciality.
+        /// В схеме отсутствуют комментарии для Education.
         /// </summary>
         [global::System.ComponentModel.BrowsableAttribute(false)]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Speciality> SpecialityReference
+        public global::System.Data.Objects.DataClasses.EntityReference<Education> EducationReference
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Speciality>("FormGeneralModel.SpecialityEvolution", "Speciality");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Education>("FormGeneralModel.FK_EducationEvolution", "Education");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Speciality>("FormGeneralModel.SpecialityEvolution", "Speciality", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Education>("FormGeneralModel.FK_EducationEvolution", "Education", value);
                 }
             }
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Recruit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "EvolutionRecruit", "Recruit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_EvolutionRecruit", "Recruit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -2337,11 +2617,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.EvolutionRecruit", "Recruit").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_EvolutionRecruit", "Recruit").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.EvolutionRecruit", "Recruit").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_EvolutionRecruit", "Recruit").Value = value;
             }
         }
         /// <summary>
@@ -2354,13 +2634,169 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.EvolutionRecruit", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_EvolutionRecruit", "Recruit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.EvolutionRecruit", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.FK_EvolutionRecruit", "Recruit", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Parents.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_ParentsEvolution", "Parents")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Parents Parents
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Parents>("FormGeneralModel.FK_ParentsEvolution", "Parents").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Parents>("FormGeneralModel.FK_ParentsEvolution", "Parents").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Parents.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Parents> ParentsReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Parents>("FormGeneralModel.FK_ParentsEvolution", "Parents");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Parents>("FormGeneralModel.FK_ParentsEvolution", "Parents", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Speciality.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SpecialityEvolution", "Speciality")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Speciality Speciality
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Speciality>("FormGeneralModel.FK_SpecialityEvolution", "Speciality").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Speciality>("FormGeneralModel.FK_SpecialityEvolution", "Speciality").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Speciality.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Speciality> SpecialityReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Speciality>("FormGeneralModel.FK_SpecialityEvolution", "Speciality");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Speciality>("FormGeneralModel.FK_SpecialityEvolution", "Speciality", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SportCategory.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SportCategoryEvolution", "SportCategory")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public SportCategory SportCategory
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportCategory>("FormGeneralModel.FK_SportCategoryEvolution", "SportCategory").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportCategory>("FormGeneralModel.FK_SportCategoryEvolution", "SportCategory").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SportCategory.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<SportCategory> SportCategoryReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportCategory>("FormGeneralModel.FK_SportCategoryEvolution", "SportCategory");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<SportCategory>("FormGeneralModel.FK_SportCategoryEvolution", "SportCategory", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SportType.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SportTypeEvolution", "SportType")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public SportType SportType
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportType>("FormGeneralModel.FK_SportTypeEvolution", "SportType").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportType>("FormGeneralModel.FK_SportTypeEvolution", "SportType").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SportType.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<SportType> SportTypeReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SportType>("FormGeneralModel.FK_SportTypeEvolution", "SportType");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<SportType>("FormGeneralModel.FK_SportTypeEvolution", "SportType", value);
                 }
             }
         }
@@ -2444,24 +2880,24 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Passports.
+        /// В схеме отсутствуют комментарии для Passport.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MarriagePassport", "Passport")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MarriagePassport", "Passport")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Passport> Passports
+        public global::System.Data.Objects.DataClasses.EntityCollection<Passport> Passport
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Passport>("FormGeneralModel.MarriagePassport", "Passport");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Passport>("FormGeneralModel.FK_MarriagePassport", "Passport");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Passport>("FormGeneralModel.MarriagePassport", "Passport", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Passport>("FormGeneralModel.FK_MarriagePassport", "Passport", value);
                 }
             }
         }
@@ -2864,7 +3300,7 @@ namespace FormRevolution.EntityDataModel
         /// <summary>
         /// В схеме отсутствуют комментарии для Recruit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MedicineRecruit", "Recruit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MedicineRecruit", "Recruit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -2873,11 +3309,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.MedicineRecruit", "Recruit").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_MedicineRecruit", "Recruit").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.MedicineRecruit", "Recruit").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_MedicineRecruit", "Recruit").Value = value;
             }
         }
         /// <summary>
@@ -2890,13 +3326,13 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.MedicineRecruit", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_MedicineRecruit", "Recruit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.MedicineRecruit", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.FK_MedicineRecruit", "Recruit", value);
                 }
             }
         }
@@ -3011,7 +3447,7 @@ namespace FormRevolution.EntityDataModel
         /// <summary>
         /// В схеме отсутствуют комментарии для Recruit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryCardRecruit", "Recruit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryCardRecruit", "Recruit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -3020,11 +3456,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.MilitaryCardRecruit", "Recruit").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_MilitaryCardRecruit", "Recruit").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.MilitaryCardRecruit", "Recruit").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_MilitaryCardRecruit", "Recruit").Value = value;
             }
         }
         /// <summary>
@@ -3037,13 +3473,13 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.MilitaryCardRecruit", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_MilitaryCardRecruit", "Recruit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.MilitaryCardRecruit", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.FK_MilitaryCardRecruit", "Recruit", value);
                 }
             }
         }
@@ -3272,48 +3708,9 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnObtainDateChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryTitle.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryTitleMilitaryCertificate", "MilitaryTitle")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public MilitaryTitle MilitaryTitle
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryTitle>("FormGeneralModel.MilitaryTitleMilitaryCertificate", "MilitaryTitle").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryTitle>("FormGeneralModel.MilitaryTitleMilitaryCertificate", "MilitaryTitle").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryTitle.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<MilitaryTitle> MilitaryTitleReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryTitle>("FormGeneralModel.MilitaryTitleMilitaryCertificate", "MilitaryTitle");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryTitle>("FormGeneralModel.MilitaryTitleMilitaryCertificate", "MilitaryTitle", value);
-                }
-            }
-        }
-        /// <summary>
         /// В схеме отсутствуют комментарии для Deputy.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DeputyMilitaryCertificate", "Deputy")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DeputyMilitaryCertificate", "Deputy")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -3322,11 +3719,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.DeputyMilitaryCertificate", "Deputy").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.FK_DeputyMilitaryCertificate", "Deputy").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.DeputyMilitaryCertificate", "Deputy").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.FK_DeputyMilitaryCertificate", "Deputy").Value = value;
             }
         }
         /// <summary>
@@ -3339,13 +3736,52 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.DeputyMilitaryCertificate", "Deputy");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.FK_DeputyMilitaryCertificate", "Deputy");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Deputy>("FormGeneralModel.DeputyMilitaryCertificate", "Deputy", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Deputy>("FormGeneralModel.FK_DeputyMilitaryCertificate", "Deputy", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryTitle.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryTitleMilitaryCertificate", "MilitaryTitle")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public MilitaryTitle MilitaryTitle
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryTitle>("FormGeneralModel.FK_MilitaryTitleMilitaryCertificate", "MilitaryTitle").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryTitle>("FormGeneralModel.FK_MilitaryTitleMilitaryCertificate", "MilitaryTitle").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryTitle.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<MilitaryTitle> MilitaryTitleReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryTitle>("FormGeneralModel.FK_MilitaryTitleMilitaryCertificate", "MilitaryTitle");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryTitle>("FormGeneralModel.FK_MilitaryTitleMilitaryCertificate", "MilitaryTitle", value);
                 }
             }
         }
@@ -3429,24 +3865,125 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Stations.
+        /// В схеме отсутствуют комментарии для Station.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryDistrictStation", "Station")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryDistrictStation", "Station")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Station> Stations
+        public global::System.Data.Objects.DataClasses.EntityCollection<Station> Station
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Station>("FormGeneralModel.MilitaryDistrictStation", "Station");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Station>("FormGeneralModel.FK_MilitaryDistrictStation", "Station");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Station>("FormGeneralModel.MilitaryDistrictStation", "Station", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Station>("FormGeneralModel.FK_MilitaryDistrictStation", "Station", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.MilitaryForces.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="MilitaryForces")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class MilitaryForces : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект MilitaryForces.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="name">Начальное значение Name.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static MilitaryForces CreateMilitaryForces(int id, string name)
+        {
+            MilitaryForces militaryForces = new MilitaryForces();
+            militaryForces.ID = id;
+            militaryForces.Name = name;
+            return militaryForces;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Name.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this.ReportPropertyChanging("Name");
+                this._Name = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Name");
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Name;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryUnit.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryForcesMilitaryUnit", "MilitaryUnit")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryUnit> MilitaryUnit
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryUnit>("FormGeneralModel.FK_MilitaryForcesMilitaryUnit", "MilitaryUnit");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryUnit>("FormGeneralModel.FK_MilitaryForcesMilitaryUnit", "MilitaryUnit", value);
                 }
             }
         }
@@ -3559,24 +4096,24 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnMarineChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryCertificates.
+        /// В схеме отсутствуют комментарии для MilitaryCertificate.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryTitleMilitaryCertificate", "MilitaryCertificate")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryTitleMilitaryCertificate", "MilitaryCertificate")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryCertificate> MilitaryCertificates
+        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryCertificate> MilitaryCertificate
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryCertificate>("FormGeneralModel.MilitaryTitleMilitaryCertificate", "MilitaryCertificate");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryCertificate>("FormGeneralModel.FK_MilitaryTitleMilitaryCertificate", "MilitaryCertificate");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryCertificate>("FormGeneralModel.MilitaryTitleMilitaryCertificate", "MilitaryCertificate", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryCertificate>("FormGeneralModel.FK_MilitaryTitleMilitaryCertificate", "MilitaryCertificate", value);
                 }
             }
         }
@@ -3718,31 +4255,9 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnAddressChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Phones.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "PhoneMilitaryUnit", "Phone")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Phone> Phones
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Phone>("FormGeneralModel.PhoneMilitaryUnit", "Phone");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Phone>("FormGeneralModel.PhoneMilitaryUnit", "Phone", value);
-                }
-            }
-        }
-        /// <summary>
         /// В схеме отсутствуют комментарии для MilitaryForces.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryForcesMilitaryUnit", "MilitaryForces")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryForcesMilitaryUnit", "MilitaryForces")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -3751,11 +4266,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryForces>("FormGeneralModel.MilitaryForcesMilitaryUnit", "MilitaryForces").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryForces>("FormGeneralModel.FK_MilitaryForcesMilitaryUnit", "MilitaryForces").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryForces>("FormGeneralModel.MilitaryForcesMilitaryUnit", "MilitaryForces").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryForces>("FormGeneralModel.FK_MilitaryForcesMilitaryUnit", "MilitaryForces").Value = value;
             }
         }
         /// <summary>
@@ -3768,42 +4283,64 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryForces>("FormGeneralModel.MilitaryForcesMilitaryUnit", "MilitaryForces");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryForces>("FormGeneralModel.FK_MilitaryForcesMilitaryUnit", "MilitaryForces");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryForces>("FormGeneralModel.MilitaryForcesMilitaryUnit", "MilitaryForces", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryForces>("FormGeneralModel.FK_MilitaryForcesMilitaryUnit", "MilitaryForces", value);
                 }
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Squadrons.
+        /// В схеме отсутствуют комментарии для Squadron.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryUnitSquadron", "Squadron")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryUnitSquadron", "Squadron")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Squadron> Squadrons
+        public global::System.Data.Objects.DataClasses.EntityCollection<Squadron> Squadron
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squadron>("FormGeneralModel.MilitaryUnitSquadron", "Squadron");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squadron>("FormGeneralModel.FK_MilitaryUnitSquadron", "Squadron");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squadron>("FormGeneralModel.MilitaryUnitSquadron", "Squadron", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squadron>("FormGeneralModel.FK_MilitaryUnitSquadron", "Squadron", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Phone.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_PhoneMilitaryUnit", "Phone")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Phone> Phone
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Phone>("FormGeneralModel.FK_PhoneMilitaryUnit", "Phone");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Phone>("FormGeneralModel.FK_PhoneMilitaryUnit", "Phone", value);
                 }
             }
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Station.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "StationMilitaryUnit", "Station")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_StationMilitaryUnit", "Station")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -3812,11 +4349,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Station>("FormGeneralModel.StationMilitaryUnit", "Station").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Station>("FormGeneralModel.FK_StationMilitaryUnit", "Station").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Station>("FormGeneralModel.StationMilitaryUnit", "Station").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Station>("FormGeneralModel.FK_StationMilitaryUnit", "Station").Value = value;
             }
         }
         /// <summary>
@@ -3829,13 +4366,13 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Station>("FormGeneralModel.StationMilitaryUnit", "Station");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Station>("FormGeneralModel.FK_StationMilitaryUnit", "Station");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Station>("FormGeneralModel.StationMilitaryUnit", "Station", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Station>("FormGeneralModel.FK_StationMilitaryUnit", "Station", value);
                 }
             }
         }
@@ -3948,51 +4485,198 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnDateChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Squads.
+        /// В схеме отсутствуют комментарии для Troop.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "OrderSoldierSquad", "Squad")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_OrderSoldierSquad", "Troop")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Squad> Squads
+        public global::System.Data.Objects.DataClasses.EntityCollection<Troop> Troop
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squad>("FormGeneralModel.OrderSoldierSquad", "Squad");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Troop>("FormGeneralModel.FK_OrderSoldierSquad", "Troop");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squad>("FormGeneralModel.OrderSoldierSquad", "Squad", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Troop>("FormGeneralModel.FK_OrderSoldierSquad", "Troop", value);
                 }
             }
         }
     }
     /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.FamilyStatus.
+    /// В схеме отсутствуют комментарии для FormGeneralModel.OrderWare.
     /// </summary>
     /// <KeyProperties>
     /// ID
     /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="FamilyStatus")]
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="OrderWare")]
     [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
     [global::System.Serializable()]
-    public partial class FamilyStatus : global::System.Data.Objects.DataClasses.EntityObject
+    public partial class OrderWare : global::System.Data.Objects.DataClasses.EntityObject
     {
         /// <summary>
-        /// Создайте новый объект FamilyStatus.
+        /// Создайте новый объект OrderWare.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="number">Начальное значение Number.</param>
+        /// <param name="date">Начальное значение Date.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static OrderWare CreateOrderWare(int id, int number, global::System.DateTime date)
+        {
+            OrderWare orderWare = new OrderWare();
+            orderWare.ID = id;
+            orderWare.Number = number;
+            orderWare.Date = date;
+            return orderWare;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Number.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int Number
+        {
+            get
+            {
+                return this._Number;
+            }
+            set
+            {
+                this.OnNumberChanging(value);
+                this.ReportPropertyChanging("Number");
+                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("Number");
+                this.OnNumberChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _Number;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Date.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.DateTime Date
+        {
+            get
+            {
+                return this._Date;
+            }
+            set
+            {
+                this.OnDateChanging(value);
+                this.ReportPropertyChanging("Date");
+                this._Date = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("Date");
+                this.OnDateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.DateTime _Date;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnDateChanging(global::System.DateTime value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnDateChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Troop.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_OrderWareSquad", "Troop")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Troop Troop
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Troop>("FormGeneralModel.FK_OrderWareSquad", "Troop").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Troop>("FormGeneralModel.FK_OrderWareSquad", "Troop").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Troop.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Troop> TroopReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Troop>("FormGeneralModel.FK_OrderWareSquad", "Troop");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Troop>("FormGeneralModel.FK_OrderWareSquad", "Troop", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.Parents.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Parents")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class Parents : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект Parents.
         /// </summary>
         /// <param name="id">Начальное значение ID.</param>
         /// <param name="name">Начальное значение Name.</param>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static FamilyStatus CreateFamilyStatus(int id, string name)
+        public static Parents CreateParents(int id, string name)
         {
-            FamilyStatus familyStatus = new FamilyStatus();
-            familyStatus.ID = id;
-            familyStatus.Name = name;
-            return familyStatus;
+            Parents parents = new Parents();
+            parents.ID = id;
+            parents.Name = name;
+            return parents;
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для свойства ID.
@@ -4049,24 +4733,24 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Evolutions.
+        /// В схеме отсутствуют комментарии для Evolution.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "ParentsEvolution", "Evolution")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_ParentsEvolution", "Evolution")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolutions
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.ParentsEvolution", "Evolution");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_ParentsEvolution", "Evolution");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.ParentsEvolution", "Evolution", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_ParentsEvolution", "Evolution", value);
                 }
             }
         }
@@ -4355,7 +5039,7 @@ namespace FormRevolution.EntityDataModel
         /// <summary>
         /// В схеме отсутствуют комментарии для Marriage.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MarriagePassport", "Marriage")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MarriagePassport", "Marriage")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -4364,11 +5048,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Marriage>("FormGeneralModel.MarriagePassport", "Marriage").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Marriage>("FormGeneralModel.FK_MarriagePassport", "Marriage").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Marriage>("FormGeneralModel.MarriagePassport", "Marriage").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Marriage>("FormGeneralModel.FK_MarriagePassport", "Marriage").Value = value;
             }
         }
         /// <summary>
@@ -4381,52 +5065,35 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Marriage>("FormGeneralModel.MarriagePassport", "Marriage");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Marriage>("FormGeneralModel.FK_MarriagePassport", "Marriage");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Marriage>("FormGeneralModel.MarriagePassport", "Marriage", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Marriage>("FormGeneralModel.FK_MarriagePassport", "Marriage", value);
                 }
             }
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Recruit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "RecruitPassport", "Recruit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_RecruitPassport", "Recruit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Recruit Recruit
+        public global::System.Data.Objects.DataClasses.EntityCollection<Recruit> Recruit
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitPassport", "Recruit").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitPassport", "Recruit").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Recruit.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Recruit> RecruitReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitPassport", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.FK_RecruitPassport", "Recruit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.RecruitPassport", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.FK_RecruitPassport", "Recruit", value);
                 }
             }
         }
@@ -4570,7 +5237,7 @@ namespace FormRevolution.EntityDataModel
         /// <summary>
         /// В схеме отсутствуют комментарии для Recruit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "PermissionRecruit", "Recruit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_PermissionRecruit", "Recruit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -4579,13 +5246,13 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.PermissionRecruit", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.FK_PermissionRecruit", "Recruit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.PermissionRecruit", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.FK_PermissionRecruit", "Recruit", value);
                 }
             }
         }
@@ -4700,7 +5367,7 @@ namespace FormRevolution.EntityDataModel
         /// <summary>
         /// В схеме отсутствуют комментарии для MilitaryUnit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "PhoneMilitaryUnit", "MilitaryUnit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_PhoneMilitaryUnit", "MilitaryUnit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -4709,11 +5376,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.PhoneMilitaryUnit", "MilitaryUnit").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.FK_PhoneMilitaryUnit", "MilitaryUnit").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.PhoneMilitaryUnit", "MilitaryUnit").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.FK_PhoneMilitaryUnit", "MilitaryUnit").Value = value;
             }
         }
         /// <summary>
@@ -4726,13 +5393,230 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.PhoneMilitaryUnit", "MilitaryUnit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.FK_PhoneMilitaryUnit", "MilitaryUnit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryUnit>("FormGeneralModel.PhoneMilitaryUnit", "MilitaryUnit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryUnit>("FormGeneralModel.FK_PhoneMilitaryUnit", "MilitaryUnit", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.Proxy.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Proxy")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class Proxy : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект Proxy.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="number">Начальное значение Number.</param>
+        /// <param name="date">Начальное значение Date.</param>
+        /// <param name="agentOfficers">Начальное значение AgentOfficers.</param>
+        /// <param name="agentSemiOfficers">Начальное значение AgentSemiOfficers.</param>
+        /// <param name="agentSoldiers">Начальное значение AgentSoldiers.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static Proxy CreateProxy(int id, string number, global::System.DateTime date, int agentOfficers, int agentSemiOfficers, int agentSoldiers)
+        {
+            Proxy proxy = new Proxy();
+            proxy.ID = id;
+            proxy.Number = number;
+            proxy.Date = date;
+            proxy.AgentOfficers = agentOfficers;
+            proxy.AgentSemiOfficers = agentSemiOfficers;
+            proxy.AgentSoldiers = agentSoldiers;
+            return proxy;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Number.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Number
+        {
+            get
+            {
+                return this._Number;
+            }
+            set
+            {
+                this.OnNumberChanging(value);
+                this.ReportPropertyChanging("Number");
+                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Number");
+                this.OnNumberChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Number;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Date.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.DateTime Date
+        {
+            get
+            {
+                return this._Date;
+            }
+            set
+            {
+                this.OnDateChanging(value);
+                this.ReportPropertyChanging("Date");
+                this._Date = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("Date");
+                this.OnDateChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.DateTime _Date;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnDateChanging(global::System.DateTime value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnDateChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства AgentOfficers.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int AgentOfficers
+        {
+            get
+            {
+                return this._AgentOfficers;
+            }
+            set
+            {
+                this.OnAgentOfficersChanging(value);
+                this.ReportPropertyChanging("AgentOfficers");
+                this._AgentOfficers = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("AgentOfficers");
+                this.OnAgentOfficersChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _AgentOfficers;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnAgentOfficersChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnAgentOfficersChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства AgentSemiOfficers.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int AgentSemiOfficers
+        {
+            get
+            {
+                return this._AgentSemiOfficers;
+            }
+            set
+            {
+                this.OnAgentSemiOfficersChanging(value);
+                this.ReportPropertyChanging("AgentSemiOfficers");
+                this._AgentSemiOfficers = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("AgentSemiOfficers");
+                this.OnAgentSemiOfficersChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _AgentSemiOfficers;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnAgentSemiOfficersChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnAgentSemiOfficersChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства AgentSoldiers.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int AgentSoldiers
+        {
+            get
+            {
+                return this._AgentSoldiers;
+            }
+            set
+            {
+                this.OnAgentSoldiersChanging(value);
+                this.ReportPropertyChanging("AgentSoldiers");
+                this._AgentSoldiers = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("AgentSoldiers");
+                this.OnAgentSoldiersChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _AgentSoldiers;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnAgentSoldiersChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnAgentSoldiersChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Troop.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_ProxySquad", "Troop")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Troop> Troop
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Troop>("FormGeneralModel.FK_ProxySquad", "Troop");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Troop>("FormGeneralModel.FK_ProxySquad", "Troop", value);
                 }
             }
         }
@@ -4816,24 +5700,24 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Stations.
+        /// В схеме отсутствуют комментарии для Station.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "RailroadStation", "Station")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_RailroadStation", "Station")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Station> Stations
+        public global::System.Data.Objects.DataClasses.EntityCollection<Station> Station
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Station>("FormGeneralModel.RailroadStation", "Station");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Station>("FormGeneralModel.FK_RailroadStation", "Station");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Station>("FormGeneralModel.RailroadStation", "Station", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Station>("FormGeneralModel.FK_RailroadStation", "Station", value);
                 }
             }
         }
@@ -5029,326 +5913,9 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnDepartureDateChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Squad.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SquadRecruit", "Squad")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Squad Squad
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squad>("FormGeneralModel.SquadRecruit", "Squad").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squad>("FormGeneralModel.SquadRecruit", "Squad").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squad.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Squad> SquadReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squad>("FormGeneralModel.SquadRecruit", "Squad");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Squad>("FormGeneralModel.SquadRecruit", "Squad", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Medicine.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MedicineRecruit", "Medicine")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Medicine Medicine
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Medicine>("FormGeneralModel.MedicineRecruit", "Medicine").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Medicine>("FormGeneralModel.MedicineRecruit", "Medicine").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Medicine.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Medicine> MedicineReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Medicine>("FormGeneralModel.MedicineRecruit", "Medicine");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Medicine>("FormGeneralModel.MedicineRecruit", "Medicine", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для DriverLicense.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DriverLicenseRecruit", "DriverLicense")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public DriverLicense DriverLicense
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DriverLicense>("FormGeneralModel.DriverLicenseRecruit", "DriverLicense").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DriverLicense>("FormGeneralModel.DriverLicenseRecruit", "DriverLicense").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для DriverLicense.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<DriverLicense> DriverLicenseReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DriverLicense>("FormGeneralModel.DriverLicenseRecruit", "DriverLicense");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<DriverLicense>("FormGeneralModel.DriverLicenseRecruit", "DriverLicense", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryCard.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryCardRecruit", "MilitaryCard")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public MilitaryCard MilitaryCard
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryCard>("FormGeneralModel.MilitaryCardRecruit", "MilitaryCard").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryCard>("FormGeneralModel.MilitaryCardRecruit", "MilitaryCard").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryCard.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<MilitaryCard> MilitaryCardReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryCard>("FormGeneralModel.MilitaryCardRecruit", "MilitaryCard");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryCard>("FormGeneralModel.MilitaryCardRecruit", "MilitaryCard", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Token.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "TokenRecruit", "Token")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Token Token
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Token>("FormGeneralModel.TokenRecruit", "Token").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Token>("FormGeneralModel.TokenRecruit", "Token").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Token.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Token> TokenReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Token>("FormGeneralModel.TokenRecruit", "Token");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Token>("FormGeneralModel.TokenRecruit", "Token", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Permission.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "PermissionRecruit", "Permission")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Permission Permission
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Permission>("FormGeneralModel.PermissionRecruit", "Permission").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Permission>("FormGeneralModel.PermissionRecruit", "Permission").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Permission.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Permission> PermissionReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Permission>("FormGeneralModel.PermissionRecruit", "Permission");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Permission>("FormGeneralModel.PermissionRecruit", "Permission", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Evolution.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "EvolutionRecruit", "Evolution")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Evolution Evolution
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Evolution>("FormGeneralModel.EvolutionRecruit", "Evolution").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Evolution>("FormGeneralModel.EvolutionRecruit", "Evolution").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Evolution.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Evolution> EvolutionReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Evolution>("FormGeneralModel.EvolutionRecruit", "Evolution");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Evolution>("FormGeneralModel.EvolutionRecruit", "Evolution", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Dismissals.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "RecruitDismissal", "Dismissal")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Dismissal> Dismissals
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Dismissal>("FormGeneralModel.RecruitDismissal", "Dismissal");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Dismissal>("FormGeneralModel.RecruitDismissal", "Dismissal", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SelfDesiredAbsence.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "RecruitSelfDesiredAbsence", "SelfDesiredAbsence")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<SelfDesiredAbsence> SelfDesiredAbsence
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<SelfDesiredAbsence>("FormGeneralModel.RecruitSelfDesiredAbsence", "SelfDesiredAbsence");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<SelfDesiredAbsence>("FormGeneralModel.RecruitSelfDesiredAbsence", "SelfDesiredAbsence", value);
-                }
-            }
-        }
-        /// <summary>
         /// В схеме отсутствуют комментарии для Department.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DepartmentRecruit", "Department")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DepartmentRecruit", "Department")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -5357,11 +5924,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Department>("FormGeneralModel.DepartmentRecruit", "Department").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Department>("FormGeneralModel.FK_DepartmentRecruit", "Department").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Department>("FormGeneralModel.DepartmentRecruit", "Department").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Department>("FormGeneralModel.FK_DepartmentRecruit", "Department").Value = value;
             }
         }
         /// <summary>
@@ -5374,20 +5941,130 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Department>("FormGeneralModel.DepartmentRecruit", "Department");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Department>("FormGeneralModel.FK_DepartmentRecruit", "Department");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Department>("FormGeneralModel.DepartmentRecruit", "Department", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Department>("FormGeneralModel.FK_DepartmentRecruit", "Department", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Dismissal.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_RecruitDismissal", "Dismissal")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Dismissal> Dismissal
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Dismissal>("FormGeneralModel.FK_RecruitDismissal", "Dismissal");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Dismissal>("FormGeneralModel.FK_RecruitDismissal", "Dismissal", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для DriverLicense.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DriverLicenseRecruit", "DriverLicense")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<DriverLicense> DriverLicense
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<DriverLicense>("FormGeneralModel.FK_DriverLicenseRecruit", "DriverLicense");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<DriverLicense>("FormGeneralModel.FK_DriverLicenseRecruit", "DriverLicense", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Evolution.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_EvolutionRecruit", "Evolution")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_EvolutionRecruit", "Evolution");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_EvolutionRecruit", "Evolution", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Medicine.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MedicineRecruit", "Medicine")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Medicine> Medicine
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Medicine>("FormGeneralModel.FK_MedicineRecruit", "Medicine");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Medicine>("FormGeneralModel.FK_MedicineRecruit", "Medicine", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryCard.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryCardRecruit", "MilitaryCard")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryCard> MilitaryCard
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryCard>("FormGeneralModel.FK_MilitaryCardRecruit", "MilitaryCard");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryCard>("FormGeneralModel.FK_MilitaryCardRecruit", "MilitaryCard", value);
                 }
             }
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Passport.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "RecruitPassport", "Passport")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_RecruitPassport", "Passport")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -5396,11 +6073,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Passport>("FormGeneralModel.RecruitPassport", "Passport").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Passport>("FormGeneralModel.FK_RecruitPassport", "Passport").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Passport>("FormGeneralModel.RecruitPassport", "Passport").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Passport>("FormGeneralModel.FK_RecruitPassport", "Passport").Value = value;
             }
         }
         /// <summary>
@@ -5413,13 +6090,427 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Passport>("FormGeneralModel.RecruitPassport", "Passport");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Passport>("FormGeneralModel.FK_RecruitPassport", "Passport");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Passport>("FormGeneralModel.RecruitPassport", "Passport", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Passport>("FormGeneralModel.FK_RecruitPassport", "Passport", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Permission.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_PermissionRecruit", "Permission")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Permission Permission
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Permission>("FormGeneralModel.FK_PermissionRecruit", "Permission").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Permission>("FormGeneralModel.FK_PermissionRecruit", "Permission").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Permission.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Permission> PermissionReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Permission>("FormGeneralModel.FK_PermissionRecruit", "Permission");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Permission>("FormGeneralModel.FK_PermissionRecruit", "Permission", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для SelfDesiredAbsence.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_RecruitSelfDesiredAbsence", "SelfDesiredAbsence")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<SelfDesiredAbsence> SelfDesiredAbsence
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<SelfDesiredAbsence>("FormGeneralModel.FK_RecruitSelfDesiredAbsence", "SelfDesiredAbsence");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<SelfDesiredAbsence>("FormGeneralModel.FK_RecruitSelfDesiredAbsence", "SelfDesiredAbsence", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Troop.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SquadRecruit", "Troop")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Troop Troop
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Troop>("FormGeneralModel.FK_SquadRecruit", "Troop").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Troop>("FormGeneralModel.FK_SquadRecruit", "Troop").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Troop.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Troop> TroopReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Troop>("FormGeneralModel.FK_SquadRecruit", "Troop");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Troop>("FormGeneralModel.FK_SquadRecruit", "Troop", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Token.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_TokenRecruit", "Token")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Token Token
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Token>("FormGeneralModel.FK_TokenRecruit", "Token").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Token>("FormGeneralModel.FK_TokenRecruit", "Token").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Token.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Token> TokenReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Token>("FormGeneralModel.FK_TokenRecruit", "Token");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Token>("FormGeneralModel.FK_TokenRecruit", "Token", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.Season.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Season")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class Season : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект Season.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="year">Начальное значение Year.</param>
+        /// <param name="number">Начальное значение Number.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static Season CreateSeason(int id, string year, string number)
+        {
+            Season season = new Season();
+            season.ID = id;
+            season.Year = year;
+            season.Number = number;
+            return season;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Year.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Year
+        {
+            get
+            {
+                return this._Year;
+            }
+            set
+            {
+                this.OnYearChanging(value);
+                this.ReportPropertyChanging("Year");
+                this._Year = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Year");
+                this.OnYearChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Year;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnYearChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnYearChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Number.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Number
+        {
+            get
+            {
+                return this._Number;
+            }
+            set
+            {
+                this.OnNumberChanging(value);
+                this.ReportPropertyChanging("Number");
+                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Number");
+                this.OnNumberChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Number;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Squadron.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SeasonSquadron", "Squadron")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Squadron> Squadron
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squadron>("FormGeneralModel.FK_SeasonSquadron", "Squadron");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squadron>("FormGeneralModel.FK_SeasonSquadron", "Squadron", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.SelfDesiredAbsence.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="SelfDesiredAbsence")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class SelfDesiredAbsence : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект SelfDesiredAbsence.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="from">Начальное значение From.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static SelfDesiredAbsence CreateSelfDesiredAbsence(int id, global::System.DateTime from)
+        {
+            SelfDesiredAbsence selfDesiredAbsence = new SelfDesiredAbsence();
+            selfDesiredAbsence.ID = id;
+            selfDesiredAbsence.From = from;
+            return selfDesiredAbsence;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства From.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.DateTime From
+        {
+            get
+            {
+                return this._From;
+            }
+            set
+            {
+                this.OnFromChanging(value);
+                this.ReportPropertyChanging("From");
+                this._From = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("From");
+                this.OnFromChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.DateTime _From;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnFromChanging(global::System.DateTime value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnFromChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства To.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public global::System.Nullable<global::System.DateTime> To
+        {
+            get
+            {
+                return this._To;
+            }
+            set
+            {
+                this.OnToChanging(value);
+                this.ReportPropertyChanging("To");
+                this._To = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("To");
+                this.OnToChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private global::System.Nullable<global::System.DateTime> _To;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnToChanging(global::System.Nullable<global::System.DateTime> value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnToChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Recruit.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_RecruitSelfDesiredAbsence", "Recruit")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Recruit Recruit
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_RecruitSelfDesiredAbsence", "Recruit").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_RecruitSelfDesiredAbsence", "Recruit").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Recruit.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Recruit> RecruitReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.FK_RecruitSelfDesiredAbsence", "Recruit");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.FK_RecruitSelfDesiredAbsence", "Recruit", value);
                 }
             }
         }
@@ -5503,36 +6594,36 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnNameChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Evolutions.
+        /// В схеме отсутствуют комментарии для Evolution.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SpecialityEvolution", "Evolution")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SpecialityEvolution", "Evolution")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolutions
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.SpecialityEvolution", "Evolution");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_SpecialityEvolution", "Evolution");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.SpecialityEvolution", "Evolution", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_SpecialityEvolution", "Evolution", value);
                 }
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для SquadDuties.
+        /// В схеме отсутствуют комментарии для SquadDuty.
         /// </summary>
         [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SpecialitySquadDuty", "SquadDuty")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<SquadDuty> SquadDuties
+        public global::System.Data.Objects.DataClasses.EntityCollection<SquadDuty> SquadDuty
         {
             get
             {
@@ -5543,6 +6634,659 @@ namespace FormRevolution.EntityDataModel
                 if ((value != null))
                 {
                     ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<SquadDuty>("FormGeneralModel.SpecialitySquadDuty", "SquadDuty", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.SportCategory.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="SportCategory")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class SportCategory : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект SportCategory.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="name">Начальное значение Name.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static SportCategory CreateSportCategory(int id, string name)
+        {
+            SportCategory sportCategory = new SportCategory();
+            sportCategory.ID = id;
+            sportCategory.Name = name;
+            return sportCategory;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Name.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this.ReportPropertyChanging("Name");
+                this._Name = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Name");
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Name;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Evolution.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SportCategoryEvolution", "Evolution")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_SportCategoryEvolution", "Evolution");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_SportCategoryEvolution", "Evolution", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.SportType.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="SportType")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class SportType : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект SportType.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="name">Начальное значение Name.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static SportType CreateSportType(int id, string name)
+        {
+            SportType sportType = new SportType();
+            sportType.ID = id;
+            sportType.Name = name;
+            return sportType;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Name.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Name
+        {
+            get
+            {
+                return this._Name;
+            }
+            set
+            {
+                this.OnNameChanging(value);
+                this.ReportPropertyChanging("Name");
+                this._Name = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Name");
+                this.OnNameChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Name;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNameChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Evolution.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SportTypeEvolution", "Evolution")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolution
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.FK_SportTypeEvolution", "Evolution");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.FK_SportTypeEvolution", "Evolution", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.SquadDuty.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="SquadDuty")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class SquadDuty : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект SquadDuty.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static SquadDuty CreateSquadDuty(int id)
+        {
+            SquadDuty squadDuty = new SquadDuty();
+            squadDuty.ID = id;
+            return squadDuty;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства MilitarySpecs1.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string MilitarySpecs1
+        {
+            get
+            {
+                return this._MilitarySpecs1;
+            }
+            set
+            {
+                this.OnMilitarySpecs1Changing(value);
+                this.ReportPropertyChanging("MilitarySpecs1");
+                this._MilitarySpecs1 = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, true);
+                this.ReportPropertyChanged("MilitarySpecs1");
+                this.OnMilitarySpecs1Changed();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _MilitarySpecs1;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnMilitarySpecs1Changing(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnMilitarySpecs1Changed();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства MilitarySpecs2.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string MilitarySpecs2
+        {
+            get
+            {
+                return this._MilitarySpecs2;
+            }
+            set
+            {
+                this.OnMilitarySpecs2Changing(value);
+                this.ReportPropertyChanging("MilitarySpecs2");
+                this._MilitarySpecs2 = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, true);
+                this.ReportPropertyChanged("MilitarySpecs2");
+                this.OnMilitarySpecs2Changed();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _MilitarySpecs2;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnMilitarySpecs2Changing(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnMilitarySpecs2Changed();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства MilitarySpecs3.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string MilitarySpecs3
+        {
+            get
+            {
+                return this._MilitarySpecs3;
+            }
+            set
+            {
+                this.OnMilitarySpecs3Changing(value);
+                this.ReportPropertyChanging("MilitarySpecs3");
+                this._MilitarySpecs3 = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, true);
+                this.ReportPropertyChanged("MilitarySpecs3");
+                this.OnMilitarySpecs3Changed();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _MilitarySpecs3;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnMilitarySpecs3Changing(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnMilitarySpecs3Changed();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для DutyForm.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DutyFormSquadDuty", "DutyForm")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public DutyForm DutyForm
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.FK_DutyFormSquadDuty", "DutyForm").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.FK_DutyFormSquadDuty", "DutyForm").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для DutyForm.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<DutyForm> DutyFormReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.FK_DutyFormSquadDuty", "DutyForm");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<DutyForm>("FormGeneralModel.FK_DutyFormSquadDuty", "DutyForm", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Troop.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SquadDutySquad", "Troop")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Troop> Troop
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Troop>("FormGeneralModel.FK_SquadDutySquad", "Troop");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Troop>("FormGeneralModel.FK_SquadDutySquad", "Troop", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Speciality.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SpecialitySquadDuty", "Speciality")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Speciality> Speciality
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Speciality>("FormGeneralModel.SpecialitySquadDuty", "Speciality");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Speciality>("FormGeneralModel.SpecialitySquadDuty", "Speciality", value);
+                }
+            }
+        }
+    }
+    /// <summary>
+    /// В схеме отсутствуют комментарии для FormGeneralModel.Squadron.
+    /// </summary>
+    /// <KeyProperties>
+    /// ID
+    /// </KeyProperties>
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Squadron")]
+    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
+    [global::System.Serializable()]
+    public partial class Squadron : global::System.Data.Objects.DataClasses.EntityObject
+    {
+        /// <summary>
+        /// Создайте новый объект Squadron.
+        /// </summary>
+        /// <param name="id">Начальное значение ID.</param>
+        /// <param name="number">Начальное значение Number.</param>
+        /// <param name="isCentral">Начальное значение IsCentral.</param>
+        /// <param name="isLocal">Начальное значение IsLocal.</param>
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public static Squadron CreateSquadron(int id, string number, bool isCentral, bool isLocal)
+        {
+            Squadron squadron = new Squadron();
+            squadron.ID = id;
+            squadron.Number = number;
+            squadron.IsCentral = isCentral;
+            squadron.IsLocal = isLocal;
+            return squadron;
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства ID.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public int ID
+        {
+            get
+            {
+                return this._ID;
+            }
+            set
+            {
+                this.OnIDChanging(value);
+                this.ReportPropertyChanging("ID");
+                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("ID");
+                this.OnIDChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private int _ID;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanging(int value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIDChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства Number.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public string Number
+        {
+            get
+            {
+                return this._Number;
+            }
+            set
+            {
+                this.OnNumberChanging(value);
+                this.ReportPropertyChanging("Number");
+                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
+                this.ReportPropertyChanged("Number");
+                this.OnNumberChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private string _Number;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanging(string value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnNumberChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства IsCentral.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public bool IsCentral
+        {
+            get
+            {
+                return this._IsCentral;
+            }
+            set
+            {
+                this.OnIsCentralChanging(value);
+                this.ReportPropertyChanging("IsCentral");
+                this._IsCentral = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("IsCentral");
+                this.OnIsCentralChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private bool _IsCentral;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIsCentralChanging(bool value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIsCentralChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для свойства IsLocal.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        public bool IsLocal
+        {
+            get
+            {
+                return this._IsLocal;
+            }
+            set
+            {
+                this.OnIsLocalChanging(value);
+                this.ReportPropertyChanging("IsLocal");
+                this._IsLocal = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
+                this.ReportPropertyChanged("IsLocal");
+                this.OnIsLocalChanged();
+            }
+        }
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        private bool _IsLocal;
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIsLocalChanging(bool value);
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        partial void OnIsLocalChanged();
+        /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryUnit.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryUnitSquadron", "MilitaryUnit")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public MilitaryUnit MilitaryUnit
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.FK_MilitaryUnitSquadron", "MilitaryUnit").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.FK_MilitaryUnitSquadron", "MilitaryUnit").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryUnit.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<MilitaryUnit> MilitaryUnitReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.FK_MilitaryUnitSquadron", "MilitaryUnit");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryUnit>("FormGeneralModel.FK_MilitaryUnitSquadron", "MilitaryUnit", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Season.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SeasonSquadron", "Season")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public Season Season
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Season>("FormGeneralModel.FK_SeasonSquadron", "Season").Value;
+            }
+            set
+            {
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Season>("FormGeneralModel.FK_SeasonSquadron", "Season").Value = value;
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Season.
+        /// </summary>
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityReference<Season> SeasonReference
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Season>("FormGeneralModel.FK_SeasonSquadron", "Season");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Season>("FormGeneralModel.FK_SeasonSquadron", "Season", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для Troop.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SquadronSquad", "Troop")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<Troop> Troop
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Troop>("FormGeneralModel.FK_SquadronSquad", "Troop");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Troop>("FormGeneralModel.FK_SquadronSquad", "Troop", value);
                 }
             }
         }
@@ -5628,7 +7372,7 @@ namespace FormRevolution.EntityDataModel
         /// <summary>
         /// В схеме отсутствуют комментарии для MilitaryDistrict.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryDistrictStation", "MilitaryDistrict")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_MilitaryDistrictStation", "MilitaryDistrict")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -5637,11 +7381,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryDistrict>("FormGeneralModel.MilitaryDistrictStation", "MilitaryDistrict").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryDistrict>("FormGeneralModel.FK_MilitaryDistrictStation", "MilitaryDistrict").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryDistrict>("FormGeneralModel.MilitaryDistrictStation", "MilitaryDistrict").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryDistrict>("FormGeneralModel.FK_MilitaryDistrictStation", "MilitaryDistrict").Value = value;
             }
         }
         /// <summary>
@@ -5654,20 +7398,42 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryDistrict>("FormGeneralModel.MilitaryDistrictStation", "MilitaryDistrict");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryDistrict>("FormGeneralModel.FK_MilitaryDistrictStation", "MilitaryDistrict");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryDistrict>("FormGeneralModel.MilitaryDistrictStation", "MilitaryDistrict", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryDistrict>("FormGeneralModel.FK_MilitaryDistrictStation", "MilitaryDistrict", value);
+                }
+            }
+        }
+        /// <summary>
+        /// В схеме отсутствуют комментарии для MilitaryUnit.
+        /// </summary>
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_StationMilitaryUnit", "MilitaryUnit")]
+        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
+        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
+        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
+        [global::System.Runtime.Serialization.DataMemberAttribute()]
+        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryUnit> MilitaryUnit
+        {
+            get
+            {
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryUnit>("FormGeneralModel.FK_StationMilitaryUnit", "MilitaryUnit");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryUnit>("FormGeneralModel.FK_StationMilitaryUnit", "MilitaryUnit", value);
                 }
             }
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Railroad.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "RailroadStation", "Railroad")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_RailroadStation", "Railroad")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -5676,11 +7442,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Railroad>("FormGeneralModel.RailroadStation", "Railroad").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Railroad>("FormGeneralModel.FK_RailroadStation", "Railroad").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Railroad>("FormGeneralModel.RailroadStation", "Railroad").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Railroad>("FormGeneralModel.FK_RailroadStation", "Railroad").Value = value;
             }
         }
         /// <summary>
@@ -5693,35 +7459,13 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Railroad>("FormGeneralModel.RailroadStation", "Railroad");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Railroad>("FormGeneralModel.FK_RailroadStation", "Railroad");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Railroad>("FormGeneralModel.RailroadStation", "Railroad", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryUnits.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "StationMilitaryUnit", "MilitaryUnit")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryUnit> MilitaryUnits
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryUnit>("FormGeneralModel.StationMilitaryUnit", "MilitaryUnit");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryUnit>("FormGeneralModel.StationMilitaryUnit", "MilitaryUnit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Railroad>("FormGeneralModel.FK_RailroadStation", "Railroad", value);
                 }
             }
         }
@@ -5836,7 +7580,7 @@ namespace FormRevolution.EntityDataModel
         /// <summary>
         /// В схеме отсутствуют комментарии для Recruit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "TokenRecruit", "Recruit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_TokenRecruit", "Recruit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -5845,30 +7589,30 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.TokenRecruit", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.FK_TokenRecruit", "Recruit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.TokenRecruit", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.FK_TokenRecruit", "Recruit", value);
                 }
             }
         }
     }
     /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.Squad.
+    /// В схеме отсутствуют комментарии для FormGeneralModel.Troop.
     /// </summary>
     /// <KeyProperties>
     /// ID
     /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Squad")]
+    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Troop")]
     [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
     [global::System.Serializable()]
-    public partial class Squad : global::System.Data.Objects.DataClasses.EntityObject
+    public partial class Troop : global::System.Data.Objects.DataClasses.EntityObject
     {
         /// <summary>
-        /// Создайте новый объект Squad.
+        /// Создайте новый объект Troop.
         /// </summary>
         /// <param name="id">Начальное значение ID.</param>
         /// <param name="number">Начальное значение Number.</param>
@@ -5878,17 +7622,17 @@ namespace FormRevolution.EntityDataModel
         /// <param name="isDressed">Начальное значение IsDressed.</param>
         /// <param name="isDisplayed">Начальное значение IsDisplayed.</param>
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static Squad CreateSquad(int id, string number, global::System.DateTime departureDate, int task, bool isDeparted, bool isDressed, bool isDisplayed)
+        public static Troop CreateTroop(int id, string number, global::System.DateTime departureDate, int task, bool isDeparted, bool isDressed, bool isDisplayed)
         {
-            Squad squad = new Squad();
-            squad.ID = id;
-            squad.Number = number;
-            squad.DepartureDate = departureDate;
-            squad.Task = task;
-            squad.IsDeparted = isDeparted;
-            squad.IsDressed = isDressed;
-            squad.IsDisplayed = isDisplayed;
-            return squad;
+            Troop troop = new Troop();
+            troop.ID = id;
+            troop.Number = number;
+            troop.DepartureDate = departureDate;
+            troop.Task = task;
+            troop.IsDeparted = isDeparted;
+            troop.IsDressed = isDressed;
+            troop.IsDisplayed = isDisplayed;
+            return troop;
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для свойства ID.
@@ -6134,70 +7878,9 @@ namespace FormRevolution.EntityDataModel
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         partial void OnSupplyCountChanged();
         /// <summary>
-        /// В схеме отсутствуют комментарии для Recruits.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SquadRecruit", "Recruit")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Recruit> Recruits
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.SquadRecruit", "Recruit");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.SquadRecruit", "Recruit", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для OrderSoldier.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "OrderSoldierSquad", "OrderSoldier")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public OrderSoldier OrderSoldier
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<OrderSoldier>("FormGeneralModel.OrderSoldierSquad", "OrderSoldier").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<OrderSoldier>("FormGeneralModel.OrderSoldierSquad", "OrderSoldier").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для OrderSoldier.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<OrderSoldier> OrderSoldierReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<OrderSoldier>("FormGeneralModel.OrderSoldierSquad", "OrderSoldier");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<OrderSoldier>("FormGeneralModel.OrderSoldierSquad", "OrderSoldier", value);
-                }
-            }
-        }
-        /// <summary>
         /// В схеме отсутствуют комментарии для Deputy.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DeputySquad", "Deputy")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_DeputySquad", "Deputy")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -6206,11 +7889,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.DeputySquad", "Deputy").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.FK_DeputySquad", "Deputy").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.DeputySquad", "Deputy").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.FK_DeputySquad", "Deputy").Value = value;
             }
         }
         /// <summary>
@@ -6223,159 +7906,20 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.DeputySquad", "Deputy");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Deputy>("FormGeneralModel.FK_DeputySquad", "Deputy");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Deputy>("FormGeneralModel.DeputySquad", "Deputy", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SquadDuty.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SquadDutySquad", "TroopDuty")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public SquadDuty SquadDuty
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SquadDuty>("FormGeneralModel.SquadDutySquad", "TroopDuty").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SquadDuty>("FormGeneralModel.SquadDutySquad", "TroopDuty").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для SquadDuty.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<SquadDuty> SquadDutyReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SquadDuty>("FormGeneralModel.SquadDutySquad", "TroopDuty");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<SquadDuty>("FormGeneralModel.SquadDutySquad", "TroopDuty", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Proxy.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "ProxySquad", "Proxy")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Proxy Proxy
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Proxy>("FormGeneralModel.ProxySquad", "Proxy").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Proxy>("FormGeneralModel.ProxySquad", "Proxy").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Proxy.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Proxy> ProxyReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Proxy>("FormGeneralModel.ProxySquad", "Proxy");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Proxy>("FormGeneralModel.ProxySquad", "Proxy", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для OrderWares.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "OrderWareSquad", "OrderWare")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<OrderWare> OrderWares
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<OrderWare>("FormGeneralModel.OrderWareSquad", "OrderWare");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<OrderWare>("FormGeneralModel.OrderWareSquad", "OrderWare", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squadron.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SquadronSquad", "Squadron")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Squadron Squadron
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squadron>("FormGeneralModel.SquadronSquad", "Squadron").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squadron>("FormGeneralModel.SquadronSquad", "Squadron").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squadron.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Squadron> SquadronReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squadron>("FormGeneralModel.SquadronSquad", "Squadron");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Squadron>("FormGeneralModel.SquadronSquad", "Squadron", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Deputy>("FormGeneralModel.FK_DeputySquad", "Deputy", value);
                 }
             }
         }
         /// <summary>
         /// В схеме отсутствуют комментарии для Echelon.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "EchelonSquad", "Echelon")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_EchelonSquad", "Echelon")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -6384,11 +7928,11 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Echelon>("FormGeneralModel.EchelonSquad", "Echelon").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Echelon>("FormGeneralModel.FK_EchelonSquad", "Echelon").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Echelon>("FormGeneralModel.EchelonSquad", "Echelon").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Echelon>("FormGeneralModel.FK_EchelonSquad", "Echelon").Value = value;
             }
         }
         /// <summary>
@@ -6401,995 +7945,120 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Echelon>("FormGeneralModel.EchelonSquad", "Echelon");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Echelon>("FormGeneralModel.FK_EchelonSquad", "Echelon");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Echelon>("FormGeneralModel.EchelonSquad", "Echelon", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Echelon>("FormGeneralModel.FK_EchelonSquad", "Echelon", value);
                 }
             }
         }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.SquadDuty.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="SquadDuty")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class SquadDuty : global::System.Data.Objects.DataClasses.EntityObject
-    {
         /// <summary>
-        /// Создайте новый объект SquadDuty.
+        /// В схеме отсутствуют комментарии для OrderSoldier.
         /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static SquadDuty CreateSquadDuty(int id)
-        {
-            SquadDuty squadDuty = new SquadDuty();
-            squadDuty.ID = id;
-            return squadDuty;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства MilitarySpecs1.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string MilitarySpecs1
-        {
-            get
-            {
-                return this._MilitarySpecs1;
-            }
-            set
-            {
-                this.OnMilitarySpecs1Changing(value);
-                this.ReportPropertyChanging("MilitarySpecs1");
-                this._MilitarySpecs1 = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, true);
-                this.ReportPropertyChanged("MilitarySpecs1");
-                this.OnMilitarySpecs1Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _MilitarySpecs1;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnMilitarySpecs1Changing(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnMilitarySpecs1Changed();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства MilitarySpecs2.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string MilitarySpecs2
-        {
-            get
-            {
-                return this._MilitarySpecs2;
-            }
-            set
-            {
-                this.OnMilitarySpecs2Changing(value);
-                this.ReportPropertyChanging("MilitarySpecs2");
-                this._MilitarySpecs2 = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, true);
-                this.ReportPropertyChanged("MilitarySpecs2");
-                this.OnMilitarySpecs2Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _MilitarySpecs2;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnMilitarySpecs2Changing(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnMilitarySpecs2Changed();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства MilitarySpecs3.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string MilitarySpecs3
-        {
-            get
-            {
-                return this._MilitarySpecs3;
-            }
-            set
-            {
-                this.OnMilitarySpecs3Changing(value);
-                this.ReportPropertyChanging("MilitarySpecs3");
-                this._MilitarySpecs3 = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, true);
-                this.ReportPropertyChanged("MilitarySpecs3");
-                this.OnMilitarySpecs3Changed();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _MilitarySpecs3;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnMilitarySpecs3Changing(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnMilitarySpecs3Changed();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для DutyForm.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DutyFormSquadDuty", "DutyForm")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_OrderSoldierSquad", "OrderSoldier")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public DutyForm DutyForm
+        public OrderSoldier OrderSoldier
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.DutyFormSquadDuty", "DutyForm").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<OrderSoldier>("FormGeneralModel.FK_OrderSoldierSquad", "OrderSoldier").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.DutyFormSquadDuty", "DutyForm").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<OrderSoldier>("FormGeneralModel.FK_OrderSoldierSquad", "OrderSoldier").Value = value;
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для DutyForm.
+        /// В схеме отсутствуют комментарии для OrderSoldier.
         /// </summary>
         [global::System.ComponentModel.BrowsableAttribute(false)]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<DutyForm> DutyFormReference
+        public global::System.Data.Objects.DataClasses.EntityReference<OrderSoldier> OrderSoldierReference
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<DutyForm>("FormGeneralModel.DutyFormSquadDuty", "DutyForm");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<OrderSoldier>("FormGeneralModel.FK_OrderSoldierSquad", "OrderSoldier");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<DutyForm>("FormGeneralModel.DutyFormSquadDuty", "DutyForm", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<OrderSoldier>("FormGeneralModel.FK_OrderSoldierSquad", "OrderSoldier", value);
                 }
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Specialities.
+        /// В схеме отсутствуют комментарии для OrderWare.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SpecialitySquadDuty", "Speciality")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_OrderWareSquad", "OrderWare")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Speciality> Specialities
+        public global::System.Data.Objects.DataClasses.EntityCollection<OrderWare> OrderWare
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Speciality>("FormGeneralModel.SpecialitySquadDuty", "Speciality");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<OrderWare>("FormGeneralModel.FK_OrderWareSquad", "OrderWare");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Speciality>("FormGeneralModel.SpecialitySquadDuty", "Speciality", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<OrderWare>("FormGeneralModel.FK_OrderWareSquad", "OrderWare", value);
                 }
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Squads.
+        /// В схеме отсутствуют комментарии для Proxy.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SquadDutySquad", "Squad")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_ProxySquad", "Proxy")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Squad> Squads
+        public Proxy Proxy
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squad>("FormGeneralModel.SquadDutySquad", "Squad");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Proxy>("FormGeneralModel.FK_ProxySquad", "Proxy").Value;
             }
             set
             {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squad>("FormGeneralModel.SquadDutySquad", "Squad", value);
-                }
-            }
-        }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.MilitaryForces.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="MilitaryForces")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class MilitaryForces : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект MilitaryForces.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="name">Начальное значение Name.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static MilitaryForces CreateMilitaryForces(int id, string name)
-        {
-            MilitaryForces militaryForces = new MilitaryForces();
-            militaryForces.ID = id;
-            militaryForces.Name = name;
-            return militaryForces;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Name.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this.ReportPropertyChanging("Name");
-                this._Name = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Name");
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Name;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryUnits.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryForcesMilitaryUnit", "MilitaryUnit")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<MilitaryUnit> MilitaryUnits
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<MilitaryUnit>("FormGeneralModel.MilitaryForcesMilitaryUnit", "MilitaryUnit");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<MilitaryUnit>("FormGeneralModel.MilitaryForcesMilitaryUnit", "MilitaryUnit", value);
-                }
-            }
-        }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.SportCategory.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="SportCategory")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class SportCategory : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект SportCategory.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="name">Начальное значение Name.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static SportCategory CreateSportCategory(int id, string name)
-        {
-            SportCategory sportCategory = new SportCategory();
-            sportCategory.ID = id;
-            sportCategory.Name = name;
-            return sportCategory;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Name.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this.ReportPropertyChanging("Name");
-                this._Name = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Name");
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Name;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Evolutions.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SportCategoryEvolution", "Evolution")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolutions
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.SportCategoryEvolution", "Evolution");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.SportCategoryEvolution", "Evolution", value);
-                }
-            }
-        }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.SportType.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="SportType")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class SportType : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект SportType.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="name">Начальное значение Name.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static SportType CreateSportType(int id, string name)
-        {
-            SportType sportType = new SportType();
-            sportType.ID = id;
-            sportType.Name = name;
-            return sportType;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Name.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Name
-        {
-            get
-            {
-                return this._Name;
-            }
-            set
-            {
-                this.OnNameChanging(value);
-                this.ReportPropertyChanging("Name");
-                this._Name = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Name");
-                this.OnNameChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Name;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Evolutions.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SportTypeEvolution", "Evolution")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Evolution> Evolutions
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Evolution>("FormGeneralModel.SportTypeEvolution", "Evolution");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Evolution>("FormGeneralModel.SportTypeEvolution", "Evolution", value);
-                }
-            }
-        }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.Dismissal.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Dismissal")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class Dismissal : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект Dismissal.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="from">Начальное значение From.</param>
-        /// <param name="to">Начальное значение To.</param>
-        /// <param name="troopNumber">Начальное значение TroopNumber.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static Dismissal CreateDismissal(int id, global::System.DateTime from, global::System.DateTime to, string troopNumber)
-        {
-            Dismissal dismissal = new Dismissal();
-            dismissal.ID = id;
-            dismissal.From = from;
-            dismissal.To = to;
-            dismissal.TroopNumber = troopNumber;
-            return dismissal;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства From.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.DateTime From
-        {
-            get
-            {
-                return this._From;
-            }
-            set
-            {
-                this.OnFromChanging(value);
-                this.ReportPropertyChanging("From");
-                this._From = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("From");
-                this.OnFromChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.DateTime _From;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnFromChanging(global::System.DateTime value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnFromChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства To.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.DateTime To
-        {
-            get
-            {
-                return this._To;
-            }
-            set
-            {
-                this.OnToChanging(value);
-                this.ReportPropertyChanging("To");
-                this._To = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("To");
-                this.OnToChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.DateTime _To;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnToChanging(global::System.DateTime value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnToChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства TroopNumber.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string TroopNumber
-        {
-            get
-            {
-                return this._TroopNumber;
-            }
-            set
-            {
-                this.OnTroopNumberChanging(value);
-                this.ReportPropertyChanging("TroopNumber");
-                this._TroopNumber = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("TroopNumber");
-                this.OnTroopNumberChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _TroopNumber;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnTroopNumberChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnTroopNumberChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Recruit.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "RecruitDismissal", "Recruit")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Recruit Recruit
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitDismissal", "Recruit").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitDismissal", "Recruit").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Proxy>("FormGeneralModel.FK_ProxySquad", "Proxy").Value = value;
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Recruit.
+        /// В схеме отсутствуют комментарии для Proxy.
         /// </summary>
         [global::System.ComponentModel.BrowsableAttribute(false)]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Recruit> RecruitReference
+        public global::System.Data.Objects.DataClasses.EntityReference<Proxy> ProxyReference
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitDismissal", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Proxy>("FormGeneralModel.FK_ProxySquad", "Proxy");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.RecruitDismissal", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Proxy>("FormGeneralModel.FK_ProxySquad", "Proxy", value);
                 }
             }
         }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.SelfDesiredAbsence.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="SelfDesiredAbsence")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class SelfDesiredAbsence : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект SelfDesiredAbsence.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="from">Начальное значение From.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static SelfDesiredAbsence CreateSelfDesiredAbsence(int id, global::System.DateTime from)
-        {
-            SelfDesiredAbsence selfDesiredAbsence = new SelfDesiredAbsence();
-            selfDesiredAbsence.ID = id;
-            selfDesiredAbsence.From = from;
-            return selfDesiredAbsence;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства From.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.DateTime From
-        {
-            get
-            {
-                return this._From;
-            }
-            set
-            {
-                this.OnFromChanging(value);
-                this.ReportPropertyChanging("From");
-                this._From = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("From");
-                this.OnFromChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.DateTime _From;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnFromChanging(global::System.DateTime value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnFromChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства To.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.Nullable<global::System.DateTime> To
-        {
-            get
-            {
-                return this._To;
-            }
-            set
-            {
-                this.OnToChanging(value);
-                this.ReportPropertyChanging("To");
-                this._To = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("To");
-                this.OnToChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.Nullable<global::System.DateTime> _To;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnToChanging(global::System.Nullable<global::System.DateTime> value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnToChanged();
         /// <summary>
         /// В схеме отсутствуют комментарии для Recruit.
         /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "RecruitSelfDesiredAbsence", "Recruit")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Recruit Recruit
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitSelfDesiredAbsence", "Recruit").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitSelfDesiredAbsence", "Recruit").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Recruit.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Recruit> RecruitReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Recruit>("FormGeneralModel.RecruitSelfDesiredAbsence", "Recruit");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Recruit>("FormGeneralModel.RecruitSelfDesiredAbsence", "Recruit", value);
-                }
-            }
-        }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.Department.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Department")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class Department : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект Department.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="nameShort">Начальное значение NameShort.</param>
-        /// <param name="nameFull">Начальное значение NameFull.</param>
-        /// <param name="shortcut">Начальное значение Shortcut.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static Department CreateDepartment(int id, string nameShort, string nameFull, string shortcut)
-        {
-            Department department = new Department();
-            department.ID = id;
-            department.NameShort = nameShort;
-            department.NameFull = nameFull;
-            department.Shortcut = shortcut;
-            return department;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства NameShort.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string NameShort
-        {
-            get
-            {
-                return this._NameShort;
-            }
-            set
-            {
-                this.OnNameShortChanging(value);
-                this.ReportPropertyChanging("NameShort");
-                this._NameShort = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("NameShort");
-                this.OnNameShortChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _NameShort;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameShortChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameShortChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства NameFull.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string NameFull
-        {
-            get
-            {
-                return this._NameFull;
-            }
-            set
-            {
-                this.OnNameFullChanging(value);
-                this.ReportPropertyChanging("NameFull");
-                this._NameFull = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("NameFull");
-                this.OnNameFullChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _NameFull;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameFullChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNameFullChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Shortcut.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Shortcut
-        {
-            get
-            {
-                return this._Shortcut;
-            }
-            set
-            {
-                this.OnShortcutChanging(value);
-                this.ReportPropertyChanging("Shortcut");
-                this._Shortcut = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Shortcut");
-                this.OnShortcutChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Shortcut;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnShortcutChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnShortcutChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Recruit.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "DepartmentRecruit", "Recruit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SquadRecruit", "Recruit")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
@@ -7398,839 +8067,91 @@ namespace FormRevolution.EntityDataModel
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.DepartmentRecruit", "Recruit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Recruit>("FormGeneralModel.FK_SquadRecruit", "Recruit");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.DepartmentRecruit", "Recruit", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Recruit>("FormGeneralModel.FK_SquadRecruit", "Recruit", value);
                 }
             }
         }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.Proxy.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Proxy")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class Proxy : global::System.Data.Objects.DataClasses.EntityObject
-    {
         /// <summary>
-        /// Создайте новый объект Proxy.
+        /// В схеме отсутствуют комментарии для SquadDuty.
         /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="number">Начальное значение Number.</param>
-        /// <param name="date">Начальное значение Date.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static Proxy CreateProxy(int id, string number, global::System.DateTime date)
-        {
-            Proxy proxy = new Proxy();
-            proxy.ID = id;
-            proxy.Number = number;
-            proxy.Date = date;
-            return proxy;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Number.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Number
-        {
-            get
-            {
-                return this._Number;
-            }
-            set
-            {
-                this.OnNumberChanging(value);
-                this.ReportPropertyChanging("Number");
-                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Number");
-                this.OnNumberChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Number;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Date.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.DateTime Date
-        {
-            get
-            {
-                return this._Date;
-            }
-            set
-            {
-                this.OnDateChanging(value);
-                this.ReportPropertyChanging("Date");
-                this._Date = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("Date");
-                this.OnDateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.DateTime _Date;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnDateChanging(global::System.DateTime value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnDateChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства AgentOfficers.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int AgentOfficers
-        {
-            get
-            {
-                return this._AgentOfficers;
-            }
-            set
-            {
-                this.OnAgentOfficersChanging(value);
-                this.ReportPropertyChanging("AgentOfficers");
-                this._AgentOfficers = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("AgentOfficers");
-                this.OnAgentOfficersChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _AgentOfficers;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnAgentOfficersChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnAgentOfficersChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства AgentSemiOfficers.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int AgentSemiOfficers
-        {
-            get
-            {
-                return this._AgentSemiOfficers;
-            }
-            set
-            {
-                this.OnAgentSemiOfficersChanging(value);
-                this.ReportPropertyChanging("AgentSemiOfficers");
-                this._AgentSemiOfficers = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("AgentSemiOfficers");
-                this.OnAgentSemiOfficersChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _AgentSemiOfficers;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnAgentSemiOfficersChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnAgentSemiOfficersChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства AgentSoldiers.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int AgentSoldiers
-        {
-            get
-            {
-                return this._AgentSoldiers;
-            }
-            set
-            {
-                this.OnAgentSoldiersChanging(value);
-                this.ReportPropertyChanging("AgentSoldiers");
-                this._AgentSoldiers = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("AgentSoldiers");
-                this.OnAgentSoldiersChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _AgentSoldiers;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnAgentSoldiersChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnAgentSoldiersChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squads.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "ProxySquad", "Squad")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SquadDutySquad", "SquadDuty")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Squad> Squads
+        public SquadDuty SquadDuty
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squad>("FormGeneralModel.ProxySquad", "Squad");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SquadDuty>("FormGeneralModel.FK_SquadDutySquad", "SquadDuty").Value;
             }
             set
             {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squad>("FormGeneralModel.ProxySquad", "Squad", value);
-                }
-            }
-        }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.OrderWare.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="OrderWare")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class OrderWare : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект OrderWare.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="number">Начальное значение Number.</param>
-        /// <param name="date">Начальное значение Date.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static OrderWare CreateOrderWare(int id, int number, global::System.DateTime date)
-        {
-            OrderWare orderWare = new OrderWare();
-            orderWare.ID = id;
-            orderWare.Number = number;
-            orderWare.Date = date;
-            return orderWare;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Number.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int Number
-        {
-            get
-            {
-                return this._Number;
-            }
-            set
-            {
-                this.OnNumberChanging(value);
-                this.ReportPropertyChanging("Number");
-                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("Number");
-                this.OnNumberChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _Number;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Date.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public global::System.DateTime Date
-        {
-            get
-            {
-                return this._Date;
-            }
-            set
-            {
-                this.OnDateChanging(value);
-                this.ReportPropertyChanging("Date");
-                this._Date = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("Date");
-                this.OnDateChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private global::System.DateTime _Date;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnDateChanging(global::System.DateTime value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnDateChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squad.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "OrderWareSquad", "Troop")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Squad Squad
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squad>("FormGeneralModel.OrderWareSquad", "Troop").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squad>("FormGeneralModel.OrderWareSquad", "Troop").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SquadDuty>("FormGeneralModel.FK_SquadDutySquad", "SquadDuty").Value = value;
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для Squad.
+        /// В схеме отсутствуют комментарии для SquadDuty.
         /// </summary>
         [global::System.ComponentModel.BrowsableAttribute(false)]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Squad> SquadReference
+        public global::System.Data.Objects.DataClasses.EntityReference<SquadDuty> SquadDutyReference
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squad>("FormGeneralModel.OrderWareSquad", "Troop");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<SquadDuty>("FormGeneralModel.FK_SquadDutySquad", "SquadDuty");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Squad>("FormGeneralModel.OrderWareSquad", "Troop", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<SquadDuty>("FormGeneralModel.FK_SquadDutySquad", "SquadDuty", value);
                 }
             }
         }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.Squadron.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Squadron")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class Squadron : global::System.Data.Objects.DataClasses.EntityObject
-    {
         /// <summary>
-        /// Создайте новый объект Squadron.
+        /// В схеме отсутствуют комментарии для Squadron.
         /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="number">Начальное значение Number.</param>
-        /// <param name="isCentral">Начальное значение IsCentral.</param>
-        /// <param name="isLocal">Начальное значение IsLocal.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static Squadron CreateSquadron(int id, string number, bool isCentral, bool isLocal)
-        {
-            Squadron squadron = new Squadron();
-            squadron.ID = id;
-            squadron.Number = number;
-            squadron.IsCentral = isCentral;
-            squadron.IsLocal = isLocal;
-            return squadron;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Number.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Number
-        {
-            get
-            {
-                return this._Number;
-            }
-            set
-            {
-                this.OnNumberChanging(value);
-                this.ReportPropertyChanging("Number");
-                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Number");
-                this.OnNumberChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Number;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства IsCentral.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public bool IsCentral
-        {
-            get
-            {
-                return this._IsCentral;
-            }
-            set
-            {
-                this.OnIsCentralChanging(value);
-                this.ReportPropertyChanging("IsCentral");
-                this._IsCentral = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("IsCentral");
-                this.OnIsCentralChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private bool _IsCentral;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIsCentralChanging(bool value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIsCentralChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства IsLocal.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public bool IsLocal
-        {
-            get
-            {
-                return this._IsLocal;
-            }
-            set
-            {
-                this.OnIsLocalChanging(value);
-                this.ReportPropertyChanging("IsLocal");
-                this._IsLocal = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("IsLocal");
-                this.OnIsLocalChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private bool _IsLocal;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIsLocalChanging(bool value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIsLocalChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryUnit.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "MilitaryUnitSquadron", "MilitaryUnit")]
+        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "FK_SquadronSquad", "Squadron")]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Xml.Serialization.XmlIgnoreAttribute()]
         [global::System.Xml.Serialization.SoapIgnoreAttribute()]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public MilitaryUnit MilitaryUnit
+        public Squadron Squadron
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.MilitaryUnitSquadron", "MilitaryUnit").Value;
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squadron>("FormGeneralModel.FK_SquadronSquad", "Squadron").Value;
             }
             set
             {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.MilitaryUnitSquadron", "MilitaryUnit").Value = value;
+                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squadron>("FormGeneralModel.FK_SquadronSquad", "Squadron").Value = value;
             }
         }
         /// <summary>
-        /// В схеме отсутствуют комментарии для MilitaryUnit.
+        /// В схеме отсутствуют комментарии для Squadron.
         /// </summary>
         [global::System.ComponentModel.BrowsableAttribute(false)]
         [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
         [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<MilitaryUnit> MilitaryUnitReference
+        public global::System.Data.Objects.DataClasses.EntityReference<Squadron> SquadronReference
         {
             get
             {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<MilitaryUnit>("FormGeneralModel.MilitaryUnitSquadron", "MilitaryUnit");
+                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Squadron>("FormGeneralModel.FK_SquadronSquad", "Squadron");
             }
             set
             {
                 if ((value != null))
                 {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<MilitaryUnit>("FormGeneralModel.MilitaryUnitSquadron", "MilitaryUnit", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squads.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SquadronSquad", "Squad")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Squad> Squads
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squad>("FormGeneralModel.SquadronSquad", "Squad");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squad>("FormGeneralModel.SquadronSquad", "Squad", value);
-                }
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Season.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SeasonSquadron", "Season")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public Season Season
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Season>("FormGeneralModel.SeasonSquadron", "Season").Value;
-            }
-            set
-            {
-                ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Season>("FormGeneralModel.SeasonSquadron", "Season").Value = value;
-            }
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Season.
-        /// </summary>
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityReference<Season> SeasonReference
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedReference<Season>("FormGeneralModel.SeasonSquadron", "Season");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Season>("FormGeneralModel.SeasonSquadron", "Season", value);
-                }
-            }
-        }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.Season.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Season")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class Season : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект Season.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="year">Начальное значение Year.</param>
-        /// <param name="number">Начальное значение Number.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static Season CreateSeason(int id, string year, string number)
-        {
-            Season season = new Season();
-            season.ID = id;
-            season.Year = year;
-            season.Number = number;
-            return season;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Year.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Year
-        {
-            get
-            {
-                return this._Year;
-            }
-            set
-            {
-                this.OnYearChanging(value);
-                this.ReportPropertyChanging("Year");
-                this._Year = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Year");
-                this.OnYearChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Year;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnYearChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnYearChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Number.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Number
-        {
-            get
-            {
-                return this._Number;
-            }
-            set
-            {
-                this.OnNumberChanging(value);
-                this.ReportPropertyChanging("Number");
-                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Number");
-                this.OnNumberChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Number;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squadrons.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "SeasonSquadron", "Squadron")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Squadron> Squadrons
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squadron>("FormGeneralModel.SeasonSquadron", "Squadron");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squadron>("FormGeneralModel.SeasonSquadron", "Squadron", value);
-                }
-            }
-        }
-    }
-    /// <summary>
-    /// В схеме отсутствуют комментарии для FormGeneralModel.Echelon.
-    /// </summary>
-    /// <KeyProperties>
-    /// ID
-    /// </KeyProperties>
-    [global::System.Data.Objects.DataClasses.EdmEntityTypeAttribute(NamespaceName="FormGeneralModel", Name="Echelon")]
-    [global::System.Runtime.Serialization.DataContractAttribute(IsReference=true)]
-    [global::System.Serializable()]
-    public partial class Echelon : global::System.Data.Objects.DataClasses.EntityObject
-    {
-        /// <summary>
-        /// Создайте новый объект Echelon.
-        /// </summary>
-        /// <param name="id">Начальное значение ID.</param>
-        /// <param name="number">Начальное значение Number.</param>
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public static Echelon CreateEchelon(int id, string number)
-        {
-            Echelon echelon = new Echelon();
-            echelon.ID = id;
-            echelon.Number = number;
-            return echelon;
-        }
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства ID.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public int ID
-        {
-            get
-            {
-                return this._ID;
-            }
-            set
-            {
-                this.OnIDChanging(value);
-                this.ReportPropertyChanging("ID");
-                this._ID = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value);
-                this.ReportPropertyChanged("ID");
-                this.OnIDChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private int _ID;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanging(int value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnIDChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для свойства Number.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmScalarPropertyAttribute(IsNullable=false)]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        public string Number
-        {
-            get
-            {
-                return this._Number;
-            }
-            set
-            {
-                this.OnNumberChanging(value);
-                this.ReportPropertyChanging("Number");
-                this._Number = global::System.Data.Objects.DataClasses.StructuralObject.SetValidValue(value, false);
-                this.ReportPropertyChanged("Number");
-                this.OnNumberChanged();
-            }
-        }
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        private string _Number;
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanging(string value);
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        partial void OnNumberChanged();
-        /// <summary>
-        /// В схеме отсутствуют комментарии для Squads.
-        /// </summary>
-        [global::System.Data.Objects.DataClasses.EdmRelationshipNavigationPropertyAttribute("FormGeneralModel", "EchelonSquad", "Squad")]
-        [global::System.CodeDom.Compiler.GeneratedCode("System.Data.Entity.Design.EntityClassGenerator", "4.0.0.0")]
-        [global::System.Xml.Serialization.XmlIgnoreAttribute()]
-        [global::System.Xml.Serialization.SoapIgnoreAttribute()]
-        [global::System.Runtime.Serialization.DataMemberAttribute()]
-        public global::System.Data.Objects.DataClasses.EntityCollection<Squad> Squads
-        {
-            get
-            {
-                return ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.GetRelatedCollection<Squad>("FormGeneralModel.EchelonSquad", "Squad");
-            }
-            set
-            {
-                if ((value != null))
-                {
-                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedCollection<Squad>("FormGeneralModel.EchelonSquad", "Squad", value);
+                    ((global::System.Data.Objects.DataClasses.IEntityWithRelationships)(this)).RelationshipManager.InitializeRelatedReference<Squadron>("FormGeneralModel.FK_SquadronSquad", "Squadron", value);
                 }
             }
         }
