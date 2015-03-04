@@ -214,4 +214,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-FormDatabasesMerge/bin/Debug/FormDatabasesMerge.exe
+#FormDatabasesMerge/bin/Debug/FormDatabasesMerge.exe
+_UpgradeReport_Files/
+Backup/
+FormDatabasesMerge/bin/
