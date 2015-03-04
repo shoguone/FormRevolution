@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, and Azure
 -- --------------------------------------------------
--- Date Created: 12/14/2014 16:49:05
--- Generated from EDMX file: Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormRevolution v2\FormRevolution\EntityDataModel\MSModel.edmx
+-- Date Created: 03/04/2015 15:01:14
+-- Generated from EDMX file: D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\EntityDataModel\MSModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -17,6 +17,99 @@ GO
 -- Dropping existing FOREIGN KEY constraints
 -- --------------------------------------------------
 
+IF OBJECT_ID(N'[dbo].[FK_MilitaryDistrictStation]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Station] DROP CONSTRAINT [FK_MilitaryDistrictStation];
+GO
+IF OBJECT_ID(N'[dbo].[FK_RailroadStation]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Station] DROP CONSTRAINT [FK_RailroadStation];
+GO
+IF OBJECT_ID(N'[dbo].[FK_PhoneMilitaryUnit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Phone] DROP CONSTRAINT [FK_PhoneMilitaryUnit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_MilitaryForcesMilitaryUnit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[MilitaryUnit] DROP CONSTRAINT [FK_MilitaryForcesMilitaryUnit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_MilitaryTitleMilitaryCertificate]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[MilitaryCertificate] DROP CONSTRAINT [FK_MilitaryTitleMilitaryCertificate];
+GO
+IF OBJECT_ID(N'[dbo].[FK_MilitaryUnitDeputy]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Deputy] DROP CONSTRAINT [FK_MilitaryUnitDeputy];
+GO
+IF OBJECT_ID(N'[dbo].[FK_DeputyMilitaryCertificate]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[MilitaryCertificate] DROP CONSTRAINT [FK_DeputyMilitaryCertificate];
+GO
+IF OBJECT_ID(N'[dbo].[FK_PassportRecruit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Passport] DROP CONSTRAINT [FK_PassportRecruit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_MarriagePassport]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Passport] DROP CONSTRAINT [FK_MarriagePassport];
+GO
+IF OBJECT_ID(N'[dbo].[FK_TroopRecruit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Recruit] DROP CONSTRAINT [FK_TroopRecruit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_SportCategoryEvolution]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_SportCategoryEvolution];
+GO
+IF OBJECT_ID(N'[dbo].[FK_SportTypeEvolution]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_SportTypeEvolution];
+GO
+IF OBJECT_ID(N'[dbo].[FK_ActivityEvolution]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_ActivityEvolution];
+GO
+IF OBJECT_ID(N'[dbo].[FK_EducationEvolution]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_EducationEvolution];
+GO
+IF OBJECT_ID(N'[dbo].[FK_DutyFormEvolution]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_DutyFormEvolution];
+GO
+IF OBJECT_ID(N'[dbo].[FK_BadRegistryEvolution]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_BadRegistryEvolution];
+GO
+IF OBJECT_ID(N'[dbo].[FK_ParentsEvolution]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_ParentsEvolution];
+GO
+IF OBJECT_ID(N'[dbo].[FK_SpecialityEvolution]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_SpecialityEvolution];
+GO
+IF OBJECT_ID(N'[dbo].[FK_MedicineRecruit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Medicine] DROP CONSTRAINT [FK_MedicineRecruit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_DriverLicenseRecruit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[DriverLicense] DROP CONSTRAINT [FK_DriverLicenseRecruit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_MilitaryCardRecruit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[MilitaryCard] DROP CONSTRAINT [FK_MilitaryCardRecruit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_TokenRecruit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Recruit] DROP CONSTRAINT [FK_TokenRecruit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_PermissionRecruit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Recruit] DROP CONSTRAINT [FK_PermissionRecruit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_OrderSoldierTroop]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Troop] DROP CONSTRAINT [FK_OrderSoldierTroop];
+GO
+IF OBJECT_ID(N'[dbo].[FK_MilitaryUnitTroop]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Troop] DROP CONSTRAINT [FK_MilitaryUnitTroop];
+GO
+IF OBJECT_ID(N'[dbo].[FK_DeputyTroop]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Troop] DROP CONSTRAINT [FK_DeputyTroop];
+GO
+IF OBJECT_ID(N'[dbo].[FK_DutyFormTroopDuty]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[TroopDuty] DROP CONSTRAINT [FK_DutyFormTroopDuty];
+GO
+IF OBJECT_ID(N'[dbo].[FK_SpecialityTroopDuty_Speciality]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[SpecialityTroopDuty] DROP CONSTRAINT [FK_SpecialityTroopDuty_Speciality];
+GO
+IF OBJECT_ID(N'[dbo].[FK_SpecialityTroopDuty_TroopDuty]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[SpecialityTroopDuty] DROP CONSTRAINT [FK_SpecialityTroopDuty_TroopDuty];
+GO
+IF OBJECT_ID(N'[dbo].[FK_EvolutionRecruit]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Evolution] DROP CONSTRAINT [FK_EvolutionRecruit];
+GO
+IF OBJECT_ID(N'[dbo].[FK_StationTroop]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Troop] DROP CONSTRAINT [FK_StationTroop];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -64,8 +157,8 @@ GO
 IF OBJECT_ID(N'[dbo].[MilitaryUnit]', 'U') IS NOT NULL
     DROP TABLE [dbo].[MilitaryUnit];
 GO
-IF OBJECT_ID(N'[dbo].[OrderBase]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[OrderBase];
+IF OBJECT_ID(N'[dbo].[OrderSoldier]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[OrderSoldier];
 GO
 IF OBJECT_ID(N'[dbo].[Parents]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Parents];
@@ -91,9 +184,6 @@ GO
 IF OBJECT_ID(N'[dbo].[Station]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Station];
 GO
-IF OBJECT_ID(N'[dbo].[TDT]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[TDT];
-GO
 IF OBJECT_ID(N'[dbo].[Token]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Token];
 GO
@@ -102,6 +192,18 @@ IF OBJECT_ID(N'[dbo].[Troop]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[TroopDuty]', 'U') IS NOT NULL
     DROP TABLE [dbo].[TroopDuty];
+GO
+IF OBJECT_ID(N'[dbo].[MilitaryForces]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[MilitaryForces];
+GO
+IF OBJECT_ID(N'[dbo].[SportCategory]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[SportCategory];
+GO
+IF OBJECT_ID(N'[dbo].[SportType]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[SportType];
+GO
+IF OBJECT_ID(N'[dbo].[SpecialityTroopDuty]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[SpecialityTroopDuty];
 GO
 
 -- --------------------------------------------------
@@ -125,8 +227,7 @@ GO
 -- Creating table 'Deputy'
 CREATE TABLE [dbo].[Deputy] (
     [ID] int IDENTITY(1,1) NOT NULL,
-    [Name] nvarchar(128)  NOT NULL,
-    [MilitaryUnit_ID] int  NOT NULL
+    [Name] nvarchar(128)  NOT NULL
 );
 GO
 
@@ -144,7 +245,9 @@ GO
 -- Creating table 'DutyForm'
 CREATE TABLE [dbo].[DutyForm] (
     [ID] int IDENTITY(1,1) NOT NULL,
-    [Name] nvarchar(128)  NOT NULL
+    [Name] nvarchar(128)  NOT NULL,
+    [PermissionForm] int  NOT NULL,
+    [TDT] int  NOT NULL
 );
 GO
 
@@ -196,8 +299,8 @@ CREATE TABLE [dbo].[Medicine] (
     [SizeVolume] int  NOT NULL,
     [SizeFeet] int  NOT NULL,
     [SizeHeight] int  NULL,
-    [Recruit_ID] int  NOT NULL,
-    [TDT_ID] int  NOT NULL
+    [TDT] nvarchar(max)  NOT NULL,
+    [Recruit_ID] int  NOT NULL
 );
 GO
 
@@ -245,7 +348,8 @@ CREATE TABLE [dbo].[MilitaryUnit] (
     [Name] nvarchar(16)  NOT NULL,
     [Zip] char(6)  NOT NULL,
     [Address] nvarchar(512)  NOT NULL,
-    [MilitaryForces_ID] int  NOT NULL
+    [MilitaryForces_ID] int  NOT NULL,
+    [Station_ID] int  NOT NULL
 );
 GO
 
@@ -273,9 +377,8 @@ CREATE TABLE [dbo].[Passport] (
     [Number] char(6)  NOT NULL,
     [ObtainDepartment] nvarchar(512)  NOT NULL,
     [ObtainDate] datetime  NOT NULL,
-    [MarriageStatus] int  NOT NULL,
     [Children] bit  NOT NULL,
-    [Recruit_ID] int  NOT NULL,
+    [OUFMS_Code] nvarchar(max)  NOT NULL,
     [Marriage_ID] int  NOT NULL
 );
 GO
@@ -311,18 +414,13 @@ CREATE TABLE [dbo].[Recruit] (
     [Surname] nvarchar(64)  NOT NULL,
     [Name] nvarchar(64)  NOT NULL,
     [Patronymic] nvarchar(64)  NULL,
-    [Department] nvarchar(256)  NOT NULL,
-    [IsDismissed] bit  NOT NULL,
-    [DismissalFrom] datetime  NULL,
-    [DismissalTo] datetime  NULL,
-    [DismissalTroop] nvarchar(10)  NULL,
-    [IsSelfDesiredAbsent] bit  NOT NULL,
-    [SelfDesiredAbsenceDate] datetime  NULL,
     [ArrivalDate] datetime  NOT NULL,
     [DepartureDate] datetime  NULL,
-    [Troop_ID] int  NOT NULL,
+    [Squad_ID] int  NOT NULL,
     [Token_ID] int  NULL,
-    [Permission_ID] int  NULL
+    [Permission_ID] int  NULL,
+    [Department_ID] int  NOT NULL,
+    [Passport_ID] int  NOT NULL
 );
 GO
 
@@ -342,22 +440,6 @@ CREATE TABLE [dbo].[Station] (
 );
 GO
 
--- Creating table 'TDT'
-CREATE TABLE [dbo].[TDT] (
-    [ID] int IDENTITY(1,1) NOT NULL,
-    [Column1] bit  NULL,
-    [Column2] bit  NULL,
-    [Column3] bit  NULL,
-    [Column4] bit  NULL,
-    [Column5] bit  NULL,
-    [Column6] bit  NULL,
-    [Column7] bit  NULL,
-    [Column8] bit  NULL,
-    [Column9] bit  NULL,
-    [Column10] bit  NULL
-);
-GO
-
 -- Creating table 'Token'
 CREATE TABLE [dbo].[Token] (
     [ID] int IDENTITY(1,1) NOT NULL,
@@ -371,38 +453,23 @@ CREATE TABLE [dbo].[Troop] (
     [ID] int IDENTITY(1,1) NOT NULL,
     [Name] nvarchar(64)  NULL,
     [Number] nvarchar(64)  NOT NULL,
-    [EchelonNumber] nvarchar(64)  NOT NULL,
     [DepartureDate] datetime  NOT NULL,
-    [ProxyNumber] nvarchar(64)  NOT NULL,
-    [ProxyDate] datetime  NOT NULL,
-    [AgentOfficers] int  NOT NULL,
-    [AgentSemiOfficers] int  NOT NULL,
-    [AgentSoldiers] int  NOT NULL,
-    [Overall] int  NOT NULL,
-    [Drivers] int  NOT NULL,
-    [MTLB] int  NOT NULL,
-    [AKPM] int  NOT NULL,
-    [Tractor] int  NOT NULL,
-    [Convicted] int  NOT NULL,
-    [Married] int  NOT NULL,
-    [Children] int  NOT NULL,
-    [Permission] int  NOT NULL,
     [Task] int  NOT NULL,
     [IsDeparted] bit  NOT NULL,
     [IsDressed] bit  NOT NULL,
     [IsDisplayed] bit  NOT NULL,
-    [IsCentral] bit  NOT NULL,
-    [IsLocal] bit  NOT NULL,
     [SupplyCount] int  NULL,
     [OrderSoldier_ID] int  NULL,
-    [MilitaryUnit_ID] int  NOT NULL,
     [Deputy_ID] int  NOT NULL,
-    [Station_ID] int  NOT NULL
+    [SquadDuty_ID] int  NOT NULL,
+    [Proxy_ID] int  NULL,
+    [Squadron_ID] int  NOT NULL,
+    [Echelon_ID] int  NULL
 );
 GO
 
--- Creating table 'TroopDuty'
-CREATE TABLE [dbo].[TroopDuty] (
+-- Creating table 'SquadDuty'
+CREATE TABLE [dbo].[SquadDuty] (
     [ID] int IDENTITY(1,1) NOT NULL,
     [MilitarySpecs1] nchar(6)  NULL,
     [MilitarySpecs2] nchar(6)  NULL,
@@ -432,19 +499,84 @@ CREATE TABLE [dbo].[SportType] (
 );
 GO
 
+-- Creating table 'Dismissal'
+CREATE TABLE [dbo].[Dismissal] (
+    [ID] int IDENTITY(1,1) NOT NULL,
+    [From] datetime  NOT NULL,
+    [To] datetime  NOT NULL,
+    [TroopNumber] nvarchar(max)  NOT NULL,
+    [Recruit_ID] int  NOT NULL
+);
+GO
+
+-- Creating table 'SelfDesiredAbsence'
+CREATE TABLE [dbo].[SelfDesiredAbsence] (
+    [ID] int IDENTITY(1,1) NOT NULL,
+    [From] datetime  NOT NULL,
+    [To] datetime  NULL,
+    [Recruit_ID] int  NOT NULL
+);
+GO
+
+-- Creating table 'Department'
+CREATE TABLE [dbo].[Department] (
+    [ID] int IDENTITY(1,1) NOT NULL,
+    [NameShort] nvarchar(max)  NOT NULL,
+    [NameFull] nvarchar(max)  NOT NULL,
+    [Shortcut] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'Proxy'
+CREATE TABLE [dbo].[Proxy] (
+    [ID] int IDENTITY(1,1) NOT NULL,
+    [Number] nvarchar(max)  NOT NULL,
+    [Date] datetime  NOT NULL,
+    [AgentOfficers] int  NOT NULL,
+    [AgentSemiOfficers] int  NOT NULL,
+    [AgentSoldiers] int  NOT NULL
+);
+GO
+
 -- Creating table 'OrderWare'
 CREATE TABLE [dbo].[OrderWare] (
     [ID] int IDENTITY(1,1) NOT NULL,
     [Number] int  NOT NULL,
     [Date] datetime  NOT NULL,
-    [Troop_ID] int  NOT NULL
+    [Squad_ID] int  NULL
 );
 GO
 
--- Creating table 'SpecialityTroopDuty'
-CREATE TABLE [dbo].[SpecialityTroopDuty] (
+-- Creating table 'Squadron'
+CREATE TABLE [dbo].[Squadron] (
+    [ID] int IDENTITY(1,1) NOT NULL,
+    [Number] nvarchar(max)  NOT NULL,
+    [IsCentral] bit  NOT NULL,
+    [IsLocal] bit  NOT NULL,
+    [MilitaryUnit_ID] int  NOT NULL,
+    [Season_ID] int  NOT NULL
+);
+GO
+
+-- Creating table 'Season'
+CREATE TABLE [dbo].[Season] (
+    [ID] int IDENTITY(1,1) NOT NULL,
+    [Year] nvarchar(max)  NOT NULL,
+    [Number] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'Echelon'
+CREATE TABLE [dbo].[Echelon] (
+    [ID] int IDENTITY(1,1) NOT NULL,
+    [Number] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'SpecialitySquadDuty'
+CREATE TABLE [dbo].[SpecialitySquadDuty] (
     [Specialities_ID] int  NOT NULL,
-    [TroopDuties_ID] int  NOT NULL
+    [SquadDuties_ID] int  NOT NULL
 );
 GO
 
@@ -590,12 +722,6 @@ ADD CONSTRAINT [PK_Station]
     PRIMARY KEY CLUSTERED ([ID] ASC);
 GO
 
--- Creating primary key on [ID] in table 'TDT'
-ALTER TABLE [dbo].[TDT]
-ADD CONSTRAINT [PK_TDT]
-    PRIMARY KEY CLUSTERED ([ID] ASC);
-GO
-
 -- Creating primary key on [ID] in table 'Token'
 ALTER TABLE [dbo].[Token]
 ADD CONSTRAINT [PK_Token]
@@ -608,9 +734,9 @@ ADD CONSTRAINT [PK_Troop]
     PRIMARY KEY CLUSTERED ([ID] ASC);
 GO
 
--- Creating primary key on [ID] in table 'TroopDuty'
-ALTER TABLE [dbo].[TroopDuty]
-ADD CONSTRAINT [PK_TroopDuty]
+-- Creating primary key on [ID] in table 'SquadDuty'
+ALTER TABLE [dbo].[SquadDuty]
+ADD CONSTRAINT [PK_SquadDuty]
     PRIMARY KEY CLUSTERED ([ID] ASC);
 GO
 
@@ -632,16 +758,58 @@ ADD CONSTRAINT [PK_SportType]
     PRIMARY KEY CLUSTERED ([ID] ASC);
 GO
 
+-- Creating primary key on [ID] in table 'Dismissal'
+ALTER TABLE [dbo].[Dismissal]
+ADD CONSTRAINT [PK_Dismissal]
+    PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
+-- Creating primary key on [ID] in table 'SelfDesiredAbsence'
+ALTER TABLE [dbo].[SelfDesiredAbsence]
+ADD CONSTRAINT [PK_SelfDesiredAbsence]
+    PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
+-- Creating primary key on [ID] in table 'Department'
+ALTER TABLE [dbo].[Department]
+ADD CONSTRAINT [PK_Department]
+    PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
+-- Creating primary key on [ID] in table 'Proxy'
+ALTER TABLE [dbo].[Proxy]
+ADD CONSTRAINT [PK_Proxy]
+    PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
 -- Creating primary key on [ID] in table 'OrderWare'
 ALTER TABLE [dbo].[OrderWare]
 ADD CONSTRAINT [PK_OrderWare]
     PRIMARY KEY CLUSTERED ([ID] ASC);
 GO
 
--- Creating primary key on [Specialities_ID], [TroopDuties_ID] in table 'SpecialityTroopDuty'
-ALTER TABLE [dbo].[SpecialityTroopDuty]
-ADD CONSTRAINT [PK_SpecialityTroopDuty]
-    PRIMARY KEY NONCLUSTERED ([Specialities_ID], [TroopDuties_ID] ASC);
+-- Creating primary key on [ID] in table 'Squadron'
+ALTER TABLE [dbo].[Squadron]
+ADD CONSTRAINT [PK_Squadron]
+    PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
+-- Creating primary key on [ID] in table 'Season'
+ALTER TABLE [dbo].[Season]
+ADD CONSTRAINT [PK_Season]
+    PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
+-- Creating primary key on [ID] in table 'Echelon'
+ALTER TABLE [dbo].[Echelon]
+ADD CONSTRAINT [PK_Echelon]
+    PRIMARY KEY CLUSTERED ([ID] ASC);
+GO
+
+-- Creating primary key on [Specialities_ID], [SquadDuties_ID] in table 'SpecialitySquadDuty'
+ALTER TABLE [dbo].[SpecialitySquadDuty]
+ADD CONSTRAINT [PK_SpecialitySquadDuty]
+    PRIMARY KEY NONCLUSTERED ([Specialities_ID], [SquadDuties_ID] ASC);
 GO
 
 -- --------------------------------------------------
@@ -718,20 +886,6 @@ ON [dbo].[MilitaryCertificate]
     ([MilitaryTitle_Rank]);
 GO
 
--- Creating foreign key on [MilitaryUnit_ID] in table 'Deputy'
-ALTER TABLE [dbo].[Deputy]
-ADD CONSTRAINT [FK_MilitaryUnitDeputy]
-    FOREIGN KEY ([MilitaryUnit_ID])
-    REFERENCES [dbo].[MilitaryUnit]
-        ([ID])
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
-
--- Creating non-clustered index for FOREIGN KEY 'FK_MilitaryUnitDeputy'
-CREATE INDEX [IX_FK_MilitaryUnitDeputy]
-ON [dbo].[Deputy]
-    ([MilitaryUnit_ID]);
-GO
-
 -- Creating foreign key on [Deputy_ID] in table 'MilitaryCertificate'
 ALTER TABLE [dbo].[MilitaryCertificate]
 ADD CONSTRAINT [FK_DeputyMilitaryCertificate]
@@ -744,20 +898,6 @@ ADD CONSTRAINT [FK_DeputyMilitaryCertificate]
 CREATE INDEX [IX_FK_DeputyMilitaryCertificate]
 ON [dbo].[MilitaryCertificate]
     ([Deputy_ID]);
-GO
-
--- Creating foreign key on [Recruit_ID] in table 'Passport'
-ALTER TABLE [dbo].[Passport]
-ADD CONSTRAINT [FK_PassportRecruit]
-    FOREIGN KEY ([Recruit_ID])
-    REFERENCES [dbo].[Recruit]
-        ([ID])
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
-
--- Creating non-clustered index for FOREIGN KEY 'FK_PassportRecruit'
-CREATE INDEX [IX_FK_PassportRecruit]
-ON [dbo].[Passport]
-    ([Recruit_ID]);
 GO
 
 -- Creating foreign key on [Marriage_ID] in table 'Passport'
@@ -774,18 +914,18 @@ ON [dbo].[Passport]
     ([Marriage_ID]);
 GO
 
--- Creating foreign key on [Troop_ID] in table 'Recruit'
+-- Creating foreign key on [Squad_ID] in table 'Recruit'
 ALTER TABLE [dbo].[Recruit]
-ADD CONSTRAINT [FK_TroopRecruit]
-    FOREIGN KEY ([Troop_ID])
+ADD CONSTRAINT [FK_SquadRecruit]
+    FOREIGN KEY ([Squad_ID])
     REFERENCES [dbo].[Troop]
         ([ID])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
--- Creating non-clustered index for FOREIGN KEY 'FK_TroopRecruit'
-CREATE INDEX [IX_FK_TroopRecruit]
+-- Creating non-clustered index for FOREIGN KEY 'FK_SquadRecruit'
+CREATE INDEX [IX_FK_SquadRecruit]
 ON [dbo].[Recruit]
-    ([Troop_ID]);
+    ([Squad_ID]);
 GO
 
 -- Creating foreign key on [SportCategory_ID] in table 'Evolution'
@@ -914,20 +1054,6 @@ ON [dbo].[Medicine]
     ([Recruit_ID]);
 GO
 
--- Creating foreign key on [TDT_ID] in table 'Medicine'
-ALTER TABLE [dbo].[Medicine]
-ADD CONSTRAINT [FK_TDTMedicine]
-    FOREIGN KEY ([TDT_ID])
-    REFERENCES [dbo].[TDT]
-        ([ID])
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
-
--- Creating non-clustered index for FOREIGN KEY 'FK_TDTMedicine'
-CREATE INDEX [IX_FK_TDTMedicine]
-ON [dbo].[Medicine]
-    ([TDT_ID]);
-GO
-
 -- Creating foreign key on [Recruit_ID] in table 'DriverLicense'
 ALTER TABLE [dbo].[DriverLicense]
 ADD CONSTRAINT [FK_DriverLicenseRecruit]
@@ -986,95 +1112,67 @@ GO
 
 -- Creating foreign key on [OrderSoldier_ID] in table 'Troop'
 ALTER TABLE [dbo].[Troop]
-ADD CONSTRAINT [FK_OrderSoldierTroop]
+ADD CONSTRAINT [FK_OrderSoldierSquad]
     FOREIGN KEY ([OrderSoldier_ID])
     REFERENCES [dbo].[OrderSoldier]
         ([ID])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
--- Creating non-clustered index for FOREIGN KEY 'FK_OrderSoldierTroop'
-CREATE INDEX [IX_FK_OrderSoldierTroop]
+-- Creating non-clustered index for FOREIGN KEY 'FK_OrderSoldierSquad'
+CREATE INDEX [IX_FK_OrderSoldierSquad]
 ON [dbo].[Troop]
     ([OrderSoldier_ID]);
 GO
 
--- Creating foreign key on [Troop_ID] in table 'OrderWare'
-ALTER TABLE [dbo].[OrderWare]
-ADD CONSTRAINT [FK_OrderWareTroop]
-    FOREIGN KEY ([Troop_ID])
-    REFERENCES [dbo].[Troop]
-        ([ID])
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
-
--- Creating non-clustered index for FOREIGN KEY 'FK_OrderWareTroop'
-CREATE INDEX [IX_FK_OrderWareTroop]
-ON [dbo].[OrderWare]
-    ([Troop_ID]);
-GO
-
--- Creating foreign key on [MilitaryUnit_ID] in table 'Troop'
-ALTER TABLE [dbo].[Troop]
-ADD CONSTRAINT [FK_MilitaryUnitTroop]
-    FOREIGN KEY ([MilitaryUnit_ID])
-    REFERENCES [dbo].[MilitaryUnit]
-        ([ID])
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
-
--- Creating non-clustered index for FOREIGN KEY 'FK_MilitaryUnitTroop'
-CREATE INDEX [IX_FK_MilitaryUnitTroop]
-ON [dbo].[Troop]
-    ([MilitaryUnit_ID]);
-GO
-
 -- Creating foreign key on [Deputy_ID] in table 'Troop'
 ALTER TABLE [dbo].[Troop]
-ADD CONSTRAINT [FK_DeputyTroop]
+ADD CONSTRAINT [FK_DeputySquad]
     FOREIGN KEY ([Deputy_ID])
     REFERENCES [dbo].[Deputy]
         ([ID])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
--- Creating non-clustered index for FOREIGN KEY 'FK_DeputyTroop'
-CREATE INDEX [IX_FK_DeputyTroop]
+-- Creating non-clustered index for FOREIGN KEY 'FK_DeputySquad'
+CREATE INDEX [IX_FK_DeputySquad]
 ON [dbo].[Troop]
     ([Deputy_ID]);
 GO
 
--- Creating foreign key on [DutyForm_ID] in table 'TroopDuty'
-ALTER TABLE [dbo].[TroopDuty]
-ADD CONSTRAINT [FK_DutyFormTroopDuty]
+-- Creating foreign key on [DutyForm_ID] in table 'SquadDuty'
+ALTER TABLE [dbo].[SquadDuty]
+ADD CONSTRAINT [FK_DutyFormSquadDuty]
     FOREIGN KEY ([DutyForm_ID])
     REFERENCES [dbo].[DutyForm]
         ([ID])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
--- Creating non-clustered index for FOREIGN KEY 'FK_DutyFormTroopDuty'
-CREATE INDEX [IX_FK_DutyFormTroopDuty]
-ON [dbo].[TroopDuty]
+-- Creating non-clustered index for FOREIGN KEY 'FK_DutyFormSquadDuty'
+CREATE INDEX [IX_FK_DutyFormSquadDuty]
+ON [dbo].[SquadDuty]
     ([DutyForm_ID]);
 GO
 
--- Creating foreign key on [Specialities_ID] in table 'SpecialityTroopDuty'
-ALTER TABLE [dbo].[SpecialityTroopDuty]
-ADD CONSTRAINT [FK_SpecialityTroopDuty_Speciality]
+-- Creating foreign key on [Specialities_ID] in table 'SpecialitySquadDuty'
+ALTER TABLE [dbo].[SpecialitySquadDuty]
+ADD CONSTRAINT [FK_SpecialitySquadDuty_Speciality]
     FOREIGN KEY ([Specialities_ID])
     REFERENCES [dbo].[Speciality]
         ([ID])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 GO
 
--- Creating foreign key on [TroopDuties_ID] in table 'SpecialityTroopDuty'
-ALTER TABLE [dbo].[SpecialityTroopDuty]
-ADD CONSTRAINT [FK_SpecialityTroopDuty_TroopDuty]
-    FOREIGN KEY ([TroopDuties_ID])
-    REFERENCES [dbo].[TroopDuty]
+-- Creating foreign key on [SquadDuties_ID] in table 'SpecialitySquadDuty'
+ALTER TABLE [dbo].[SpecialitySquadDuty]
+ADD CONSTRAINT [FK_SpecialitySquadDuty_SquadDuty]
+    FOREIGN KEY ([SquadDuties_ID])
+    REFERENCES [dbo].[SquadDuty]
         ([ID])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
--- Creating non-clustered index for FOREIGN KEY 'FK_SpecialityTroopDuty_TroopDuty'
-CREATE INDEX [IX_FK_SpecialityTroopDuty_TroopDuty]
-ON [dbo].[SpecialityTroopDuty]
-    ([TroopDuties_ID]);
+-- Creating non-clustered index for FOREIGN KEY 'FK_SpecialitySquadDuty_SquadDuty'
+CREATE INDEX [IX_FK_SpecialitySquadDuty_SquadDuty]
+ON [dbo].[SpecialitySquadDuty]
+    ([SquadDuties_ID]);
 GO
 
 -- Creating foreign key on [Recruit_ID] in table 'Evolution'
@@ -1091,18 +1189,172 @@ ON [dbo].[Evolution]
     ([Recruit_ID]);
 GO
 
--- Creating foreign key on [Station_ID] in table 'Troop'
+-- Creating foreign key on [SquadDuty_ID] in table 'Troop'
 ALTER TABLE [dbo].[Troop]
-ADD CONSTRAINT [FK_StationTroop]
+ADD CONSTRAINT [FK_SquadDutySquad]
+    FOREIGN KEY ([SquadDuty_ID])
+    REFERENCES [dbo].[SquadDuty]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_SquadDutySquad'
+CREATE INDEX [IX_FK_SquadDutySquad]
+ON [dbo].[Troop]
+    ([SquadDuty_ID]);
+GO
+
+-- Creating foreign key on [Recruit_ID] in table 'Dismissal'
+ALTER TABLE [dbo].[Dismissal]
+ADD CONSTRAINT [FK_RecruitDismissal]
+    FOREIGN KEY ([Recruit_ID])
+    REFERENCES [dbo].[Recruit]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_RecruitDismissal'
+CREATE INDEX [IX_FK_RecruitDismissal]
+ON [dbo].[Dismissal]
+    ([Recruit_ID]);
+GO
+
+-- Creating foreign key on [Recruit_ID] in table 'SelfDesiredAbsence'
+ALTER TABLE [dbo].[SelfDesiredAbsence]
+ADD CONSTRAINT [FK_RecruitSelfDesiredAbsence]
+    FOREIGN KEY ([Recruit_ID])
+    REFERENCES [dbo].[Recruit]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_RecruitSelfDesiredAbsence'
+CREATE INDEX [IX_FK_RecruitSelfDesiredAbsence]
+ON [dbo].[SelfDesiredAbsence]
+    ([Recruit_ID]);
+GO
+
+-- Creating foreign key on [Department_ID] in table 'Recruit'
+ALTER TABLE [dbo].[Recruit]
+ADD CONSTRAINT [FK_DepartmentRecruit]
+    FOREIGN KEY ([Department_ID])
+    REFERENCES [dbo].[Department]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_DepartmentRecruit'
+CREATE INDEX [IX_FK_DepartmentRecruit]
+ON [dbo].[Recruit]
+    ([Department_ID]);
+GO
+
+-- Creating foreign key on [Proxy_ID] in table 'Troop'
+ALTER TABLE [dbo].[Troop]
+ADD CONSTRAINT [FK_ProxySquad]
+    FOREIGN KEY ([Proxy_ID])
+    REFERENCES [dbo].[Proxy]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_ProxySquad'
+CREATE INDEX [IX_FK_ProxySquad]
+ON [dbo].[Troop]
+    ([Proxy_ID]);
+GO
+
+-- Creating foreign key on [Squad_ID] in table 'OrderWare'
+ALTER TABLE [dbo].[OrderWare]
+ADD CONSTRAINT [FK_OrderWareSquad]
+    FOREIGN KEY ([Squad_ID])
+    REFERENCES [dbo].[Troop]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_OrderWareSquad'
+CREATE INDEX [IX_FK_OrderWareSquad]
+ON [dbo].[OrderWare]
+    ([Squad_ID]);
+GO
+
+-- Creating foreign key on [Passport_ID] in table 'Recruit'
+ALTER TABLE [dbo].[Recruit]
+ADD CONSTRAINT [FK_RecruitPassport]
+    FOREIGN KEY ([Passport_ID])
+    REFERENCES [dbo].[Passport]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_RecruitPassport'
+CREATE INDEX [IX_FK_RecruitPassport]
+ON [dbo].[Recruit]
+    ([Passport_ID]);
+GO
+
+-- Creating foreign key on [MilitaryUnit_ID] in table 'Squadron'
+ALTER TABLE [dbo].[Squadron]
+ADD CONSTRAINT [FK_MilitaryUnitSquadron]
+    FOREIGN KEY ([MilitaryUnit_ID])
+    REFERENCES [dbo].[MilitaryUnit]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_MilitaryUnitSquadron'
+CREATE INDEX [IX_FK_MilitaryUnitSquadron]
+ON [dbo].[Squadron]
+    ([MilitaryUnit_ID]);
+GO
+
+-- Creating foreign key on [Station_ID] in table 'MilitaryUnit'
+ALTER TABLE [dbo].[MilitaryUnit]
+ADD CONSTRAINT [FK_StationMilitaryUnit]
     FOREIGN KEY ([Station_ID])
     REFERENCES [dbo].[Station]
         ([ID])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 
--- Creating non-clustered index for FOREIGN KEY 'FK_StationTroop'
-CREATE INDEX [IX_FK_StationTroop]
-ON [dbo].[Troop]
+-- Creating non-clustered index for FOREIGN KEY 'FK_StationMilitaryUnit'
+CREATE INDEX [IX_FK_StationMilitaryUnit]
+ON [dbo].[MilitaryUnit]
     ([Station_ID]);
+GO
+
+-- Creating foreign key on [Squadron_ID] in table 'Troop'
+ALTER TABLE [dbo].[Troop]
+ADD CONSTRAINT [FK_SquadronSquad]
+    FOREIGN KEY ([Squadron_ID])
+    REFERENCES [dbo].[Squadron]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_SquadronSquad'
+CREATE INDEX [IX_FK_SquadronSquad]
+ON [dbo].[Troop]
+    ([Squadron_ID]);
+GO
+
+-- Creating foreign key on [Season_ID] in table 'Squadron'
+ALTER TABLE [dbo].[Squadron]
+ADD CONSTRAINT [FK_SeasonSquadron]
+    FOREIGN KEY ([Season_ID])
+    REFERENCES [dbo].[Season]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_SeasonSquadron'
+CREATE INDEX [IX_FK_SeasonSquadron]
+ON [dbo].[Squadron]
+    ([Season_ID]);
+GO
+
+-- Creating foreign key on [Echelon_ID] in table 'Troop'
+ALTER TABLE [dbo].[Troop]
+ADD CONSTRAINT [FK_EchelonSquad]
+    FOREIGN KEY ([Echelon_ID])
+    REFERENCES [dbo].[Echelon]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_EchelonSquad'
+CREATE INDEX [IX_FK_EchelonSquad]
+ON [dbo].[Troop]
+    ([Echelon_ID]);
 GO
 
 -- --------------------------------------------------

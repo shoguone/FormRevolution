@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="FormGeneralModelStoreContainer" CdmEntityContainer="FormGeneralEntities">
+    <EntitySetMapping Name="Activity">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Activity)">
+        <MappingFragment StoreEntitySet="Activity">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BadRegistry">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.BadRegistry)">
+        <MappingFragment StoreEntitySet="BadRegistry">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Deputy">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Deputy)">
+        <MappingFragment StoreEntitySet="Deputy">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DriverLicense">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.DriverLicense)">
+        <MappingFragment StoreEntitySet="DriverLicense">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsROSTO" ColumnName="IsROSTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DutyForm">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.DutyForm)">
+        <MappingFragment StoreEntitySet="DutyForm">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Education">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Education)">
+        <MappingFragment StoreEntitySet="Education">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evolution">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Evolution)">
+        <MappingFragment StoreEntitySet="Evolution">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Competency" ColumnName="Competency" />
+          <ScalarProperty Name="NeuroPsyhicStability" ColumnName="NeuroPsyhicStability" />
+          <ScalarProperty Name="IsMarine" ColumnName="IsMarine" />
+          <ScalarProperty Name="Conviction" ColumnName="Conviction" />
+          <ScalarProperty Name="SpecialityTextual" ColumnName="SpecialityTextual" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marriage">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Marriage)">
+        <MappingFragment StoreEntitySet="Marriage">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Medicine">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Medicine)">
+        <MappingFragment StoreEntitySet="Medicine">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+          <ScalarProperty Name="Article" ColumnName="Article" />
+          <ScalarProperty Name="VisionR" ColumnName="VisionR" />
+          <ScalarProperty Name="VisionL" ColumnName="VisionL" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="SizeHead" ColumnName="SizeHead" />
+          <ScalarProperty Name="SizeVolume" ColumnName="SizeVolume" />
+          <ScalarProperty Name="SizeFeet" ColumnName="SizeFeet" />
+          <ScalarProperty Name="SizeHeight" ColumnName="SizeHeight" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MilitaryCard">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.MilitaryCard)">
+        <MappingFragment StoreEntitySet="MilitaryCard">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MilitaryCertificate">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.MilitaryCertificate)">
+        <MappingFragment StoreEntitySet="MilitaryCertificate">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IsMarine" ColumnName="IsMarine" />
+          <ScalarProperty Name="ObtainDepartment" ColumnName="ObtainDepartment" />
+          <ScalarProperty Name="ObtainDate" ColumnName="ObtainDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MilitaryDistrict">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.MilitaryDistrict)">
+        <MappingFragment StoreEntitySet="MilitaryDistrict">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MilitaryTitle">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.MilitaryTitle)">
+        <MappingFragment StoreEntitySet="MilitaryTitle">
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="Land" ColumnName="Land" />
+          <ScalarProperty Name="Marine" ColumnName="Marine" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MilitaryUnit">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.MilitaryUnit)">
+        <MappingFragment StoreEntitySet="MilitaryUnit">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderSoldier">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.OrderSoldier)">
+        <MappingFragment StoreEntitySet="OrderSoldier">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parents">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.FamilyStatus)">
+        <MappingFragment StoreEntitySet="Parents">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Passport">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Passport)">
+        <MappingFragment StoreEntitySet="Passport">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BirthPlace" ColumnName="BirthPlace" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="ObtainDepartment" ColumnName="ObtainDepartment" />
+          <ScalarProperty Name="ObtainDate" ColumnName="ObtainDate" />
+          <ScalarProperty Name="Children" ColumnName="Children" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Permission">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Permission)">
+        <MappingFragment StoreEntitySet="Permission">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Form" ColumnName="Form" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phone">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Phone)">
+        <MappingFragment StoreEntitySet="Phone">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Addressee" ColumnName="Addressee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Railroad">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Railroad)">
+        <MappingFragment StoreEntitySet="Railroad">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recruit">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Recruit)">
+        <MappingFragment StoreEntitySet="Recruit">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+          <ScalarProperty Name="ArrivalDate" ColumnName="ArrivalDate" />
+          <ScalarProperty Name="DepartureDate" ColumnName="DepartureDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Speciality">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Speciality)">
+        <MappingFragment StoreEntitySet="Speciality">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Station">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Station)">
+        <MappingFragment StoreEntitySet="Station">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Token">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Token)">
+        <MappingFragment StoreEntitySet="Token">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Troop">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.Squad)">
+        <MappingFragment StoreEntitySet="Troop">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="DepartureDate" ColumnName="DepartureDate" />
+          <ScalarProperty Name="Task" ColumnName="Task" />
+          <ScalarProperty Name="IsDeparted" ColumnName="IsDeparted" />
+          <ScalarProperty Name="IsDressed" ColumnName="IsDressed" />
+          <ScalarProperty Name="IsDisplayed" ColumnName="IsDisplayed" />
+          <ScalarProperty Name="SupplyCount" ColumnName="SupplyCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SquadDuty">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.SquadDuty)">
+        <MappingFragment StoreEntitySet="TroopDuty">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MilitarySpecs1" ColumnName="MilitarySpecs1" />
+          <ScalarProperty Name="MilitarySpecs2" ColumnName="MilitarySpecs2" />
+          <ScalarProperty Name="MilitarySpecs3" ColumnName="MilitarySpecs3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MilitaryForces">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.MilitaryForces)">
+        <MappingFragment StoreEntitySet="MilitaryForces">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SportCategory">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.SportCategory)">
+        <MappingFragment StoreEntitySet="SportCategory">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SportType">
+      <EntityTypeMapping TypeName="IsTypeOf(FormGeneralModel.SportType)">
+        <MappingFragment StoreEntitySet="SportType">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MilitaryDistrictStation" TypeName="FormGeneralModel.MilitaryDistrictStation" StoreEntitySet="Station">
+      <EndProperty Name="MilitaryDistrict">
+        <ScalarProperty Name="ID" ColumnName="MilitaryDistrict_ID" />
+      </EndProperty>
+      <EndProperty Name="Station">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="RailroadStation" TypeName="FormGeneralModel.RailroadStation" StoreEntitySet="Station">
+      <EndProperty Name="Railroad">
+        <ScalarProperty Name="ID" ColumnName="Railroad_ID" />
+      </EndProperty>
+      <EndProperty Name="Station">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PhoneMilitaryUnit" TypeName="FormGeneralModel.PhoneMilitaryUnit" StoreEntitySet="Phone">
+      <EndProperty Name="MilitaryUnit">
+        <ScalarProperty Name="ID" ColumnName="MilitaryUnit_ID" />
+      </EndProperty>
+      <EndProperty Name="Phone">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MilitaryForcesMilitaryUnit" TypeName="FormGeneralModel.MilitaryForcesMilitaryUnit" StoreEntitySet="MilitaryUnit">
+      <EndProperty Name="MilitaryForces">
+        <ScalarProperty Name="ID" ColumnName="MilitaryForces_ID" />
+      </EndProperty>
+      <EndProperty Name="MilitaryUnit">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MilitaryTitleMilitaryCertificate" TypeName="FormGeneralModel.MilitaryTitleMilitaryCertificate" StoreEntitySet="MilitaryCertificate">
+      <EndProperty Name="MilitaryTitle">
+        <ScalarProperty Name="Rank" ColumnName="MilitaryTitle_Rank" />
+      </EndProperty>
+      <EndProperty Name="MilitaryCertificate">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="DeputyMilitaryCertificate" TypeName="FormGeneralModel.DeputyMilitaryCertificate" StoreEntitySet="MilitaryCertificate">
+      <EndProperty Name="Deputy">
+        <ScalarProperty Name="ID" ColumnName="Deputy_ID" />
+      </EndProperty>
+      <EndProperty Name="MilitaryCertificate">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MarriagePassport" TypeName="FormGeneralModel.MarriagePassport" StoreEntitySet="Passport">
+      <EndProperty Name="Marriage">
+        <ScalarProperty Name="ID" ColumnName="Marriage_ID" />
+      </EndProperty>
+      <EndProperty Name="Passport">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SquadRecruit" TypeName="FormGeneralModel.SquadRecruit" StoreEntitySet="Recruit">
+      <EndProperty Name="Squad">
+        <ScalarProperty Name="ID" ColumnName="Troop_ID" />
+      </EndProperty>
+      <EndProperty Name="Recruit">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SportCategoryEvolution" TypeName="FormGeneralModel.SportCategoryEvolution" StoreEntitySet="Evolution">
+      <EndProperty Name="SportCategory">
+        <ScalarProperty Name="ID" ColumnName="SportCategory_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SportTypeEvolution" TypeName="FormGeneralModel.SportTypeEvolution" StoreEntitySet="Evolution">
+      <EndProperty Name="SportType">
+        <ScalarProperty Name="ID" ColumnName="SportType_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ActivityEvolution" TypeName="FormGeneralModel.ActivityEvolution" StoreEntitySet="Evolution">
+      <EndProperty Name="Activity">
+        <ScalarProperty Name="ID" ColumnName="Activity_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EducationEvolution" TypeName="FormGeneralModel.EducationEvolution" StoreEntitySet="Evolution">
+      <EndProperty Name="Education">
+        <ScalarProperty Name="ID" ColumnName="Education_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="DutyFormEvolution" TypeName="FormGeneralModel.DutyFormEvolution" StoreEntitySet="Evolution">
+      <EndProperty Name="DutyForm">
+        <ScalarProperty Name="ID" ColumnName="DutyForm_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="BadRegistryEvolution" TypeName="FormGeneralModel.BadRegistryEvolution" StoreEntitySet="Evolution">
+      <EndProperty Name="BadRegistry">
+        <ScalarProperty Name="ID" ColumnName="BadRegistry_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ParentsEvolution" TypeName="FormGeneralModel.ParentsEvolution" StoreEntitySet="Evolution">
+      <EndProperty Name="Parents">
+        <ScalarProperty Name="ID" ColumnName="Parents_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SpecialityEvolution" TypeName="FormGeneralModel.SpecialityEvolution" StoreEntitySet="Evolution">
+      <EndProperty Name="Speciality">
+        <ScalarProperty Name="ID" ColumnName="Speciality_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MedicineRecruit" TypeName="FormGeneralModel.MedicineRecruit" StoreEntitySet="Medicine">
+      <EndProperty Name="Recruit">
+        <ScalarProperty Name="ID" ColumnName="Recruit_ID" />
+      </EndProperty>
+      <EndProperty Name="Medicine">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="DriverLicenseRecruit" TypeName="FormGeneralModel.DriverLicenseRecruit" StoreEntitySet="DriverLicense">
+      <EndProperty Name="Recruit">
+        <ScalarProperty Name="ID" ColumnName="Recruit_ID" />
+      </EndProperty>
+      <EndProperty Name="DriverLicense">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <Condition ColumnName="Recruit_ID" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MilitaryCardRecruit" TypeName="FormGeneralModel.MilitaryCardRecruit" StoreEntitySet="MilitaryCard">
+      <EndProperty Name="Recruit">
+        <ScalarProperty Name="ID" ColumnName="Recruit_ID" />
+      </EndProperty>
+      <EndProperty Name="MilitaryCard">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TokenRecruit" TypeName="FormGeneralModel.TokenRecruit" StoreEntitySet="Recruit">
+      <EndProperty Name="Token">
+        <ScalarProperty Name="ID" ColumnName="Token_ID" />
+      </EndProperty>
+      <EndProperty Name="Recruit">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <Condition ColumnName="Token_ID" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PermissionRecruit" TypeName="FormGeneralModel.PermissionRecruit" StoreEntitySet="Recruit">
+      <EndProperty Name="Permission">
+        <ScalarProperty Name="ID" ColumnName="Permission_ID" />
+      </EndProperty>
+      <EndProperty Name="Recruit">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <Condition ColumnName="Permission_ID" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="OrderSoldierSquad" TypeName="FormGeneralModel.OrderSoldierSquad" StoreEntitySet="Troop">
+      <EndProperty Name="OrderSoldier">
+        <ScalarProperty Name="ID" ColumnName="OrderSoldier_ID" />
+      </EndProperty>
+      <EndProperty Name="Squad">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <Condition ColumnName="OrderSoldier_ID" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="DeputySquad" TypeName="FormGeneralModel.DeputySquad" StoreEntitySet="Troop">
+      <EndProperty Name="Deputy">
+        <ScalarProperty Name="ID" ColumnName="Deputy_ID" />
+      </EndProperty>
+      <EndProperty Name="Squad">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="DutyFormSquadDuty" TypeName="FormGeneralModel.DutyFormSquadDuty" StoreEntitySet="TroopDuty">
+      <EndProperty Name="DutyForm">
+        <ScalarProperty Name="ID" ColumnName="DutyForm_ID" />
+      </EndProperty>
+      <EndProperty Name="SquadDuty">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SpecialitySquadDuty" TypeName="FormGeneralModel.SpecialitySquadDuty" StoreEntitySet="SpecialityTroopDuty">
+      <EndProperty Name="Speciality">
+        <ScalarProperty Name="ID" ColumnName="Specialities_ID" />
+      </EndProperty>
+      <EndProperty Name="SquadDuty">
+        <ScalarProperty Name="ID" ColumnName="TroopDuties_ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EvolutionRecruit" TypeName="FormGeneralModel.EvolutionRecruit" StoreEntitySet="Evolution">
+      <EndProperty Name="Recruit">
+        <ScalarProperty Name="ID" ColumnName="Recruit_ID" />
+      </EndProperty>
+      <EndProperty Name="Evolution">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

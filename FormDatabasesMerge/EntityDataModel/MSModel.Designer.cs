@@ -49,7 +49,7 @@
 [assembly: global::System.Data.Objects.DataClasses.EdmRelationshipAttribute("FormGeneralModel", "EchelonSquad", "Echelon", global::System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(FormRevolution.EntityDataModel.Echelon), "Squad", global::System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(FormRevolution.EntityDataModel.Squad))]
 
 // Исходное имя файла:
-// Дата создания: 17.12.2014 8:25:05
+// Дата создания: 04.03.2015 15:01:30
 namespace FormRevolution.EntityDataModel
 {
     

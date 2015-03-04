@@ -1,3 +1,18 @@
 Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormRevolution\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe.config
 Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.exe
 Z:\Mash\WORD_TXT\Прикомандированный ЛС\VladimirAlemasov\Projects2010\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.pdb
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe.config
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.exe
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.pdb
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.exe
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\bin\Debug\FormDatabasesMerge.pdb
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\FormRevolution.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\SelectDBWindow.baml
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\SelectDBWindow.g.cs
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\App.g.cs
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge_Content.g.cs
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge_MarkupCompile.cache
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\FormDatabasesMerge.g.resources
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\FormRevolution.Properties.Resources.resources
+D:\Documents\GitHub\FormRevolution\FormDatabasesMerge\obj\Debug\FormRevolution.csproj.GenerateResource.Cache

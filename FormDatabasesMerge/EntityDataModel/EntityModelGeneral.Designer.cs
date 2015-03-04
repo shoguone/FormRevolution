@@ -12,7 +12,7 @@
 
 // Исходное имя файла:
 // Дата создания: 17.12.2014 8:24:58
-namespace FormRevolution.EntityDataModel
+namespace FormRevolution.EntityDataModel.GeneralDatabaseModel
 {
     
     /// <summary>

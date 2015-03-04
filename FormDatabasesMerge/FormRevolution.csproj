@@ -160,6 +160,9 @@
     </EntityDeploy>
     <None Include="Properties\DataSources\FormDatabasesMerge.EntityDataModel.EntityContextGeneral.datasource" />
     <None Include="Properties\DataSources\FormDatabasesMerge.EntityDataModel.EntityContextSingle.datasource" />
+    <None Include="Properties\DataSources\FormRevolution.EntityDataModel.FormGeneralEntities.datasource" />
+    <None Include="Properties\DataSources\FormRevolution.EntityDataModel.GeneralDatabaseModel.EntityContextGeneral.datasource" />
+    <None Include="Properties\DataSources\FormRevolution.EntityDataModel.SingleDatabaseModel.EntityContextSingle.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

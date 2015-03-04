@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FormGeneralModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityContainer Name="FormGeneralModelStoreContainer">
+    <EntitySet Name="Activity" EntityType="FormGeneralModel.Store.Activity" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BadRegistry" EntityType="FormGeneralModel.Store.BadRegistry" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Deputy" EntityType="FormGeneralModel.Store.Deputy" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DriverLicense" EntityType="FormGeneralModel.Store.DriverLicense" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DutyForm" EntityType="FormGeneralModel.Store.DutyForm" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Education" EntityType="FormGeneralModel.Store.Education" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Evolution" EntityType="FormGeneralModel.Store.Evolution" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Marriage" EntityType="FormGeneralModel.Store.Marriage" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Medicine" EntityType="FormGeneralModel.Store.Medicine" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MilitaryCard" EntityType="FormGeneralModel.Store.MilitaryCard" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MilitaryCertificate" EntityType="FormGeneralModel.Store.MilitaryCertificate" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MilitaryDistrict" EntityType="FormGeneralModel.Store.MilitaryDistrict" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MilitaryTitle" EntityType="FormGeneralModel.Store.MilitaryTitle" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MilitaryUnit" EntityType="FormGeneralModel.Store.MilitaryUnit" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OrderSoldier" EntityType="FormGeneralModel.Store.OrderSoldier" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Parents" EntityType="FormGeneralModel.Store.Parents" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Passport" EntityType="FormGeneralModel.Store.Passport" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Permission" EntityType="FormGeneralModel.Store.Permission" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Phone" EntityType="FormGeneralModel.Store.Phone" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Railroad" EntityType="FormGeneralModel.Store.Railroad" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Recruit" EntityType="FormGeneralModel.Store.Recruit" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Speciality" EntityType="FormGeneralModel.Store.Speciality" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Station" EntityType="FormGeneralModel.Store.Station" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Token" EntityType="FormGeneralModel.Store.Token" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Troop" EntityType="FormGeneralModel.Store.Troop" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TroopDuty" EntityType="FormGeneralModel.Store.TroopDuty" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MilitaryForces" EntityType="FormGeneralModel.Store.MilitaryForces" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SportCategory" EntityType="FormGeneralModel.Store.SportCategory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SportType" EntityType="FormGeneralModel.Store.SportType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SpecialityTroopDuty" EntityType="FormGeneralModel.Store.SpecialityTroopDuty" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="MilitaryDistrictStation" Association="FormGeneralModel.Store.MilitaryDistrictStation">
+      <End Role="MilitaryDistrict" EntitySet="MilitaryDistrict" />
+      <End Role="Station" EntitySet="Station" />
+    </AssociationSet>
+    <AssociationSet Name="RailroadStation" Association="FormGeneralModel.Store.RailroadStation">
+      <End Role="Railroad" EntitySet="Railroad" />
+      <End Role="Station" EntitySet="Station" />
+    </AssociationSet>
+    <AssociationSet Name="PhoneMilitaryUnit" Association="FormGeneralModel.Store.PhoneMilitaryUnit">
+      <End Role="Phone" EntitySet="Phone" />
+      <End Role="MilitaryUnit" EntitySet="MilitaryUnit" />
+    </AssociationSet>
+    <AssociationSet Name="MilitaryForcesMilitaryUnit" Association="FormGeneralModel.Store.MilitaryForcesMilitaryUnit">
+      <End Role="MilitaryForces" EntitySet="MilitaryForces" />
+      <End Role="MilitaryUnit" EntitySet="MilitaryUnit" />
+    </AssociationSet>
+    <AssociationSet Name="MilitaryTitleMilitaryCertificate" Association="FormGeneralModel.Store.MilitaryTitleMilitaryCertificate">
+      <End Role="MilitaryTitle" EntitySet="MilitaryTitle" />
+      <End Role="MilitaryCertificate" EntitySet="MilitaryCertificate" />
+    </AssociationSet>
+    <AssociationSet Name="MilitaryUnitDeputy" Association="FormGeneralModel.Store.MilitaryUnitDeputy">
+      <End Role="MilitaryUnit" EntitySet="MilitaryUnit" />
+      <End Role="Deputy" EntitySet="Deputy" />
+    </AssociationSet>
+    <AssociationSet Name="DeputyMilitaryCertificate" Association="FormGeneralModel.Store.DeputyMilitaryCertificate">
+      <End Role="Deputy" EntitySet="Deputy" />
+      <End Role="MilitaryCertificate" EntitySet="MilitaryCertificate" />
+    </AssociationSet>
+    <AssociationSet Name="PassportRecruit" Association="FormGeneralModel.Store.PassportRecruit">
+      <End Role="Passport" EntitySet="Passport" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="MarriagePassport" Association="FormGeneralModel.Store.MarriagePassport">
+      <End Role="Marriage" EntitySet="Marriage" />
+      <End Role="Passport" EntitySet="Passport" />
+    </AssociationSet>
+    <AssociationSet Name="TroopRecruit" Association="FormGeneralModel.Store.TroopRecruit">
+      <End Role="Troop" EntitySet="Troop" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="SportCategoryEvolution" Association="FormGeneralModel.Store.SportCategoryEvolution">
+      <End Role="SportCategory" EntitySet="SportCategory" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="SportTypeEvolution" Association="FormGeneralModel.Store.SportTypeEvolution">
+      <End Role="SportType" EntitySet="SportType" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="ActivityEvolution" Association="FormGeneralModel.Store.ActivityEvolution">
+      <End Role="Activity" EntitySet="Activity" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="EducationEvolution" Association="FormGeneralModel.Store.EducationEvolution">
+      <End Role="Education" EntitySet="Education" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="DutyFormEvolution" Association="FormGeneralModel.Store.DutyFormEvolution">
+      <End Role="DutyForm" EntitySet="DutyForm" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="BadRegistryEvolution" Association="FormGeneralModel.Store.BadRegistryEvolution">
+      <End Role="BadRegistry" EntitySet="BadRegistry" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="ParentsEvolution" Association="FormGeneralModel.Store.ParentsEvolution">
+      <End Role="Parents" EntitySet="Parents" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="SpecialityEvolution" Association="FormGeneralModel.Store.SpecialityEvolution">
+      <End Role="Speciality" EntitySet="Speciality" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="MedicineRecruit" Association="FormGeneralModel.Store.MedicineRecruit">
+      <End Role="Medicine" EntitySet="Medicine" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="DriverLicenseRecruit" Association="FormGeneralModel.Store.DriverLicenseRecruit">
+      <End Role="DriverLicense" EntitySet="DriverLicense" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="MilitaryCardRecruit" Association="FormGeneralModel.Store.MilitaryCardRecruit">
+      <End Role="MilitaryCard" EntitySet="MilitaryCard" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="TokenRecruit" Association="FormGeneralModel.Store.TokenRecruit">
+      <End Role="Token" EntitySet="Token" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="PermissionRecruit" Association="FormGeneralModel.Store.PermissionRecruit">
+      <End Role="Permission" EntitySet="Permission" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="OrderSoldierTroop" Association="FormGeneralModel.Store.OrderSoldierTroop">
+      <End Role="OrderSoldier" EntitySet="OrderSoldier" />
+      <End Role="Troop" EntitySet="Troop" />
+    </AssociationSet>
+    <AssociationSet Name="MilitaryUnitTroop" Association="FormGeneralModel.Store.MilitaryUnitTroop">
+      <End Role="MilitaryUnit" EntitySet="MilitaryUnit" />
+      <End Role="Troop" EntitySet="Troop" />
+    </AssociationSet>
+    <AssociationSet Name="DeputyTroop" Association="FormGeneralModel.Store.DeputyTroop">
+      <End Role="Deputy" EntitySet="Deputy" />
+      <End Role="Troop" EntitySet="Troop" />
+    </AssociationSet>
+    <AssociationSet Name="DutyFormTroopDuty" Association="FormGeneralModel.Store.DutyFormTroopDuty">
+      <End Role="DutyForm" EntitySet="DutyForm" />
+      <End Role="TroopDuty" EntitySet="TroopDuty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SpecialityTroopDuty_Speciality" Association="FormGeneralModel.Store.FK_SpecialityTroopDuty_Speciality">
+      <End Role="Speciality" EntitySet="Speciality" />
+      <End Role="SpecialityTroopDuty" EntitySet="SpecialityTroopDuty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SpecialityTroopDuty_TroopDuty" Association="FormGeneralModel.Store.FK_SpecialityTroopDuty_TroopDuty">
+      <End Role="TroopDuty" EntitySet="TroopDuty" />
+      <End Role="SpecialityTroopDuty" EntitySet="SpecialityTroopDuty" />
+    </AssociationSet>
+    <AssociationSet Name="EvolutionRecruit" Association="FormGeneralModel.Store.EvolutionRecruit">
+      <End Role="Evolution" EntitySet="Evolution" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="StationTroop" Association="FormGeneralModel.Store.StationTroop">
+      <End Role="Station" EntitySet="Station" />
+      <End Role="Troop" EntitySet="Troop" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="BadRegistry">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Deputy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="MilitaryUnit_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DriverLicense">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Serial" Type="nvarchar" Nullable="false" MaxLength="16" />
+    <Property Name="Number" Type="nvarchar" Nullable="false" MaxLength="16" />
+    <Property Name="Type" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="IsROSTO" Type="bit" Nullable="false" />
+    <Property Name="Recruit_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DutyForm">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Education">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Evolution">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Competency" Type="int" Nullable="false" />
+    <Property Name="NeuroPsyhicStability" Type="int" Nullable="false" />
+    <Property Name="IsMarine" Type="bit" Nullable="false" />
+    <Property Name="Conviction" Type="bit" Nullable="false" />
+    <Property Name="SpecialityTextual" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SportCategory_ID" Type="int" Nullable="false" />
+    <Property Name="SportType_ID" Type="int" Nullable="false" />
+    <Property Name="Activity_ID" Type="int" Nullable="false" />
+    <Property Name="Education_ID" Type="int" Nullable="false" />
+    <Property Name="DutyForm_ID" Type="int" Nullable="false" />
+    <Property Name="BadRegistry_ID" Type="int" Nullable="false" />
+    <Property Name="Parents_ID" Type="int" Nullable="false" />
+    <Property Name="Speciality_ID" Type="int" Nullable="false" />
+    <Property Name="Recruit_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Marriage">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Medicine">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Category" Type="int" Nullable="false" />
+    <Property Name="Degree" Type="int" Nullable="false" />
+    <Property Name="Article" Type="nvarchar" Nullable="false" MaxLength="64" />
+    <Property Name="VisionR" Type="float" Nullable="false" />
+    <Property Name="VisionL" Type="float" Nullable="false" />
+    <Property Name="Height" Type="int" Nullable="false" />
+    <Property Name="Weight" Type="int" Nullable="false" />
+    <Property Name="SizeHead" Type="int" Nullable="false" />
+    <Property Name="SizeVolume" Type="int" Nullable="false" />
+    <Property Name="SizeFeet" Type="int" Nullable="false" />
+    <Property Name="SizeHeight" Type="int" Nullable="true" />
+    <Property Name="Recruit_ID" Type="int" Nullable="false" />
+    <Property Name="TDT_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MilitaryCard">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Serial" Type="nchar" Nullable="false" MaxLength="2" />
+    <Property Name="Number" Type="nchar" Nullable="false" MaxLength="7" />
+    <Property Name="Recruit_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MilitaryCertificate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Post" Type="nvarchar" Nullable="false" MaxLength="512" />
+    <Property Name="Serial" Type="nchar" Nullable="false" MaxLength="2" />
+    <Property Name="Number" Type="nchar" Nullable="false" MaxLength="7" />
+    <Property Name="IsMarine" Type="bit" Nullable="false" />
+    <Property Name="ObtainDepartment" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ObtainDate" Type="datetime" Nullable="false" />
+    <Property Name="MilitaryTitle_Rank" Type="int" Nullable="false" />
+    <Property Name="Deputy_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MilitaryDistrict">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="MilitaryTitle">
+    <Key>
+      <PropertyRef Name="Rank" />
+    </Key>
+    <Property Name="Rank" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Land" Type="nvarchar" Nullable="false" MaxLength="64" />
+    <Property Name="Marine" Type="nvarchar" Nullable="false" MaxLength="64" />
+  </EntityType>
+  <EntityType Name="MilitaryUnit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="16" />
+    <Property Name="Zip" Type="char" Nullable="false" MaxLength="6" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="512" />
+    <Property Name="MilitaryForces_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderSoldier">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Parents">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Passport">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BirthPlace" Type="nvarchar" Nullable="false" MaxLength="512" />
+    <Property Name="BirthDate" Type="datetime" Nullable="false" />
+    <Property Name="Serial" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="Number" Type="char" Nullable="false" MaxLength="6" />
+    <Property Name="ObtainDepartment" Type="nvarchar" Nullable="false" MaxLength="512" />
+    <Property Name="ObtainDate" Type="datetime" Nullable="false" />
+    <Property Name="MarriageStatus" Type="int" Nullable="false" />
+    <Property Name="Children" Type="bit" Nullable="false" />
+    <Property Name="Recruit_ID" Type="int" Nullable="false" />
+    <Property Name="Marriage_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Permission">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Form" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="Number" Type="nvarchar" Nullable="false" MaxLength="16" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Phone">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Number" Type="nvarchar" Nullable="false" MaxLength="32" />
+    <Property Name="Addressee" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MilitaryUnit_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Railroad">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="Recruit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" Nullable="false" MaxLength="64" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="64" />
+    <Property Name="Patronymic" Type="nvarchar" Nullable="true" MaxLength="64" />
+    <Property Name="Department" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="IsDismissed" Type="bit" Nullable="false" />
+    <Property Name="DismissalFrom" Type="datetime" Nullable="true" />
+    <Property Name="DismissalTo" Type="datetime" Nullable="true" />
+    <Property Name="DismissalTroop" Type="nvarchar" Nullable="true" MaxLength="10" />
+    <Property Name="IsSelfDesiredAbsent" Type="bit" Nullable="false" />
+    <Property Name="SelfDesiredAbsenceDate" Type="datetime" Nullable="true" />
+    <Property Name="ArrivalDate" Type="datetime" Nullable="false" />
+    <Property Name="DepartureDate" Type="datetime" Nullable="true" />
+    <Property Name="Troop_ID" Type="int" Nullable="false" />
+    <Property Name="Token_ID" Type="int" Nullable="true" />
+    <Property Name="Permission_ID" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Speciality">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="Station">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="MilitaryDistrict_ID" Type="int" Nullable="false" />
+    <Property Name="Railroad_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Token">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Serial" Type="nchar" Nullable="false" MaxLength="2" />
+    <Property Name="Number" Type="nchar" Nullable="false" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="Troop">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="true" MaxLength="64" />
+    <Property Name="Number" Type="nvarchar" Nullable="false" MaxLength="64" />
+    <Property Name="EchelonNumber" Type="nvarchar" Nullable="false" MaxLength="64" />
+    <Property Name="DepartureDate" Type="datetime" Nullable="false" />
+    <Property Name="ProxyNumber" Type="nvarchar" Nullable="false" MaxLength="64" />
+    <Property Name="ProxyDate" Type="datetime" Nullable="false" />
+    <Property Name="AgentOfficers" Type="int" Nullable="false" />
+    <Property Name="AgentSemiOfficers" Type="int" Nullable="false" />
+    <Property Name="AgentSoldiers" Type="int" Nullable="false" />
+    <Property Name="Overall" Type="int" Nullable="false" />
+    <Property Name="Drivers" Type="int" Nullable="false" />
+    <Property Name="MTLB" Type="int" Nullable="false" />
+    <Property Name="AKPM" Type="int" Nullable="false" />
+    <Property Name="Tractor" Type="int" Nullable="false" />
+    <Property Name="Convicted" Type="int" Nullable="false" />
+    <Property Name="Married" Type="int" Nullable="false" />
+    <Property Name="Children" Type="int" Nullable="false" />
+    <Property Name="Permission" Type="int" Nullable="false" />
+    <Property Name="Task" Type="int" Nullable="false" />
+    <Property Name="IsDeparted" Type="bit" Nullable="false" />
+    <Property Name="IsDressed" Type="bit" Nullable="false" />
+    <Property Name="IsDisplayed" Type="bit" Nullable="false" />
+    <Property Name="IsCentral" Type="bit" Nullable="false" />
+    <Property Name="IsLocal" Type="bit" Nullable="false" />
+    <Property Name="SupplyCount" Type="int" Nullable="true" />
+    <Property Name="OrderSoldier_ID" Type="int" Nullable="true" />
+    <Property Name="MilitaryUnit_ID" Type="int" Nullable="false" />
+    <Property Name="Deputy_ID" Type="int" Nullable="false" />
+    <Property Name="Station_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TroopDuty">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MilitarySpecs1" Type="nchar" Nullable="true" MaxLength="6" />
+    <Property Name="MilitarySpecs2" Type="nchar" Nullable="true" MaxLength="6" />
+    <Property Name="MilitarySpecs3" Type="nchar" Nullable="true" MaxLength="6" />
+    <Property Name="DutyForm_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MilitaryForces">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SportCategory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SportType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SpecialityTroopDuty">
+    <Key>
+      <PropertyRef Name="Specialities_ID" />
+      <PropertyRef Name="TroopDuties_ID" />
+    </Key>
+    <Property Name="Specialities_ID" Type="int" Nullable="false" />
+    <Property Name="TroopDuties_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="MilitaryDistrictStation">
+    <End Role="MilitaryDistrict" Type="FormGeneralModel.Store.MilitaryDistrict" Multiplicity="1" />
+    <End Role="Station" Type="FormGeneralModel.Store.Station" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilitaryDistrict">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Station">
+        <PropertyRef Name="MilitaryDistrict_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RailroadStation">
+    <End Role="Railroad" Type="FormGeneralModel.Store.Railroad" Multiplicity="1" />
+    <End Role="Station" Type="FormGeneralModel.Store.Station" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Railroad">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Station">
+        <PropertyRef Name="Railroad_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PhoneMilitaryUnit">
+    <End Role="Phone" Type="FormGeneralModel.Store.Phone" Multiplicity="*" />
+    <End Role="MilitaryUnit" Type="FormGeneralModel.Store.MilitaryUnit" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="MilitaryUnit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Phone">
+        <PropertyRef Name="MilitaryUnit_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MilitaryForcesMilitaryUnit">
+    <End Role="MilitaryForces" Type="FormGeneralModel.Store.MilitaryForces" Multiplicity="1" />
+    <End Role="MilitaryUnit" Type="FormGeneralModel.Store.MilitaryUnit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilitaryForces">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MilitaryUnit">
+        <PropertyRef Name="MilitaryForces_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MilitaryTitleMilitaryCertificate">
+    <End Role="MilitaryTitle" Type="FormGeneralModel.Store.MilitaryTitle" Multiplicity="1" />
+    <End Role="MilitaryCertificate" Type="FormGeneralModel.Store.MilitaryCertificate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilitaryTitle">
+        <PropertyRef Name="Rank" />
+      </Principal>
+      <Dependent Role="MilitaryCertificate">
+        <PropertyRef Name="MilitaryTitle_Rank" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MilitaryUnitDeputy">
+    <End Role="MilitaryUnit" Type="FormGeneralModel.Store.MilitaryUnit" Multiplicity="1" />
+    <End Role="Deputy" Type="FormGeneralModel.Store.Deputy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilitaryUnit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Deputy">
+        <PropertyRef Name="MilitaryUnit_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DeputyMilitaryCertificate">
+    <End Role="Deputy" Type="FormGeneralModel.Store.Deputy" Multiplicity="1" />
+    <End Role="MilitaryCertificate" Type="FormGeneralModel.Store.MilitaryCertificate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Deputy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MilitaryCertificate">
+        <PropertyRef Name="Deputy_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PassportRecruit">
+    <End Role="Passport" Type="FormGeneralModel.Store.Passport" Multiplicity="*" />
+    <End Role="Recruit" Type="FormGeneralModel.Store.Recruit" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Recruit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Passport">
+        <PropertyRef Name="Recruit_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MarriagePassport">
+    <End Role="Marriage" Type="FormGeneralModel.Store.Marriage" Multiplicity="1" />
+    <End Role="Passport" Type="FormGeneralModel.Store.Passport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marriage">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Passport">
+        <PropertyRef Name="Marriage_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TroopRecruit">
+    <End Role="Troop" Type="FormGeneralModel.Store.Troop" Multiplicity="1" />
+    <End Role="Recruit" Type="FormGeneralModel.Store.Recruit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Troop">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Recruit">
+        <PropertyRef Name="Troop_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SportCategoryEvolution">
+    <End Role="SportCategory" Type="FormGeneralModel.Store.SportCategory" Multiplicity="1" />
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SportCategory">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="SportCategory_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SportTypeEvolution">
+    <End Role="SportType" Type="FormGeneralModel.Store.SportType" Multiplicity="1" />
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SportType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="SportType_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ActivityEvolution">
+    <End Role="Activity" Type="FormGeneralModel.Store.Activity" Multiplicity="1" />
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activity">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="Activity_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EducationEvolution">
+    <End Role="Education" Type="FormGeneralModel.Store.Education" Multiplicity="1" />
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Education">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="Education_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DutyFormEvolution">
+    <End Role="DutyForm" Type="FormGeneralModel.Store.DutyForm" Multiplicity="1" />
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DutyForm">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="DutyForm_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BadRegistryEvolution">
+    <End Role="BadRegistry" Type="FormGeneralModel.Store.BadRegistry" Multiplicity="1" />
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BadRegistry">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="BadRegistry_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ParentsEvolution">
+    <End Role="Parents" Type="FormGeneralModel.Store.Parents" Multiplicity="1" />
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parents">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="Parents_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SpecialityEvolution">
+    <End Role="Speciality" Type="FormGeneralModel.Store.Speciality" Multiplicity="1" />
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Speciality">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="Speciality_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MedicineRecruit">
+    <End Role="Medicine" Type="FormGeneralModel.Store.Medicine" Multiplicity="*" />
+    <End Role="Recruit" Type="FormGeneralModel.Store.Recruit" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Recruit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Medicine">
+        <PropertyRef Name="Recruit_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DriverLicenseRecruit">
+    <End Role="DriverLicense" Type="FormGeneralModel.Store.DriverLicense" Multiplicity="*" />
+    <End Role="Recruit" Type="FormGeneralModel.Store.Recruit" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Recruit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DriverLicense">
+        <PropertyRef Name="Recruit_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MilitaryCardRecruit">
+    <End Role="MilitaryCard" Type="FormGeneralModel.Store.MilitaryCard" Multiplicity="*" />
+    <End Role="Recruit" Type="FormGeneralModel.Store.Recruit" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Recruit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MilitaryCard">
+        <PropertyRef Name="Recruit_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TokenRecruit">
+    <End Role="Token" Type="FormGeneralModel.Store.Token" Multiplicity="0..1" />
+    <End Role="Recruit" Type="FormGeneralModel.Store.Recruit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Token">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Recruit">
+        <PropertyRef Name="Token_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PermissionRecruit">
+    <End Role="Permission" Type="FormGeneralModel.Store.Permission" Multiplicity="0..1" />
+    <End Role="Recruit" Type="FormGeneralModel.Store.Recruit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permission">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Recruit">
+        <PropertyRef Name="Permission_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OrderSoldierTroop">
+    <End Role="OrderSoldier" Type="FormGeneralModel.Store.OrderSoldier" Multiplicity="0..1" />
+    <End Role="Troop" Type="FormGeneralModel.Store.Troop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderSoldier">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Troop">
+        <PropertyRef Name="OrderSoldier_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MilitaryUnitTroop">
+    <End Role="MilitaryUnit" Type="FormGeneralModel.Store.MilitaryUnit" Multiplicity="1" />
+    <End Role="Troop" Type="FormGeneralModel.Store.Troop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilitaryUnit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Troop">
+        <PropertyRef Name="MilitaryUnit_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DeputyTroop">
+    <End Role="Deputy" Type="FormGeneralModel.Store.Deputy" Multiplicity="1" />
+    <End Role="Troop" Type="FormGeneralModel.Store.Troop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Deputy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Troop">
+        <PropertyRef Name="Deputy_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DutyFormTroopDuty">
+    <End Role="DutyForm" Type="FormGeneralModel.Store.DutyForm" Multiplicity="1" />
+    <End Role="TroopDuty" Type="FormGeneralModel.Store.TroopDuty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DutyForm">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TroopDuty">
+        <PropertyRef Name="DutyForm_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EvolutionRecruit">
+    <End Role="Evolution" Type="FormGeneralModel.Store.Evolution" Multiplicity="*" />
+    <End Role="Recruit" Type="FormGeneralModel.Store.Recruit" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Recruit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Evolution">
+        <PropertyRef Name="Recruit_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StationTroop">
+    <End Role="Station" Type="FormGeneralModel.Store.Station" Multiplicity="1" />
+    <End Role="Troop" Type="FormGeneralModel.Store.Troop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Station">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Troop">
+        <PropertyRef Name="Station_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SpecialityTroopDuty_Speciality">
+    <End Role="Speciality" Type="FormGeneralModel.Store.Speciality" Multiplicity="1" />
+    <End Role="SpecialityTroopDuty" Type="FormGeneralModel.Store.SpecialityTroopDuty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Speciality">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SpecialityTroopDuty">
+        <PropertyRef Name="Specialities_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SpecialityTroopDuty_TroopDuty">
+    <End Role="SpecialityTroopDuty" Type="FormGeneralModel.Store.SpecialityTroopDuty" Multiplicity="*" />
+    <End Role="TroopDuty" Type="FormGeneralModel.Store.TroopDuty" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="TroopDuty">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SpecialityTroopDuty">
+        <PropertyRef Name="TroopDuties_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

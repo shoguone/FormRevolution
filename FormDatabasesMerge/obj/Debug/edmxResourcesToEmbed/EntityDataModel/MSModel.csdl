@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FormGeneralModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+  <EntityContainer Name="FormGeneralEntities">
+    <EntitySet Name="Activity" EntityType="FormGeneralModel.Activity" />
+    <EntitySet Name="BadRegistry" EntityType="FormGeneralModel.BadRegistry" />
+    <EntitySet Name="Deputy" EntityType="FormGeneralModel.Deputy" />
+    <EntitySet Name="DriverLicense" EntityType="FormGeneralModel.DriverLicense" />
+    <EntitySet Name="DutyForm" EntityType="FormGeneralModel.DutyForm" />
+    <EntitySet Name="Education" EntityType="FormGeneralModel.Education" />
+    <EntitySet Name="Evolution" EntityType="FormGeneralModel.Evolution" />
+    <EntitySet Name="Marriage" EntityType="FormGeneralModel.Marriage" />
+    <EntitySet Name="Medicine" EntityType="FormGeneralModel.Medicine" />
+    <EntitySet Name="MilitaryCard" EntityType="FormGeneralModel.MilitaryCard" />
+    <EntitySet Name="MilitaryCertificate" EntityType="FormGeneralModel.MilitaryCertificate" />
+    <EntitySet Name="MilitaryDistrict" EntityType="FormGeneralModel.MilitaryDistrict" />
+    <EntitySet Name="MilitaryTitle" EntityType="FormGeneralModel.MilitaryTitle" />
+    <EntitySet Name="MilitaryUnit" EntityType="FormGeneralModel.MilitaryUnit" />
+    <EntitySet Name="OrderSoldier" EntityType="FormGeneralModel.OrderSoldier" />
+    <EntitySet Name="Parents" EntityType="FormGeneralModel.FamilyStatus" />
+    <EntitySet Name="Passport" EntityType="FormGeneralModel.Passport" />
+    <EntitySet Name="Permission" EntityType="FormGeneralModel.Permission" />
+    <EntitySet Name="Phone" EntityType="FormGeneralModel.Phone" />
+    <EntitySet Name="Railroad" EntityType="FormGeneralModel.Railroad" />
+    <EntitySet Name="Recruit" EntityType="FormGeneralModel.Recruit" />
+    <EntitySet Name="Speciality" EntityType="FormGeneralModel.Speciality" />
+    <EntitySet Name="Station" EntityType="FormGeneralModel.Station" />
+    <EntitySet Name="Token" EntityType="FormGeneralModel.Token" />
+    <EntitySet Name="Troop" EntityType="FormGeneralModel.Squad" />
+    <EntitySet Name="SquadDuty" EntityType="FormGeneralModel.SquadDuty" />
+    <AssociationSet Name="MilitaryDistrictStation" Association="FormGeneralModel.MilitaryDistrictStation">
+      <End Role="MilitaryDistrict" EntitySet="MilitaryDistrict" />
+      <End Role="Station" EntitySet="Station" />
+    </AssociationSet>
+    <AssociationSet Name="RailroadStation" Association="FormGeneralModel.RailroadStation">
+      <End Role="Railroad" EntitySet="Railroad" />
+      <End Role="Station" EntitySet="Station" />
+    </AssociationSet>
+    <AssociationSet Name="PhoneMilitaryUnit" Association="FormGeneralModel.PhoneMilitaryUnit">
+      <End Role="Phone" EntitySet="Phone" />
+      <End Role="MilitaryUnit" EntitySet="MilitaryUnit" />
+    </AssociationSet>
+    <EntitySet Name="MilitaryForces" EntityType="FormGeneralModel.MilitaryForces" />
+    <AssociationSet Name="MilitaryForcesMilitaryUnit" Association="FormGeneralModel.MilitaryForcesMilitaryUnit">
+      <End Role="MilitaryForces" EntitySet="MilitaryForces" />
+      <End Role="MilitaryUnit" EntitySet="MilitaryUnit" />
+    </AssociationSet>
+    <AssociationSet Name="MilitaryTitleMilitaryCertificate" Association="FormGeneralModel.MilitaryTitleMilitaryCertificate">
+      <End Role="MilitaryTitle" EntitySet="MilitaryTitle" />
+      <End Role="MilitaryCertificate" EntitySet="MilitaryCertificate" />
+    </AssociationSet>
+    <AssociationSet Name="DeputyMilitaryCertificate" Association="FormGeneralModel.DeputyMilitaryCertificate">
+      <End Role="Deputy" EntitySet="Deputy" />
+      <End Role="MilitaryCertificate" EntitySet="MilitaryCertificate" />
+    </AssociationSet>
+    <AssociationSet Name="MarriagePassport" Association="FormGeneralModel.MarriagePassport">
+      <End Role="Marriage" EntitySet="Marriage" />
+      <End Role="Passport" EntitySet="Passport" />
+    </AssociationSet>
+    <AssociationSet Name="SquadRecruit" Association="FormGeneralModel.SquadRecruit">
+      <End Role="Squad" EntitySet="Troop" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <EntitySet Name="SportCategory" EntityType="FormGeneralModel.SportCategory" />
+    <EntitySet Name="SportType" EntityType="FormGeneralModel.SportType" />
+    <AssociationSet Name="SportCategoryEvolution" Association="FormGeneralModel.SportCategoryEvolution">
+      <End Role="SportCategory" EntitySet="SportCategory" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="SportTypeEvolution" Association="FormGeneralModel.SportTypeEvolution">
+      <End Role="SportType" EntitySet="SportType" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="ActivityEvolution" Association="FormGeneralModel.ActivityEvolution">
+      <End Role="Activity" EntitySet="Activity" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="EducationEvolution" Association="FormGeneralModel.EducationEvolution">
+      <End Role="Education" EntitySet="Education" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="DutyFormEvolution" Association="FormGeneralModel.DutyFormEvolution">
+      <End Role="DutyForm" EntitySet="DutyForm" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="BadRegistryEvolution" Association="FormGeneralModel.BadRegistryEvolution">
+      <End Role="BadRegistry" EntitySet="BadRegistry" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="ParentsEvolution" Association="FormGeneralModel.ParentsEvolution">
+      <End Role="Parents" EntitySet="Parents" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="SpecialityEvolution" Association="FormGeneralModel.SpecialityEvolution">
+      <End Role="Speciality" EntitySet="Speciality" />
+      <End Role="Evolution" EntitySet="Evolution" />
+    </AssociationSet>
+    <AssociationSet Name="MedicineRecruit" Association="FormGeneralModel.MedicineRecruit">
+      <End Role="Medicine" EntitySet="Medicine" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="DriverLicenseRecruit" Association="FormGeneralModel.DriverLicenseRecruit">
+      <End Role="DriverLicense" EntitySet="DriverLicense" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="MilitaryCardRecruit" Association="FormGeneralModel.MilitaryCardRecruit">
+      <End Role="MilitaryCard" EntitySet="MilitaryCard" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="TokenRecruit" Association="FormGeneralModel.TokenRecruit">
+      <End Role="Token" EntitySet="Token" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="PermissionRecruit" Association="FormGeneralModel.PermissionRecruit">
+      <End Role="Permission" EntitySet="Permission" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="OrderSoldierSquad" Association="FormGeneralModel.OrderSoldierSquad">
+      <End Role="OrderSoldier" EntitySet="OrderSoldier" />
+      <End Role="Squad" EntitySet="Troop" />
+    </AssociationSet>
+    <AssociationSet Name="DeputySquad" Association="FormGeneralModel.DeputySquad">
+      <End Role="Deputy" EntitySet="Deputy" />
+      <End Role="Squad" EntitySet="Troop" />
+    </AssociationSet>
+    <AssociationSet Name="DutyFormSquadDuty" Association="FormGeneralModel.DutyFormSquadDuty">
+      <End Role="DutyForm" EntitySet="DutyForm" />
+      <End Role="SquadDuty" EntitySet="SquadDuty" />
+    </AssociationSet>
+    <AssociationSet Name="SpecialitySquadDuty" Association="FormGeneralModel.SpecialitySquadDuty">
+      <End Role="Speciality" EntitySet="Speciality" />
+      <End Role="SquadDuty" EntitySet="SquadDuty" />
+    </AssociationSet>
+    <AssociationSet Name="EvolutionRecruit" Association="FormGeneralModel.EvolutionRecruit">
+      <End Role="Evolution" EntitySet="Evolution" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <AssociationSet Name="SquadDutySquad" Association="FormGeneralModel.SquadDutySquad">
+      <End Role="TroopDuty" EntitySet="SquadDuty" />
+      <End Role="Squad" EntitySet="Troop" />
+    </AssociationSet>
+    <EntitySet Name="Dismissal" EntityType="FormGeneralModel.Dismissal" />
+    <AssociationSet Name="RecruitDismissal" Association="FormGeneralModel.RecruitDismissal">
+      <End Role="Recruit" EntitySet="Recruit" />
+      <End Role="Dismissal" EntitySet="Dismissal" />
+    </AssociationSet>
+    <EntitySet Name="SelfDesiredAbsence" EntityType="FormGeneralModel.SelfDesiredAbsence" />
+    <AssociationSet Name="RecruitSelfDesiredAbsence" Association="FormGeneralModel.RecruitSelfDesiredAbsence">
+      <End Role="Recruit" EntitySet="Recruit" />
+      <End Role="SelfDesiredAbsence" EntitySet="SelfDesiredAbsence" />
+    </AssociationSet>
+    <EntitySet Name="Department" EntityType="FormGeneralModel.Department" />
+    <AssociationSet Name="DepartmentRecruit" Association="FormGeneralModel.DepartmentRecruit">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="Recruit" EntitySet="Recruit" />
+    </AssociationSet>
+    <EntitySet Name="Proxy" EntityType="FormGeneralModel.Proxy" />
+    <AssociationSet Name="ProxySquad" Association="FormGeneralModel.ProxySquad">
+      <End Role="Proxy" EntitySet="Proxy" />
+      <End Role="Squad" EntitySet="Troop" />
+    </AssociationSet>
+    <EntitySet Name="OrderWare" EntityType="FormGeneralModel.OrderWare" />
+    <AssociationSet Name="OrderWareSquad" Association="FormGeneralModel.OrderWareSquad">
+      <End Role="OrderWare" EntitySet="OrderWare" />
+      <End Role="Troop" EntitySet="Troop" />
+    </AssociationSet>
+    <AssociationSet Name="RecruitPassport" Association="FormGeneralModel.RecruitPassport">
+      <End Role="Recruit" EntitySet="Recruit" />
+      <End Role="Passport" EntitySet="Passport" />
+    </AssociationSet>
+    <EntitySet Name="Squadron" EntityType="FormGeneralModel.Squadron" />
+    <AssociationSet Name="MilitaryUnitSquadron" Association="FormGeneralModel.MilitaryUnitSquadron">
+      <End Role="MilitaryUnit" EntitySet="MilitaryUnit" />
+      <End Role="Squadron" EntitySet="Squadron" />
+    </AssociationSet>
+    <AssociationSet Name="StationMilitaryUnit" Association="FormGeneralModel.StationMilitaryUnit">
+      <End Role="Station" EntitySet="Station" />
+      <End Role="MilitaryUnit" EntitySet="MilitaryUnit" />
+    </AssociationSet>
+    <AssociationSet Name="SquadronSquad" Association="FormGeneralModel.SquadronSquad">
+      <End Role="Squadron" EntitySet="Squadron" />
+      <End Role="Squad" EntitySet="Troop" />
+    </AssociationSet>
+    <EntitySet Name="Season" EntityType="FormGeneralModel.Season" />
+    <AssociationSet Name="SeasonSquadron" Association="FormGeneralModel.SeasonSquadron">
+      <End Role="Season" EntitySet="Season" />
+      <End Role="Squadron" EntitySet="Squadron" />
+    </AssociationSet>
+    <EntitySet Name="Echelon" EntityType="FormGeneralModel.Echelon" />
+    <AssociationSet Name="EchelonSquad" Association="FormGeneralModel.EchelonSquad">
+      <End Role="Echelon" EntitySet="Echelon" />
+      <End Role="Squad" EntitySet="Troop" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Evolutions" Relationship="FormGeneralModel.ActivityEvolution" FromRole="Activity" ToRole="Evolution" />
+  </EntityType>
+  <EntityType Name="BadRegistry">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Evolutions" Relationship="FormGeneralModel.BadRegistryEvolution" FromRole="BadRegistry" ToRole="Evolution" />
+  </EntityType>
+  <EntityType Name="Deputy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MilitaryCertificates" Relationship="FormGeneralModel.DeputyMilitaryCertificate" FromRole="Deputy" ToRole="MilitaryCertificate" />
+    <NavigationProperty Name="Squads" Relationship="FormGeneralModel.DeputySquad" FromRole="Deputy" ToRole="Squad" />
+  </EntityType>
+  <EntityType Name="DriverLicense">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Serial" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Number" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Type" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsROSTO" Nullable="false" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.DriverLicenseRecruit" FromRole="DriverLicense" ToRole="Recruit" />
+  </EntityType>
+  <EntityType Name="DutyForm">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Evolutions" Relationship="FormGeneralModel.DutyFormEvolution" FromRole="DutyForm" ToRole="Evolution" />
+    <NavigationProperty Name="SquadDuties" Relationship="FormGeneralModel.DutyFormSquadDuty" FromRole="DutyForm" ToRole="SquadDuty" />
+    <Property Type="Int32" Name="PermissionForm" Nullable="false" />
+    <Property Type="Int32" Name="TDT" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Education">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Evolutions" Relationship="FormGeneralModel.EducationEvolution" FromRole="Education" ToRole="Evolution" />
+  </EntityType>
+  <EntityType Name="Evolution">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Competency" Nullable="false" />
+    <Property Type="Int32" Name="NeuroPsyhicStability" Nullable="false" />
+    <Property Type="Boolean" Name="IsMarine" Nullable="false" />
+    <Property Type="Boolean" Name="Conviction" Nullable="false" />
+    <NavigationProperty Name="SportCategory" Relationship="FormGeneralModel.SportCategoryEvolution" FromRole="Evolution" ToRole="SportCategory" />
+    <NavigationProperty Name="SportType" Relationship="FormGeneralModel.SportTypeEvolution" FromRole="Evolution" ToRole="SportType" />
+    <NavigationProperty Name="Activity" Relationship="FormGeneralModel.ActivityEvolution" FromRole="Evolution" ToRole="Activity" />
+    <NavigationProperty Name="Education" Relationship="FormGeneralModel.EducationEvolution" FromRole="Evolution" ToRole="Education" />
+    <NavigationProperty Name="DutyForm" Relationship="FormGeneralModel.DutyFormEvolution" FromRole="Evolution" ToRole="DutyForm" />
+    <NavigationProperty Name="BadRegistry" Relationship="FormGeneralModel.BadRegistryEvolution" FromRole="Evolution" ToRole="BadRegistry" />
+    <NavigationProperty Name="Parents" Relationship="FormGeneralModel.ParentsEvolution" FromRole="Evolution" ToRole="Parents" />
+    <NavigationProperty Name="Speciality" Relationship="FormGeneralModel.SpecialityEvolution" FromRole="Evolution" ToRole="Speciality" />
+    <Property Type="String" Name="SpecialityTextual" Nullable="false" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.EvolutionRecruit" FromRole="Evolution" ToRole="Recruit" />
+  </EntityType>
+  <EntityType Name="Marriage">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Passports" Relationship="FormGeneralModel.MarriagePassport" FromRole="Marriage" ToRole="Passport" />
+  </EntityType>
+  <EntityType Name="Medicine">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Category" Nullable="false" />
+    <Property Type="Int32" Name="Degree" Nullable="false" />
+    <Property Type="String" Name="Article" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="VisionR" Nullable="false" />
+    <Property Type="Double" Name="VisionL" Nullable="false" />
+    <Property Type="Int32" Name="Height" Nullable="false" />
+    <Property Type="Int32" Name="Weight" Nullable="false" />
+    <Property Type="Int32" Name="SizeHead" Nullable="false" />
+    <Property Type="Int32" Name="SizeVolume" Nullable="false" />
+    <Property Type="Int32" Name="SizeFeet" Nullable="false" />
+    <Property Type="Int32" Name="SizeHeight" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.MedicineRecruit" FromRole="Medicine" ToRole="Recruit" />
+    <Property Type="String" Name="TDT" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MilitaryCard">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Serial" Nullable="false" MaxLength="2" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Number" Nullable="false" MaxLength="7" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.MilitaryCardRecruit" FromRole="MilitaryCard" ToRole="Recruit" />
+  </EntityType>
+  <EntityType Name="MilitaryCertificate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Post" Nullable="false" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Serial" Nullable="false" MaxLength="2" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Number" Nullable="false" MaxLength="7" FixedLength="true" Unicode="true" />
+    <Property Type="Boolean" Name="IsMarine" Nullable="false" />
+    <NavigationProperty Name="MilitaryTitle" Relationship="FormGeneralModel.MilitaryTitleMilitaryCertificate" FromRole="MilitaryCertificate" ToRole="MilitaryTitle" />
+    <Property Type="String" Name="ObtainDepartment" Nullable="false" />
+    <Property Type="DateTime" Name="ObtainDate" Nullable="false" />
+    <NavigationProperty Name="Deputy" Relationship="FormGeneralModel.DeputyMilitaryCertificate" FromRole="MilitaryCertificate" ToRole="Deputy" />
+  </EntityType>
+  <EntityType Name="MilitaryDistrict">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Stations" Relationship="FormGeneralModel.MilitaryDistrictStation" FromRole="MilitaryDistrict" ToRole="Station" />
+  </EntityType>
+  <EntityType Name="MilitaryTitle">
+    <Key>
+      <PropertyRef Name="Rank" />
+    </Key>
+    <Property Type="Int32" Name="Rank" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Land" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Marine" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MilitaryCertificates" Relationship="FormGeneralModel.MilitaryTitleMilitaryCertificate" FromRole="MilitaryTitle" ToRole="MilitaryCertificate" />
+  </EntityType>
+  <EntityType Name="MilitaryUnit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Zip" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="Address" Nullable="false" MaxLength="512" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Phones" Relationship="FormGeneralModel.PhoneMilitaryUnit" FromRole="MilitaryUnit" ToRole="Phone" />
+    <NavigationProperty Name="MilitaryForces" Relationship="FormGeneralModel.MilitaryForcesMilitaryUnit" FromRole="MilitaryUnit" ToRole="MilitaryForces" />
+    <NavigationProperty Name="Squadrons" Relationship="FormGeneralModel.MilitaryUnitSquadron" FromRole="MilitaryUnit" ToRole="Squadron" />
+    <NavigationProperty Name="Station" Relationship="FormGeneralModel.StationMilitaryUnit" FromRole="MilitaryUnit" ToRole="Station" />
+  </EntityType>
+  <EntityType Name="OrderSoldier">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Number" Nullable="false" />
+    <Property Type="DateTime" Name="Date" Nullable="false" />
+    <NavigationProperty Name="Squads" Relationship="FormGeneralModel.OrderSoldierSquad" FromRole="OrderSoldier" ToRole="Squad" />
+  </EntityType>
+  <EntityType Name="FamilyStatus">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Evolutions" Relationship="FormGeneralModel.ParentsEvolution" FromRole="Parents" ToRole="Evolution" />
+  </EntityType>
+  <EntityType Name="Passport">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="BirthPlace" Nullable="false" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="BirthDate" Nullable="false" />
+    <Property Type="String" Name="Serial" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="Number" Nullable="false" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="ObtainDepartment" Nullable="false" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="ObtainDate" Nullable="false" />
+    <Property Type="Boolean" Name="Children" Nullable="false" />
+    <NavigationProperty Name="Marriage" Relationship="FormGeneralModel.MarriagePassport" FromRole="Passport" ToRole="Marriage" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.RecruitPassport" FromRole="Passport" ToRole="Recruit" />
+    <Property Type="String" Name="OUFMS_Code" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Permission">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Form" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Number" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="Date" Nullable="false" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.PermissionRecruit" FromRole="Permission" ToRole="Recruit" />
+  </EntityType>
+  <EntityType Name="Phone">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Number" Nullable="false" MaxLength="32" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MilitaryUnit" Relationship="FormGeneralModel.PhoneMilitaryUnit" FromRole="Phone" ToRole="MilitaryUnit" />
+    <Property Type="String" Name="Addressee" Nullable="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Railroad">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Stations" Relationship="FormGeneralModel.RailroadStation" FromRole="Railroad" ToRole="Station" />
+  </EntityType>
+  <EntityType Name="Recruit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Surname" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Patronymic" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="ArrivalDate" Nullable="false" />
+    <Property Type="DateTime" Name="DepartureDate" Nullable="true" />
+    <NavigationProperty Name="Squad" Relationship="FormGeneralModel.SquadRecruit" FromRole="Recruit" ToRole="Squad" />
+    <NavigationProperty Name="Medicine" Relationship="FormGeneralModel.MedicineRecruit" FromRole="Recruit" ToRole="Medicine" />
+    <NavigationProperty Name="DriverLicense" Relationship="FormGeneralModel.DriverLicenseRecruit" FromRole="Recruit" ToRole="DriverLicense" />
+    <NavigationProperty Name="MilitaryCard" Relationship="FormGeneralModel.MilitaryCardRecruit" FromRole="Recruit" ToRole="MilitaryCard" />
+    <NavigationProperty Name="Token" Relationship="FormGeneralModel.TokenRecruit" FromRole="Recruit" ToRole="Token" />
+    <NavigationProperty Name="Permission" Relationship="FormGeneralModel.PermissionRecruit" FromRole="Recruit" ToRole="Permission" />
+    <NavigationProperty Name="Evolution" Relationship="FormGeneralModel.EvolutionRecruit" FromRole="Recruit" ToRole="Evolution" />
+    <NavigationProperty Name="Dismissals" Relationship="FormGeneralModel.RecruitDismissal" FromRole="Recruit" ToRole="Dismissal" />
+    <NavigationProperty Name="SelfDesiredAbsence" Relationship="FormGeneralModel.RecruitSelfDesiredAbsence" FromRole="Recruit" ToRole="SelfDesiredAbsence" />
+    <NavigationProperty Name="Department" Relationship="FormGeneralModel.DepartmentRecruit" FromRole="Recruit" ToRole="Department" />
+    <NavigationProperty Name="Passport" Relationship="FormGeneralModel.RecruitPassport" FromRole="Recruit" ToRole="Passport" />
+  </EntityType>
+  <EntityType Name="Speciality">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Evolutions" Relationship="FormGeneralModel.SpecialityEvolution" FromRole="Speciality" ToRole="Evolution" />
+    <NavigationProperty Name="SquadDuties" Relationship="FormGeneralModel.SpecialitySquadDuty" FromRole="Speciality" ToRole="SquadDuty" />
+  </EntityType>
+  <EntityType Name="Station">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MilitaryDistrict" Relationship="FormGeneralModel.MilitaryDistrictStation" FromRole="Station" ToRole="MilitaryDistrict" />
+    <NavigationProperty Name="Railroad" Relationship="FormGeneralModel.RailroadStation" FromRole="Station" ToRole="Railroad" />
+    <NavigationProperty Name="MilitaryUnits" Relationship="FormGeneralModel.StationMilitaryUnit" FromRole="Station" ToRole="MilitaryUnit" />
+  </EntityType>
+  <EntityType Name="Token">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Serial" Nullable="false" MaxLength="2" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Number" Nullable="false" MaxLength="6" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.TokenRecruit" FromRole="Token" ToRole="Recruit" />
+  </EntityType>
+  <EntityType Name="Squad">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Number" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DepartureDate" Nullable="false" />
+    <Property Type="Int32" Name="Task" Nullable="false" />
+    <Property Type="Boolean" Name="IsDeparted" Nullable="false" />
+    <Property Type="Boolean" Name="IsDressed" Nullable="false" />
+    <Property Type="Boolean" Name="IsDisplayed" Nullable="false" />
+    <Property Type="Int32" Name="SupplyCount" />
+    <NavigationProperty Name="Recruits" Relationship="FormGeneralModel.SquadRecruit" FromRole="Squad" ToRole="Recruit" />
+    <NavigationProperty Name="OrderSoldier" Relationship="FormGeneralModel.OrderSoldierSquad" FromRole="Squad" ToRole="OrderSoldier" />
+    <NavigationProperty Name="Deputy" Relationship="FormGeneralModel.DeputySquad" FromRole="Squad" ToRole="Deputy" />
+    <NavigationProperty Name="SquadDuty" Relationship="FormGeneralModel.SquadDutySquad" FromRole="Squad" ToRole="TroopDuty" />
+    <NavigationProperty Name="Proxy" Relationship="FormGeneralModel.ProxySquad" FromRole="Squad" ToRole="Proxy" />
+    <NavigationProperty Name="OrderWares" Relationship="FormGeneralModel.OrderWareSquad" FromRole="Troop" ToRole="OrderWare" />
+    <NavigationProperty Name="Squadron" Relationship="FormGeneralModel.SquadronSquad" FromRole="Squad" ToRole="Squadron" />
+    <NavigationProperty Name="Echelon" Relationship="FormGeneralModel.EchelonSquad" FromRole="Squad" ToRole="Echelon" />
+  </EntityType>
+  <EntityType Name="SquadDuty">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="MilitarySpecs1" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="MilitarySpecs2" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="MilitarySpecs3" MaxLength="6" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="DutyForm" Relationship="FormGeneralModel.DutyFormSquadDuty" FromRole="SquadDuty" ToRole="DutyForm" />
+    <NavigationProperty Name="Specialities" Relationship="FormGeneralModel.SpecialitySquadDuty" FromRole="SquadDuty" ToRole="Speciality" />
+    <NavigationProperty Name="Squads" Relationship="FormGeneralModel.SquadDutySquad" FromRole="TroopDuty" ToRole="Squad" />
+  </EntityType>
+  <Association Name="MilitaryDistrictStation">
+    <End Type="FormGeneralModel.MilitaryDistrict" Role="MilitaryDistrict" Multiplicity="1" />
+    <End Type="FormGeneralModel.Station" Role="Station" Multiplicity="*" />
+  </Association>
+  <Association Name="RailroadStation">
+    <End Type="FormGeneralModel.Railroad" Role="Railroad" Multiplicity="1" />
+    <End Type="FormGeneralModel.Station" Role="Station" Multiplicity="*" />
+  </Association>
+  <Association Name="PhoneMilitaryUnit">
+    <End Type="FormGeneralModel.Phone" Role="Phone" Multiplicity="*" />
+    <End Type="FormGeneralModel.MilitaryUnit" Role="MilitaryUnit" Multiplicity="1" />
+  </Association>
+  <EntityType Name="MilitaryForces">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <NavigationProperty Name="MilitaryUnits" Relationship="FormGeneralModel.MilitaryForcesMilitaryUnit" FromRole="MilitaryForces" ToRole="MilitaryUnit" />
+  </EntityType>
+  <Association Name="MilitaryForcesMilitaryUnit">
+    <End Type="FormGeneralModel.MilitaryForces" Role="MilitaryForces" Multiplicity="1" />
+    <End Type="FormGeneralModel.MilitaryUnit" Role="MilitaryUnit" Multiplicity="*" />
+  </Association>
+  <Association Name="MilitaryTitleMilitaryCertificate">
+    <End Type="FormGeneralModel.MilitaryTitle" Role="MilitaryTitle" Multiplicity="1" />
+    <End Type="FormGeneralModel.MilitaryCertificate" Role="MilitaryCertificate" Multiplicity="*" />
+  </Association>
+  <Association Name="DeputyMilitaryCertificate">
+    <End Type="FormGeneralModel.Deputy" Role="Deputy" Multiplicity="1" />
+    <End Type="FormGeneralModel.MilitaryCertificate" Role="MilitaryCertificate" Multiplicity="*" />
+  </Association>
+  <Association Name="MarriagePassport">
+    <End Type="FormGeneralModel.Marriage" Role="Marriage" Multiplicity="1" />
+    <End Type="FormGeneralModel.Passport" Role="Passport" Multiplicity="*" />
+  </Association>
+  <Association Name="SquadRecruit">
+    <End Type="FormGeneralModel.Squad" Role="Squad" Multiplicity="1" />
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="*" />
+  </Association>
+  <EntityType Name="SportCategory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <NavigationProperty Name="Evolutions" Relationship="FormGeneralModel.SportCategoryEvolution" FromRole="SportCategory" ToRole="Evolution" />
+  </EntityType>
+  <EntityType Name="SportType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" />
+    <NavigationProperty Name="Evolutions" Relationship="FormGeneralModel.SportTypeEvolution" FromRole="SportType" ToRole="Evolution" />
+  </EntityType>
+  <Association Name="SportCategoryEvolution">
+    <End Type="FormGeneralModel.SportCategory" Role="SportCategory" Multiplicity="1" />
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="*" />
+  </Association>
+  <Association Name="SportTypeEvolution">
+    <End Type="FormGeneralModel.SportType" Role="SportType" Multiplicity="1" />
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="*" />
+  </Association>
+  <Association Name="ActivityEvolution">
+    <End Type="FormGeneralModel.Activity" Role="Activity" Multiplicity="1" />
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="*" />
+  </Association>
+  <Association Name="EducationEvolution">
+    <End Type="FormGeneralModel.Education" Role="Education" Multiplicity="1" />
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="*" />
+  </Association>
+  <Association Name="DutyFormEvolution">
+    <End Type="FormGeneralModel.DutyForm" Role="DutyForm" Multiplicity="1" />
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="*" />
+  </Association>
+  <Association Name="BadRegistryEvolution">
+    <End Type="FormGeneralModel.BadRegistry" Role="BadRegistry" Multiplicity="1" />
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="*" />
+  </Association>
+  <Association Name="ParentsEvolution">
+    <End Type="FormGeneralModel.FamilyStatus" Role="Parents" Multiplicity="1" />
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="*" />
+  </Association>
+  <Association Name="SpecialityEvolution">
+    <End Type="FormGeneralModel.Speciality" Role="Speciality" Multiplicity="1" />
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="*" />
+  </Association>
+  <Association Name="MedicineRecruit">
+    <End Type="FormGeneralModel.Medicine" Role="Medicine" Multiplicity="1" />
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="1" />
+  </Association>
+  <Association Name="DriverLicenseRecruit">
+    <End Type="FormGeneralModel.DriverLicense" Role="DriverLicense" Multiplicity="0..1" />
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="1" />
+  </Association>
+  <Association Name="MilitaryCardRecruit">
+    <End Type="FormGeneralModel.MilitaryCard" Role="MilitaryCard" Multiplicity="1" />
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="1" />
+  </Association>
+  <Association Name="TokenRecruit">
+    <End Type="FormGeneralModel.Token" Role="Token" Multiplicity="0..1" />
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="*" />
+  </Association>
+  <Association Name="PermissionRecruit">
+    <End Type="FormGeneralModel.Permission" Role="Permission" Multiplicity="0..1" />
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="*" />
+  </Association>
+  <Association Name="OrderSoldierSquad">
+    <End Type="FormGeneralModel.OrderSoldier" Role="OrderSoldier" Multiplicity="0..1" />
+    <End Type="FormGeneralModel.Squad" Role="Squad" Multiplicity="*" />
+  </Association>
+  <Association Name="DeputySquad">
+    <End Type="FormGeneralModel.Deputy" Role="Deputy" Multiplicity="1" />
+    <End Type="FormGeneralModel.Squad" Role="Squad" Multiplicity="*" />
+  </Association>
+  <Association Name="DutyFormSquadDuty">
+    <End Type="FormGeneralModel.DutyForm" Role="DutyForm" Multiplicity="1" />
+    <End Type="FormGeneralModel.SquadDuty" Role="SquadDuty" Multiplicity="*" />
+  </Association>
+  <Association Name="SpecialitySquadDuty">
+    <End Type="FormGeneralModel.Speciality" Role="Speciality" Multiplicity="*" />
+    <End Type="FormGeneralModel.SquadDuty" Role="SquadDuty" Multiplicity="*" />
+  </Association>
+  <Association Name="EvolutionRecruit">
+    <End Type="FormGeneralModel.Evolution" Role="Evolution" Multiplicity="1" />
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="1" />
+  </Association>
+  <Association Name="SquadDutySquad">
+    <End Type="FormGeneralModel.SquadDuty" Role="TroopDuty" Multiplicity="1" />
+    <End Type="FormGeneralModel.Squad" Role="Squad" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Dismissal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="From" Nullable="false" />
+    <Property Type="DateTime" Name="To" Nullable="false" />
+    <Property Type="String" Name="TroopNumber" Nullable="false" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.RecruitDismissal" FromRole="Dismissal" ToRole="Recruit" />
+  </EntityType>
+  <Association Name="RecruitDismissal">
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="1" />
+    <End Type="FormGeneralModel.Dismissal" Role="Dismissal" Multiplicity="*" />
+  </Association>
+  <EntityType Name="SelfDesiredAbsence">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="From" Nullable="false" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.RecruitSelfDesiredAbsence" FromRole="SelfDesiredAbsence" ToRole="Recruit" />
+    <Property Type="DateTime" Name="To" Nullable="true" />
+  </EntityType>
+  <Association Name="RecruitSelfDesiredAbsence">
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="1" />
+    <End Type="FormGeneralModel.SelfDesiredAbsence" Role="SelfDesiredAbsence" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="NameShort" Nullable="false" />
+    <Property Type="String" Name="NameFull" Nullable="false" />
+    <Property Type="String" Name="Shortcut" Nullable="false" />
+    <NavigationProperty Name="Recruit" Relationship="FormGeneralModel.DepartmentRecruit" FromRole="Department" ToRole="Recruit" />
+  </EntityType>
+  <Association Name="DepartmentRecruit">
+    <End Type="FormGeneralModel.Department" Role="Department" Multiplicity="1" />
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Proxy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Number" Nullable="false" />
+    <Property Type="DateTime" Name="Date" Nullable="false" />
+    <Property Type="Int32" Name="AgentOfficers" Nullable="false" DefaultValue="0" />
+    <Property Type="Int32" Name="AgentSemiOfficers" Nullable="false" DefaultValue="0" />
+    <Property Type="Int32" Name="AgentSoldiers" Nullable="false" DefaultValue="0" />
+    <NavigationProperty Name="Squads" Relationship="FormGeneralModel.ProxySquad" FromRole="Proxy" ToRole="Squad" />
+  </EntityType>
+  <Association Name="ProxySquad">
+    <End Type="FormGeneralModel.Proxy" Role="Proxy" Multiplicity="0..1" />
+    <End Type="FormGeneralModel.Squad" Role="Squad" Multiplicity="*" />
+  </Association>
+  <EntityType Name="OrderWare">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Number" Nullable="false" />
+    <Property Type="DateTime" Name="Date" Nullable="false" />
+    <NavigationProperty Name="Squad" Relationship="FormGeneralModel.OrderWareSquad" FromRole="OrderWare" ToRole="Troop" />
+  </EntityType>
+  <Association Name="OrderWareSquad">
+    <End Type="FormGeneralModel.OrderWare" Role="OrderWare" Multiplicity="*" />
+    <End Type="FormGeneralModel.Squad" Role="Troop" Multiplicity="0..1" />
+  </Association>
+  <Association Name="RecruitPassport">
+    <End Type="FormGeneralModel.Recruit" Role="Recruit" Multiplicity="1" />
+    <End Type="FormGeneralModel.Passport" Role="Passport" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Squadron">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Number" Nullable="false" />
+    <Property Type="Boolean" Name="IsCentral" Nullable="false" />
+    <Property Type="Boolean" Name="IsLocal" Nullable="false" />
+    <NavigationProperty Name="MilitaryUnit" Relationship="FormGeneralModel.MilitaryUnitSquadron" FromRole="Squadron" ToRole="MilitaryUnit" />
+    <NavigationProperty Name="Squads" Relationship="FormGeneralModel.SquadronSquad" FromRole="Squadron" ToRole="Squad" />
+    <NavigationProperty Name="Season" Relationship="FormGeneralModel.SeasonSquadron" FromRole="Squadron" ToRole="Season" />
+  </EntityType>
+  <Association Name="MilitaryUnitSquadron">
+    <End Type="FormGeneralModel.MilitaryUnit" Role="MilitaryUnit" Multiplicity="1" />
+    <End Type="FormGeneralModel.Squadron" Role="Squadron" Multiplicity="*" />
+  </Association>
+  <Association Name="StationMilitaryUnit">
+    <End Type="FormGeneralModel.Station" Role="Station" Multiplicity="1" />
+    <End Type="FormGeneralModel.MilitaryUnit" Role="MilitaryUnit" Multiplicity="*" />
+  </Association>
+  <Association Name="SquadronSquad">
+    <End Type="FormGeneralModel.Squadron" Role="Squadron" Multiplicity="1" />
+    <End Type="FormGeneralModel.Squad" Role="Squad" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Season">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Year" Nullable="false" />
+    <Property Type="String" Name="Number" Nullable="false" />
+    <NavigationProperty Name="Squadrons" Relationship="FormGeneralModel.SeasonSquadron" FromRole="Season" ToRole="Squadron" />
+  </EntityType>
+  <Association Name="SeasonSquadron">
+    <End Type="FormGeneralModel.Season" Role="Season" Multiplicity="1" />
+    <End Type="FormGeneralModel.Squadron" Role="Squadron" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Echelon">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Number" Nullable="false" />
+    <NavigationProperty Name="Squads" Relationship="FormGeneralModel.EchelonSquad" FromRole="Echelon" ToRole="Squad" />
+  </EntityType>
+  <Association Name="EchelonSquad">
+    <End Type="FormGeneralModel.Echelon" Role="Echelon" Multiplicity="0..1" />
+    <End Type="FormGeneralModel.Squad" Role="Squad" Multiplicity="*" />
+  </Association>
+</Schema>
